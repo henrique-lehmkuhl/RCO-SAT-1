@@ -1,37 +1,58 @@
-# Projeto CubeSat Educacional — Índice
+# RCO-SAT-1 — Educational CubeSat Project
 
-Este diretório contém a documentação de engenharia de sistemas do projeto de um
-CubeSat educacional para portfólio, desenvolvido seguindo o processo clássico
-de Engenharia de Sistemas (necessidade → requisitos → arquitetura → projeto de
-subsistemas → verificação e validação → cronograma), nos moldes usados em
-missões CubeSat reais (CubeSat Design Specification, manuais da NASA
-CSLI/GSFC e diretrizes ECSS adaptadas a projetos de pequena escala).
+Systems engineering documentation for an educational CubeSat portfolio
+project, structured around the classic Systems Engineering process
+(need → requirements → architecture → subsystem design → verification
+and validation → schedule), following the conventions used in real
+CubeSat missions (CubeSat Design Specification, NASA CSLI/GSFC handbooks,
+and ECSS guidelines adapted to small-scale projects).
 
-## Missão de referência
+Each document is a skeleton: it holds the section structure the systems
+engineering process requires, but the content is filled in incrementally,
+with dated revisions, as the project develops.
 
-**Nome de trabalho:** RCO-SAT 1
-**Classe:** CubeSat 1U, com arquitetura expansível para 2U/3U
-**Tipo de missão:** Demonstração tecnológica — validação em órbita de um
-sistema de controle de atitude ativo de baixo custo (magnetorquers + roda de
-reação) integrado a um barramento OBDH/EPS/TT&C totalmente autoral, com uma
-carga útil de câmera simples para gerar dados de apontamento verificáveis.
+## Revision convention
 
-> Este é o ponto de partida e será medida que os requisitos forem amadurecendo.
+Every document starts with a **Revision history** section:
 
-## Estrutura dos documentos
+| Date | Version | Description | Author |
+|---|---|---|---|
+| _(TBD)_ | v0.1 | Skeleton created | |
 
-| Arquivo | Fase de SE | Conteúdo |
-|---|---|---|
-| `01_Necessidade_e_Objetivos.md` | Fase 0 — Análise da necessidade | Motivação, objetivos de missão, CONOPS, restrições |
-| `02_Requisitos_de_Sistema.md` | Fase A — Requisitos | Requisitos de missão, funcionais e de desempenho, rastreáveis |
-| `03_Arquitetura_e_Orcamentos.md` | Fase A/B — Arquitetura | Arquitetura de blocos, orçamento de massa, potência, dados e link |
-| `04_Subsistema_Estrutura.md` | Fase B — Projeto preliminar | EPS mecânica: estrutura, layout, integração |
-| `05_Subsistema_EPS.md` | Fase B | Potência elétrica |
-| `06_Subsistema_OBDH.md` | Fase B | Computador de bordo e software |
-| `07_Subsistema_ADCS.md` | Fase B | Controle de atitude e determinação de órbita |
-| `08_Subsistema_TTC.md` | Fase B | Telemetria, telecomando e comunicações |
-| `09_Carga_Util.md` | Fase B | Payload (câmera de demonstração) |
-| `10_Plano_VV.md` | Fase C/D — Verificação e Validação | Plano de testes, matriz de rastreabilidade |
-| `11_Cronograma_e_Marcos.md` | Gestão | EAP, marcos, riscos |
+Each meaningful content change becomes a new row, with a date and an
+incremented version (v0.1, v0.2, ...). The **Status** field at the top of
+the document shows the current state: `Skeleton`, `Draft`, `In review`, or
+`Approved`.
 
+## Document structure
 
+| File | SE Phase | Content | Status |
+|---|---|---|---|
+| [`01_Needs_and_Objectives.md`](01_Needs_and_Objectives.md) | Phase 0 — Need analysis | Motivation, mission objectives, CONOPS, constraints | Skeleton |
+| [`02_System_Requirements.md`](02_System_Requirements.md) | Phase A — Requirements | Mission, functional and performance requirements, traceable | Skeleton |
+| [`03_Architecture_and_Budgets.md`](03_Architecture_and_Budgets.md) | Phase A/B — Architecture | Block architecture, mass/power/data/link budgets | Skeleton |
+| [`04_Subsystem_Structure.md`](04_Subsystem_Structure.md) | Phase B — Preliminary design | Mechanical structure, layout, integration | Skeleton |
+| [`05_EPS_Subsystem.md`](05_EPS_Subsystem.md) | Phase B | Electrical power | Skeleton |
+| [`06_OBDH_Subsystem.md`](06_OBDH_Subsystem.md) | Phase B | On-board computer and software | Skeleton |
+| [`07_ADCS_Subsystem.md`](07_ADCS_Subsystem.md) | Phase B | Attitude determination/control | Skeleton |
+| [`08_TTC_Subsystem.md`](08_TTC_Subsystem.md) | Phase B | Telemetry, tracking and command | Skeleton |
+| [`09_Payload.md`](09_Payload.md) | Phase B | Payload | Skeleton |
+| [`10_Verification_and_Validation_Plan.md`](10_Verification_and_Validation_Plan.md) | Phase C/D — V&V | Test plan, traceability matrix | Skeleton |
+| [`11_Schedule_and_Milestones.md`](11_Schedule_and_Milestones.md) | Management | WBS, project reviews, risks | Skeleton |
+
+## Development order
+
+The order follows the actual dependency chain of the engineering process:
+01 → 02 → 03 → subsystems (04–09) → 10 → 11. Project reviews (MDR, SRR,
+PDR, CDR, TRR, ORR, FRR), detailed in file 11, mark the transition points
+between phases.
+
+## Using this with Git/GitHub
+
+- `CHANGELOG.md` at the root tracks the history of the project as a
+  whole; the revision history at the top of each document tracks that
+  document's own history.
+- Each content revision is meant to become a commit — suggested commit
+  message format: `docs(NN): <summary of the change> — vX.Y`.
+- `.gitignore` covers common editor/OS artifacts — this repository is
+  Markdown documentation only.
