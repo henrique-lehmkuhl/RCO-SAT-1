@@ -18,3 +18,5 @@ desktop.ini
 # Exports generated from the .md sources (regenerate on demand, don't version)
 *.pdf
 *.docx
+
+.Books/

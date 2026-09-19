@@ -1,0 +1,3257 @@
+{
+ "panorama": [
+  {
+   "recorte": "A — sensoriamento remoto (alvo terrestre)",
+   "fichas": 526,
+   "linhas": 1848
+  },
+  {
+   "recorte": "B — coleta de plataformas no solo (DCS/IoT)",
+   "fichas": 230,
+   "linhas": 942
+  },
+  {
+   "recorte": "C — sinais cooperativos (AIS/ADS-B/RF)",
+   "fichas": 130,
+   "linhas": 555
+  },
+  {
+   "recorte": "A′ — câmera sem alvo declarado (fora do recorte)",
+   "fichas": 349,
+   "linhas": 408
+  },
+  {
+   "recorte": "Recorte de coleta de dados (A ∪ B ∪ C)",
+   "fichas": 779,
+   "linhas": 2781,
+   "destaque": true
+  },
+  {
+   "recorte": "Banco inteiro",
+   "fichas": 2408,
+   "linhas": 4938,
+   "destaque": true
+  }
+ ],
+ "status": [
+  {
+   "chave": "operou como previsto",
+   "linhas": 1697,
+   "fichas": 396,
+   "A": 1214,
+   "B": 489,
+   "C": 409
+  },
+  {
+   "chave": "operou e encerrou",
+   "linhas": 111,
+   "fichas": 83,
+   "A": 74,
+   "B": 31,
+   "C": 14
+  },
+  {
+   "chave": "sem sinal após o lançamento",
+   "linhas": 59,
+   "fichas": 53,
+   "A": 47,
+   "B": 19,
+   "C": 10
+  },
+  {
+   "chave": "falha no lançamento",
+   "linhas": 82,
+   "fichas": 33,
+   "A": 66,
+   "B": 13,
+   "C": 16
+  },
+  {
+   "chave": "falha na ejeção",
+   "linhas": 22,
+   "fichas": 15,
+   "A": 15,
+   "B": 6,
+   "C": 6
+  },
+  {
+   "chave": "não lançada",
+   "linhas": 311,
+   "fichas": 137,
+   "A": 245,
+   "B": 88,
+   "C": 59
+  },
+  {
+   "chave": "cancelada",
+   "linhas": 441,
+   "fichas": 104,
+   "A": 147,
+   "B": 274,
+   "C": 34
+  },
+  {
+   "chave": "outro / desconhecido",
+   "linhas": 58,
+   "fichas": 40,
+   "A": 40,
+   "B": 22,
+   "C": 7
+  }
+ ],
+ "taxa_sucesso": {
+  "lancadas": 2030,
+  "funcionaram": 1808,
+  "pct": 89.1,
+  "fichas_lancadas": 574,
+  "fichas_ok": 469,
+  "pct_fichas": 81.7
+ },
+ "ano": [
+  {
+   "chave": "1998",
+   "linhas": 2,
+   "fichas": 2,
+   "A": 0,
+   "B": 2,
+   "C": 0
+  },
+  {
+   "chave": "2000",
+   "linhas": 1,
+   "fichas": 1,
+   "A": 1,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "2005",
+   "linhas": 2,
+   "fichas": 2,
+   "A": 0,
+   "B": 0,
+   "C": 2
+  },
+  {
+   "chave": "2006",
+   "linhas": 2,
+   "fichas": 2,
+   "A": 1,
+   "B": 0,
+   "C": 1
+  },
+  {
+   "chave": "2008",
+   "linhas": 3,
+   "fichas": 3,
+   "A": 2,
+   "B": 0,
+   "C": 1
+  },
+  {
+   "chave": "2009",
+   "linhas": 1,
+   "fichas": 1,
+   "A": 1,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "2010",
+   "linhas": 3,
+   "fichas": 3,
+   "A": 2,
+   "B": 0,
+   "C": 1
+  },
+  {
+   "chave": "2011",
+   "linhas": 2,
+   "fichas": 2,
+   "A": 2,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "2012",
+   "linhas": 3,
+   "fichas": 3,
+   "A": 2,
+   "B": 1,
+   "C": 1
+  },
+  {
+   "chave": "2013",
+   "linhas": 17,
+   "fichas": 16,
+   "A": 14,
+   "B": 2,
+   "C": 3
+  },
+  {
+   "chave": "2014",
+   "linhas": 102,
+   "fichas": 9,
+   "A": 98,
+   "B": 0,
+   "C": 4
+  },
+  {
+   "chave": "2015",
+   "linhas": 68,
+   "fichas": 15,
+   "A": 63,
+   "B": 3,
+   "C": 11
+  },
+  {
+   "chave": "2016",
+   "linhas": 57,
+   "fichas": 10,
+   "A": 54,
+   "B": 1,
+   "C": 19
+  },
+  {
+   "chave": "2017",
+   "linhas": 218,
+   "fichas": 26,
+   "A": 209,
+   "B": 4,
+   "C": 54
+  },
+  {
+   "chave": "2018",
+   "linhas": 136,
+   "fichas": 58,
+   "A": 101,
+   "B": 30,
+   "C": 42
+  },
+  {
+   "chave": "2019",
+   "linhas": 95,
+   "fichas": 40,
+   "A": 79,
+   "B": 17,
+   "C": 23
+  },
+  {
+   "chave": "2020",
+   "linhas": 120,
+   "fichas": 24,
+   "A": 71,
+   "B": 41,
+   "C": 26
+  },
+  {
+   "chave": "2021",
+   "linhas": 216,
+   "fichas": 51,
+   "A": 83,
+   "B": 125,
+   "C": 25
+  },
+  {
+   "chave": "2022",
+   "linhas": 215,
+   "fichas": 76,
+   "A": 106,
+   "B": 104,
+   "C": 28
+  },
+  {
+   "chave": "2023",
+   "linhas": 261,
+   "fichas": 107,
+   "A": 181,
+   "B": 80,
+   "C": 47
+  },
+  {
+   "chave": "2024",
+   "linhas": 171,
+   "fichas": 71,
+   "A": 144,
+   "B": 72,
+   "C": 71
+  },
+  {
+   "chave": "2025",
+   "linhas": 233,
+   "fichas": 93,
+   "A": 179,
+   "B": 67,
+   "C": 61
+  },
+  {
+   "chave": "2026",
+   "linhas": 101,
+   "fichas": 54,
+   "A": 63,
+   "B": 31,
+   "C": 42
+  },
+  {
+   "chave": "2027",
+   "linhas": 1,
+   "fichas": 1,
+   "A": 1,
+   "B": 0,
+   "C": 0
+  }
+ ],
+ "classe": [
+  {
+   "chave": "PocketQube",
+   "linhas": 81,
+   "fichas": 37,
+   "A": 33,
+   "B": 45,
+   "C": 5
+  },
+  {
+   "chave": "<1 kg",
+   "linhas": 3,
+   "fichas": 3,
+   "A": 0,
+   "B": 3,
+   "C": 0
+  },
+  {
+   "chave": "1U",
+   "linhas": 338,
+   "fichas": 121,
+   "A": 81,
+   "B": 272,
+   "C": 11
+  },
+  {
+   "chave": "2U",
+   "linhas": 73,
+   "fichas": 55,
+   "A": 42,
+   "B": 28,
+   "C": 22
+  },
+  {
+   "chave": "3U",
+   "linhas": 1453,
+   "fichas": 276,
+   "A": 1301,
+   "B": 202,
+   "C": 363
+  },
+  {
+   "chave": "6U",
+   "linhas": 394,
+   "fichas": 177,
+   "A": 216,
+   "B": 142,
+   "C": 93
+  },
+  {
+   "chave": "12U",
+   "linhas": 332,
+   "fichas": 58,
+   "A": 89,
+   "B": 238,
+   "C": 46
+  },
+  {
+   "chave": "16U",
+   "linhas": 72,
+   "fichas": 32,
+   "A": 69,
+   "B": 1,
+   "C": 4
+  },
+  {
+   "chave": ">16U",
+   "linhas": 3,
+   "fichas": 3,
+   "A": 3,
+   "B": 1,
+   "C": 0
+  },
+  {
+   "chave": "1-10 kg",
+   "linhas": 26,
+   "fichas": 25,
+   "A": 12,
+   "B": 6,
+   "C": 11
+  },
+  {
+   "chave": "não declarado",
+   "linhas": 6,
+   "fichas": 3,
+   "A": 2,
+   "B": 4,
+   "C": 0
+  }
+ ],
+ "pais": [
+  {
+   "chave": "US",
+   "linhas": 1507,
+   "fichas": 179,
+   "A": 1222,
+   "B": 269,
+   "C": 255
+  },
+  {
+   "chave": "UK",
+   "linhas": 309,
+   "fichas": 36,
+   "A": 68,
+   "B": 222,
+   "C": 33
+  },
+  {
+   "chave": "Russia",
+   "linhas": 155,
+   "fichas": 57,
+   "A": 130,
+   "B": 91,
+   "C": 107
+  },
+  {
+   "chave": "Spain",
+   "linhas": 79,
+   "fichas": 28,
+   "A": 30,
+   "B": 56,
+   "C": 30
+  },
+  {
+   "chave": "China",
+   "linhas": 46,
+   "fichas": 38,
+   "A": 38,
+   "B": 13,
+   "C": 7
+  },
+  {
+   "chave": "Canada",
+   "linhas": 44,
+   "fichas": 25,
+   "A": 20,
+   "B": 22,
+   "C": 3
+  },
+  {
+   "chave": "Switzerland",
+   "linhas": 44,
+   "fichas": 5,
+   "A": 10,
+   "B": 43,
+   "C": 0
+  },
+  {
+   "chave": "France",
+   "linhas": 44,
+   "fichas": 22,
+   "A": 17,
+   "B": 6,
+   "C": 24
+  },
+  {
+   "chave": "Japan",
+   "linhas": 42,
+   "fichas": 41,
+   "A": 28,
+   "B": 15,
+   "C": 7
+  },
+  {
+   "chave": "Turkey",
+   "linhas": 41,
+   "fichas": 13,
+   "A": 10,
+   "B": 34,
+   "C": 7
+  },
+  {
+   "chave": "Germany",
+   "linhas": 34,
+   "fichas": 22,
+   "A": 18,
+   "B": 9,
+   "C": 9
+  },
+  {
+   "chave": "Italy",
+   "linhas": 33,
+   "fichas": 27,
+   "A": 25,
+   "B": 9,
+   "C": 5
+  },
+  {
+   "chave": "Australia",
+   "linhas": 30,
+   "fichas": 14,
+   "A": 5,
+   "B": 22,
+   "C": 4
+  },
+  {
+   "chave": "India",
+   "linhas": 29,
+   "fichas": 24,
+   "A": 13,
+   "B": 15,
+   "C": 1
+  },
+  {
+   "chave": "Poland",
+   "linhas": 23,
+   "fichas": 9,
+   "A": 23,
+   "B": 0,
+   "C": 0
+  }
+ ],
+ "entidade": [
+  {
+   "chave": "Commercial",
+   "linhas": 1874,
+   "fichas": 160,
+   "A": 1276,
+   "B": 671,
+   "C": 403
+  },
+  {
+   "chave": "não declarado",
+   "linhas": 637,
+   "fichas": 388,
+   "A": 377,
+   "B": 204,
+   "C": 120
+  },
+  {
+   "chave": "Academic / Education",
+   "linhas": 210,
+   "fichas": 185,
+   "A": 146,
+   "B": 58,
+   "C": 25
+  },
+  {
+   "chave": "Government (Civil / Military)",
+   "linhas": 60,
+   "fichas": 46,
+   "A": 49,
+   "B": 9,
+   "C": 7
+  }
+ ],
+ "organizacoes": [
+  {
+   "chave": "Kyushu Institute of Technology",
+   "linhas": 19,
+   "fichas": 19,
+   "A": 12,
+   "B": 12,
+   "C": 0
+  },
+  {
+   "chave": "Spire",
+   "linhas": 13,
+   "fichas": 13,
+   "A": 8,
+   "B": 0,
+   "C": 11
+  },
+  {
+   "chave": "Spacety",
+   "linhas": 8,
+   "fichas": 8,
+   "A": 7,
+   "B": 0,
+   "C": 1
+  },
+  {
+   "chave": "ArkEdge Space",
+   "linhas": 8,
+   "fichas": 8,
+   "A": 3,
+   "B": 3,
+   "C": 4
+  },
+  {
+   "chave": "Planet Labs",
+   "linhas": 6,
+   "fichas": 6,
+   "A": 6,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "GomSpace",
+   "linhas": 6,
+   "fichas": 6,
+   "A": 4,
+   "B": 0,
+   "C": 5
+  },
+  {
+   "chave": "MIT (Massachusetts Institute of Technology)",
+   "linhas": 6,
+   "fichas": 6,
+   "A": 6,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Commsat",
+   "linhas": 6,
+   "fichas": 6,
+   "A": 1,
+   "B": 6,
+   "C": 0
+  },
+  {
+   "chave": "Aerospace Corporation",
+   "linhas": 6,
+   "fichas": 6,
+   "A": 6,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "OroraTech",
+   "linhas": 6,
+   "fichas": 6,
+   "A": 5,
+   "B": 1,
+   "C": 2
+  },
+  {
+   "chave": "Geoscan",
+   "linhas": 6,
+   "fichas": 6,
+   "A": 2,
+   "B": 2,
+   "C": 2
+  },
+  {
+   "chave": "Budapest University of Technology and Economics",
+   "linhas": 5,
+   "fichas": 5,
+   "A": 0,
+   "B": 2,
+   "C": 3
+  },
+  {
+   "chave": "Sapienza University of Rome",
+   "linhas": 5,
+   "fichas": 5,
+   "A": 1,
+   "B": 5,
+   "C": 1
+  },
+  {
+   "chave": "Open Cosmos",
+   "linhas": 5,
+   "fichas": 5,
+   "A": 5,
+   "B": 1,
+   "C": 0
+  },
+  {
+   "chave": "Technical University of Berlin",
+   "linhas": 4,
+   "fichas": 4,
+   "A": 2,
+   "B": 2,
+   "C": 0
+  }
+ ],
+ "custo_classe": [
+  {
+   "chave": "1U",
+   "n": 2,
+   "mediana": 655000.0,
+   "min": 60000.0,
+   "max": 1250000.0,
+   "recorte": 1
+  },
+  {
+   "chave": "2U",
+   "n": 3,
+   "mediana": 1570000.0,
+   "min": 970000.0,
+   "max": 2520000.0,
+   "recorte": 2
+  },
+  {
+   "chave": "3U",
+   "n": 18,
+   "mediana": 2300000.0,
+   "min": 560000.0,
+   "max": 5900000.0,
+   "recorte": 6
+  },
+  {
+   "chave": "6U",
+   "n": 33,
+   "mediana": 2830000.0,
+   "min": 450000.0,
+   "max": 62600000.0,
+   "recorte": 17
+  },
+  {
+   "chave": "12U",
+   "n": 13,
+   "mediana": 3850000.0,
+   "min": 450000.0,
+   "max": 105000000.0,
+   "recorte": 3
+  },
+  {
+   "chave": "16U",
+   "n": 3,
+   "mediana": 8500000.0,
+   "min": 2500000.0,
+   "max": 10000000.0,
+   "recorte": 2
+  }
+ ],
+ "custo_missoes": [
+  {
+   "missao": "NanoMagSat",
+   "slug": "nanomagsat",
+   "classe": "16U",
+   "organizacao": "Open Cosmos",
+   "pais": "UK",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "€34.6M",
+   "valor": 34600000.0,
+   "moeda": "EUR",
+   "por_satelite": "",
+   "financiador": "ESA (European Space Agency)",
+   "fonte": "https://www.ipgp.fr/en/news-and-agenda/news/la-mission-nanomagsat-obtient-le-feu-vert-de-lesa/",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "SCOUT-1 (EPS-MACCS)",
+   "slug": "eps-maccs",
+   "classe": "12U",
+   "organizacao": "GomSpace",
+   "pais": "Denmark",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "Contract value is EUR 24,000,000. GomSpace revenue impact is EUR 10,000,000, whereof direct GomSpace revenue share will be EUR 7,000,000.",
+   "valor": 24000000.0,
+   "moeda": "EUR",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "https://gomspace.com/news/esa-and-gomspace-sign-contract-to-implement-e.aspx",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "Startical",
+   "slug": "startical",
+   "classe": "16U",
+   "organizacao": "Startical",
+   "pais": "Spain",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "custo": "€14.5 million for the whole project including 3 spacecraft.",
+   "valor": 14500000.0,
+   "moeda": "EUR",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "https://gomspace.com/news/gomspace-has-been-chosen-to-develop-advanced-.aspx",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "Hellenic Space Dawn",
+   "slug": "hellenic-space-dawn",
+   "classe": "8U",
+   "organizacao": "EMTech Space",
+   "pais": "Greece",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "€4 million",
+   "valor": 4000000.0,
+   "moeda": "EUR",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "https://www.kathimerini.gr/society/562723270/erchetai-sminos-ellinikon-nanodoryforon/",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "MH-1 (AEROS)",
+   "slug": "mh1",
+   "classe": "3U",
+   "organizacao": "CEiiA",
+   "pais": "Portugal",
+   "categoria": "A - sensoriamento remoto; B - coleta de plataformas (DCS/IoT)",
+   "custo": "Investment of €2.8 million funded by PT2020.",
+   "valor": 2800000.0,
+   "moeda": "EUR",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "https://cmuportugal.org/media/mh-1-the-first-satellite-totally-developed-in-portugal-was-launched-to-space/",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "Amber",
+   "slug": "amber",
+   "classe": "6U",
+   "organizacao": "Horizon Technologies",
+   "pais": "UK",
+   "categoria": "A - sensoriamento remoto; C - sinais cooperativos (AIS/ADS-B/RF)",
+   "custo": "£4.6 million for a full turn-key solution including two satellites, launches, operations and data delivery.",
+   "valor": 4600000.0,
+   "moeda": "GBP",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "https://horizontechnologies.eu/aac-clyde-space-wins-4-6-mgbp-order-from-horizon-technologies/",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "Lusiada (LusoSpace)",
+   "slug": "lusospace-8u",
+   "classe": "8U",
+   "organizacao": "LusoSpace",
+   "pais": "Portugal",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "custo": "AAC Clyde Space won a GBP 4.3 M order for 11 satellite kits from LusoSpace.",
+   "valor": 4300000.0,
+   "moeda": "GBP",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "https://www.aac-clyde.space/articles/interim-report-for-aac-clyde-space-ab-publ-january-march-2024",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "Lusiada (LusoSpace)",
+   "slug": "lusospace-3u",
+   "classe": "3U",
+   "organizacao": "LusoSpace",
+   "pais": "Portugal",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "custo": "AAC Clyde Space won a GBP 4.3 M order for 11 satellite kits from LusoSpace.",
+   "valor": 4300000.0,
+   "moeda": "GBP",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "https://www.aac-clyde.space/articles/interim-report-for-aac-clyde-space-ab-publ-january-march-2024",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "BRO",
+   "slug": "bro-unseenlabs",
+   "classe": "6U",
+   "organizacao": "Unseenlabs",
+   "pais": "France",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "custo": "43 MSEK or $4.2M for 6 satellites.",
+   "valor": 43000000.0,
+   "moeda": "SEK",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "https://gomspace.com/news/gomspace-signs-contract-with-unseenlabs-to-de.aspx",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "PREFIRE",
+   "slug": "prefire",
+   "classe": "6U",
+   "organizacao": "University of Wisconsin",
+   "pais": "US",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "$33 million",
+   "valor": 33000000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "https://spacenews.com/rocket-lab-to-launch-pair-of-nasa-earth-science-cubesats/",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "MarCO",
+   "slug": "marco",
+   "classe": "6U",
+   "organizacao": "NASA Jet Propulsion Laboratory",
+   "pais": "US",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "$18,500,000 for two spacecraft and all project costs",
+   "valor": 18500000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "NASA",
+   "fonte": "https://mars.nasa.gov/news/8408/beyond-mars-the-mini-marco-spacecraft-fall-silent/",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "PIAST",
+   "slug": "pisat-poland",
+   "classe": "6U",
+   "organizacao": "Poland’s Armed Forces",
+   "pais": "Poland",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "$18 million, of which about 40 percent will be allocated to Creotech Instruments to finance its share of the work.",
+   "valor": 18000000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "Poland's National Center for Research and Development",
+   "fonte": "https://spacenews.com/polish-armed-forces-enlist-industry-consortium-for-imaging-nanosatellites/",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "EPICHyper",
+   "slug": "wyvern-cubesats",
+   "classe": "6U",
+   "organizacao": "AAC Clyde Space",
+   "pais": "UK",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "$12.1 million from the UK Space Agency together for the first and second phases.",
+   "valor": 12100000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "UK Space Agency",
+   "fonte": "https://spacenews.com/aac-clyde-space-to-develop-cubesats-to-offer-array-of-services/",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "xSPANCION",
+   "slug": "xspancion",
+   "classe": "6U",
+   "organizacao": "AAC Clyde Space",
+   "pais": "UK",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "$12.1 million from the UK Space Agency together for the first and second phases.",
+   "valor": 12100000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "UK Space Agency",
+   "fonte": "https://spacenews.com/aac-clyde-space-to-develop-cubesats-to-offer-array-of-services/",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "GIOT 3?",
+   "slug": "giot",
+   "classe": "6U",
+   "organizacao": "NanoAvionics",
+   "pais": "Lithuania",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "custo": "Single platform: $11.3 million",
+   "valor": 11300000.0,
+   "moeda": "USD",
+   "por_satelite": "$11.3 million",
+   "financiador": "",
+   "fonte": "https://spacenews.com/nanoavionics-ksat-antwerp-space-raise-11-3-million-for-internet-of-things-constellation/",
+   "origem": "ficha da missão (campo Costs)"
+  },
+  {
+   "missao": "Infante",
+   "slug": "infante",
+   "classe": "16U",
+   "organizacao": "Tekever",
+   "pais": "Portugal",
+   "categoria": "A - sensoriamento remoto; C - sinais cooperativos (AIS/ADS-B/RF)",
+   "custo": "$10 million for total costs of the consortium.",
+   "valor": 10000000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "EU / European Commission",
+   "fonte": "https://www.tekever.com/projects/infante/",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "TEMPEST-D",
+   "slug": "tempest-d",
+   "classe": "6U",
+   "organizacao": "Colorado State University",
+   "pais": "US",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "$8.2 million",
+   "valor": 8200000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "http://www.spacedaily.com/reports/Small_nimble_CSU_satellite_has_surpassed_a_year_in_space_999.html",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "Diamond 6U (Sky and Space Global)",
+   "slug": "diamond-6u",
+   "classe": "6U",
+   "organizacao": "Sky and Space",
+   "pais": "UK",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "custo": "$5,950,000 is the order value for the first batch of 8 CubeSats",
+   "valor": 5950000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "https://gomspace.com/news/6u-agreement-between-gomspace-and-sky-and-spa.aspx",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "PEARLS (Sky and Space Global)",
+   "slug": "pearls",
+   "classe": "8U",
+   "organizacao": "Sky and Space",
+   "pais": "UK",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "custo": "$5,950,000 is the order value for the first batch of 8 CubeSats",
+   "valor": 5950000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "https://gomspace.com/news/6u-agreement-between-gomspace-and-sky-and-spa.aspx",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "Kelpie",
+   "slug": "kelpie",
+   "classe": "3U",
+   "organizacao": "AAC Clyde Space",
+   "pais": "UK",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "custo": "$5,900,000 for the manufacturing, launch and long-term operations of two CubeSats",
+   "valor": 5900000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "http://investor.aacmicrotec.com/pressmeddelanden/aac-microtec-to-deliver-enhanced-ais-data-exclusively-to-orb-70246",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "SROC",
+   "slug": "sroc",
+   "classe": "12U",
+   "organizacao": "Politecnico di Torino",
+   "pais": "Italy",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "$4.7 million",
+   "valor": 4700000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "ESA (European Space Agency)",
+   "fonte": "https://terranorbital.com/terran-orbital-awarded-4-7-million-contract-by-european-space-agency/",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "AeroCube-15",
+   "slug": "aerocube-15",
+   "classe": "3U",
+   "organizacao": "Aerospace Corporation",
+   "pais": "US",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "$4.1 million for the whole program.",
+   "valor": 4100000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "US Air Force Space and Missile Systems Center",
+   "fonte": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=4718&context=smallsat",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "Kleos Scouting Mission (KSM1)",
+   "slug": "kleos-space",
+   "classe": "6U",
+   "organizacao": "Kleos Space",
+   "pais": "UK",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "custo": "$2.83 million for 4 satellites",
+   "valor": 2830000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "https://www.linkedin.com/feed/update/urn:li:activity:6449905862378164224/",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "LLITED",
+   "slug": "llited",
+   "classe": "1.5U",
+   "organizacao": "Aerospace Corporation",
+   "pais": "US",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "$2,520,000 for two spacecraft and mission including launch and operations",
+   "valor": 2520000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "NASA",
+   "fonte": "https://aerospace.org/press-release/aerospace-awarded-nasa-llited-grant",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "OPS-SAT VOLT",
+   "slug": "ops-sat-volt",
+   "classe": "16U",
+   "organizacao": "Craft Prospect",
+   "pais": "UK",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "$2.5 million",
+   "valor": 2500000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "https://www.aac-clyde.space/articles/interim-report-for-aac-clyde-space-ab-publ-january-march-2024",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "MACSAT",
+   "slug": "macsat",
+   "classe": "6U",
+   "organizacao": "OQ Technology",
+   "pais": "Luxembourg",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "custo": "$2.4 million",
+   "valor": 2400000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "ESA (European Space Agency)Luxembourg",
+   "fonte": "https://www.oqtec.space/news/oq-techsigns-2-million-euro-contract-with-esa",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "Tiger-2",
+   "slug": "tiger-2",
+   "classe": "6U",
+   "organizacao": "OQ Technology",
+   "pais": "Luxembourg",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "custo": "$2.4 million",
+   "valor": 2400000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "ESA (European Space Agency)Luxembourg",
+   "fonte": "https://www.oqtec.space/news/oq-techsigns-2-million-euro-contract-with-esa",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "Tiger-8",
+   "slug": "tiger-oqtechnology",
+   "classe": "6U",
+   "organizacao": "OQ Technology",
+   "pais": "Luxembourg",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "custo": "$2.4 million",
+   "valor": 2400000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "ESA (European Space Agency)Luxembourg",
+   "fonte": "https://www.oqtec.space/news/oq-techsigns-2-million-euro-contract-with-esa",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "GOMX-5",
+   "slug": "gomx-5",
+   "classe": "8U",
+   "organizacao": "GomSpace",
+   "pais": "Denmark",
+   "categoria": "A - sensoriamento remoto; C - sinais cooperativos (AIS/ADS-B/RF)",
+   "custo": "Over $2 million in total as of 2020.",
+   "valor": 2000000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "https://gomspace.com/news/esa-and-gomspace-sign-contract-for-continuati.aspx",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "Ymir",
+   "slug": "ymir",
+   "classe": "3U",
+   "organizacao": "AOS (AAC Clyde Space, Saab, Orbcomm)",
+   "pais": "Sweden",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "custo": "$1.94 million",
+   "valor": 1940000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "Swedish Transport Administration",
+   "fonte": "https://investor.aac-clyde.space/en/press-releases/aac-clyde-space-saab-and-orbcomm-to-bring-the-next-generatio-79059",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "IOD Mission 3",
+   "slug": "iod-3",
+   "classe": "6U",
+   "organizacao": "Horizon Technologies",
+   "pais": "UK",
+   "categoria": "A - sensoriamento remoto; C - sinais cooperativos (AIS/ADS-B/RF)",
+   "custo": "$1,880,000 for four 3U IOD Mission platforms and $265,000 to upgrade this into 6U",
+   "valor": 1880000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "UK Satellite Applications Catapult",
+   "fonte": "https://www.clyde.space/latest/56-clyde-space-catapults-to-more-success",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "GEMS (Orbital Micro Systems)",
+   "slug": "gems-orbital-micro-systems",
+   "classe": "3U",
+   "organizacao": "Orbital Micro Systems",
+   "pais": "UK",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "$1,880,000 for four 3U IOD Mission platforms",
+   "valor": 1880000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "UK Satellite Applications Catapult",
+   "fonte": "",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "SeaHawk",
+   "slug": "seahawk",
+   "classe": "3U",
+   "organizacao": "University of North Carolina Wilmington",
+   "pais": "US",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "$1,680,000 for two CubeSat platforms",
+   "valor": 1680000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "Gordon and Betty Moore Foundation",
+   "fonte": "http://www.satnews.com/story.php?number=972377587 ",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "KSS-BOBCAT",
+   "slug": "kss-bobcat",
+   "classe": "6U",
+   "organizacao": "Kawa Space",
+   "pais": "India",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "$1.6M",
+   "valor": 1600000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "https://www.satelliteevolution.com/post/aac-clyde-space-wins-sek-16-1-m-satellite-order-from-kawa-space",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "AISTECHSAT (DANU) 2U",
+   "slug": "aistechsat",
+   "classe": "2U",
+   "organizacao": "Aistech",
+   "pais": "Spain",
+   "categoria": "B - coleta de plataformas (DCS/IoT); C - sinais cooperativos (AIS/ADS-B/RF)",
+   "custo": "$1,570,000 for additional 6 DANU platforms and for AIVT of 10 DANU CubeSats",
+   "valor": 1570000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "https://gomspace.com/news/gomspace-and-aistech-sign-new-agreement.aspx",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "ET-SMART-RSS",
+   "slug": "et-smart-rss",
+   "classe": "6U",
+   "organizacao": "Ethiopian Space Science & Technology Institute (ESSTI)",
+   "pais": "Ethiopia",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "$1.5 million in total funded jointly by the Belt & Road Initiative and Sunny Group.",
+   "valor": 1500000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "Intuition-1",
+   "slug": "intuition-1",
+   "classe": "6U",
+   "organizacao": "KP Labs",
+   "pais": "Poland",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "$1,200,000 for design, manufacturing, launch and early operations. $650,000 is for the platform.",
+   "valor": 1200000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "http://investor.aacmicrotec.com/pressmeddelanden/aac-microtec-wins-5-msek-launch-order-from-kp-labs-69761?page=3",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "UKube-1",
+   "slug": "ukube-1",
+   "classe": "3U",
+   "organizacao": "UK Space Agency",
+   "pais": "UK",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "$1,000,000 for CubeSat platform and ground segment",
+   "valor": 1000000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "UK Space Agency",
+   "fonte": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/350503/National_Space_Programmes_2014_to_2015.pdf",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "TARS (Kepler)",
+   "slug": "kepler-tars",
+   "classe": "6U",
+   "organizacao": "Kepler Communications",
+   "pais": "Canada",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "custo": "$880,000 grant for the mission (actual CubeSat costs unknown)",
+   "valor": 880000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "UK Satellite Applications Catapult",
+   "fonte": "",
+   "origem": "tabela CubeSat Costs"
+  },
+  {
+   "missao": "NARSSCube-2",
+   "slug": "narsscube",
+   "classe": "1U",
+   "organizacao": "National Authority for Remote Sensing and Space Sciences (NARSS)",
+   "pais": "Egypt",
+   "categoria": "A - sensoriamento remoto",
+   "custo": "$60000",
+   "valor": 60000.0,
+   "moeda": "USD",
+   "por_satelite": "",
+   "financiador": "",
+   "fonte": "http://satelliteprome.com/news/egypt-sends-cubesat-to-international-space-station/",
+   "origem": "tabela CubeSat Costs"
+  }
+ ],
+ "resultados": {
+  "com_resultado": 126,
+  "com_falha": 33,
+  "total_banco": 308
+ },
+ "falhas": [
+  {
+   "chave": "energia / baterias",
+   "linhas": 18
+  },
+  {
+   "chave": "comunicação / antena",
+   "linhas": 9
+  },
+  {
+   "chave": "outra / não classificada",
+   "linhas": 5
+  },
+  {
+   "chave": "controle de atitude",
+   "linhas": 1
+  }
+ ],
+ "resultados_lista": [
+  {
+   "missao": "ASUSat 1",
+   "slug": "asusat-1",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2000-01-27",
+   "status": "Was operational",
+   "resultado": "",
+   "falha": "Problem in power system prevented the solar arrays from supplying power.",
+   "links": ""
+  },
+  {
+   "missao": "TNS-0",
+   "slug": "tns-0",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2005-02-28",
+   "status": "Reentered, Was operational",
+   "resultado": "",
+   "falha": "Batteries were empty and burnt in atmosphere couple of months later.",
+   "links": ""
+  },
+  {
+   "missao": "AISSat-1",
+   "slug": "aissat-1",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2010-07-12",
+   "status": "Was operational",
+   "resultado": "",
+   "falha": "Batteries cannot supply enough power to power the satellite anymore.",
+   "links": ""
+  },
+  {
+   "missao": "M-Cubed",
+   "slug": "m-cubed",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2011-10-28",
+   "status": "Reentered, Was semi-operational",
+   "resultado": "",
+   "falha": "Became conjoined with HBRE and could not receive signals, but transmitted beacon.",
+   "links": ""
+  },
+  {
+   "missao": "AAUSAT3",
+   "slug": "aausat3",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2013-02-25",
+   "status": "Was operational",
+   "resultado": "",
+   "falha": "Power production gradually decreased until it was too low due to solar cell degradation.",
+   "links": ""
+  },
+  {
+   "missao": "BEESAT-2",
+   "slug": "beesat-2",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2013-04-19",
+   "status": "Reentered, Operational",
+   "resultado": "BEESAT-3 has concluded its mission after more than 10 years, surpassing its intended lifespan! Our HISPICO S-band transmitter operated flawlessly until the final moment - mission successfully accomplished!",
+   "falha": "",
+   "links": "https://www.linkedin.com/posts/iq-spacecom_iqspacecom-beesat3-missionaccomplished-activity-7158044288000413696-83DE?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+   "missao": "POPSAT-HIP1",
+   "slug": "popsat-hip-1",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2014-06-19",
+   "status": "Was operational",
+   "resultado": "",
+   "falha": "Only awake when there’s Sun illumination.\nInvestigation seems to indicate a combined problem among the solar panels, battery charging capability, as well as the EPS itself.",
+   "links": ""
+  },
+  {
+   "missao": "ALSAT-Nano",
+   "slug": "alsat-nano",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2016-09-26",
+   "status": "Operational",
+   "resultado": "Achieved its mission objectives and has exceeded its performance expectations.\nThe experiment has provided the first in-orbit current/voltage (I/V) measurements of this novel technology, and more than five years of flight results have now yielded new insights into its longer term performance and inherent radiation hardness, which makes them particularly attractive for maintaining high end-of-life (EOL) performance for long duration space missions. The results help to strengthen the argument for further development this technology for space application. The data, collected over nearly 30,000 orbits, show no signs of cell delamination (a potential risk for such technologies), no deterioration in short circuit current or in series resistance. However, all four cell’s fill factors were observed to decrease over the duration of the mission, caused primarily by a decrease in their shunt resistance. This has been attributed to the diffusion of gold atoms from the back electrical contacts. We conclude therefore that further development of this technology should utilise more stable back contacting methodologies more commonly employed for terrestrial CdTe modules.",
+   "falha": "",
+   "links": "https://africanews.space/algerias-alsat-1n-exceeds-three-years-of-operation-in-orbit/ | https://iafastro.directory/iac/paper/id/69285/abstract-pdf/IAC-22,C3,3,8,x69285.brief.pdf?2022-03-30.11:58:28"
+  },
+  {
+   "missao": "CanX-7",
+   "slug": "canx-7",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2016-09-26",
+   "status": "Reentered, Operational",
+   "resultado": "Successfully demonstrated its drag sail technology when the CanX-7 satellite deorbited last month.",
+   "falha": "",
+   "links": "https://spaceq.ca/space-flight-laboratory-successfully-demonstrates-drag-sail-technology/"
+  },
+  {
+   "missao": "nSIGHT",
+   "slug": "nsight",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2017-04-18",
+   "status": "Reentered, Operational",
+   "resultado": "Deployed on 25 May 2017, the satellite has spent almost 3 years in orbit capturing and downloading over 40 high-quality images.",
+   "falha": "",
+   "links": "https://africanews.space/farewell-to-nsight-the-rockstar-cubesat/"
+  },
+  {
+   "missao": "BIRD-B",
+   "slug": "brac-onnesha",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2017-06-03",
+   "status": "Reentered, Semi-operational",
+   "resultado": "No uplink success.\nWeak CW signals.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat"
+  },
+  {
+   "missao": "BIRD-G",
+   "slug": "ghanasat-1",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2017-06-03",
+   "status": "Reentered, No signal",
+   "resultado": "No uplink success.\nWeak CW signals.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat"
+  },
+  {
+   "missao": "BIRD-J",
+   "slug": "toki",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2017-06-03",
+   "status": "Reentered, Was semi-operational",
+   "resultado": "No uplink success.\nWeak CW signals.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat"
+  },
+  {
+   "missao": "BIRD-M",
+   "slug": "mazaalai",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2017-06-03",
+   "status": "Reentered, Semi-operational",
+   "resultado": "No uplink success.\nWeak CW signals.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat"
+  },
+  {
+   "missao": "BIRD-N",
+   "slug": "nigeria-edusat-1",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2017-06-03",
+   "status": "Reentered, Semi-operational",
+   "resultado": "No uplink success.\nWeak CW signals.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat"
+  },
+  {
+   "missao": "Diamond - Blue",
+   "slug": "diamond",
+   "categoria": "B - coleta de plataformas (DCS/IoT); C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2017-06-23",
+   "status": "Reentered, Operational",
+   "resultado": "These are the smallest satellites in the world to demonstrate real-time VOIP calls, IM, Financial transactions, IoT data pickups, Inter-satellite links, SigInt, spectrum monitoring from space, and differential drag formation flying.",
+   "falha": "",
+   "links": "https://www.linkedin.com/feed/update/urn:li:activity:7079012081454227456/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7079012081454227456%29"
+  },
+  {
+   "missao": "Diamond - Green",
+   "slug": "diamond",
+   "categoria": "B - coleta de plataformas (DCS/IoT); C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2017-06-23",
+   "status": "Reentered, Operational",
+   "resultado": "These are the smallest satellites in the world to demonstrate real-time VOIP calls, IM, Financial transactions, IoT data pickups, Inter-satellite links, SigInt, spectrum monitoring from space, and differential drag formation flying.",
+   "falha": "",
+   "links": "https://www.linkedin.com/feed/update/urn:li:activity:7079012081454227456/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7079012081454227456%29"
+  },
+  {
+   "missao": "Diamond - Red",
+   "slug": "diamond",
+   "categoria": "B - coleta de plataformas (DCS/IoT); C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2017-06-23",
+   "status": "Reentered, Operational",
+   "resultado": "These are the smallest satellites in the world to demonstrate real-time VOIP calls, IM, Financial transactions, IoT data pickups, Inter-satellite links, SigInt, spectrum monitoring from space, and differential drag formation flying.",
+   "falha": "",
+   "links": "https://www.linkedin.com/feed/update/urn:li:activity:7079012081454227456/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7079012081454227456%29"
+  },
+  {
+   "missao": "Venta-1",
+   "slug": "venta-1",
+   "categoria": "A(fraco) - câmera sem alvo declarado; C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2017-06-23",
+   "status": "Reentered, Was semi-operational, Was operational",
+   "resultado": "",
+   "falha": "Rotation issues have thought to be caused battery charging issues resulting in negative power budget.",
+   "links": ""
+  },
+  {
+   "missao": "MiRaTA",
+   "slug": "mirata",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2017-11-14",
+   "status": "Reentered, Was operational",
+   "resultado": "Marked as Failure in the NASA SmallSat/CubeSat Fleet Missions Database.",
+   "falha": "Lost contact with primary radio and then unsuccessful reprogram of backup radio was last contact.",
+   "links": "https://s3vi.ndc.nasa.gov/cubesat/"
+  },
+  {
+   "missao": "MarCO 1",
+   "slug": "marco",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2018-05-05",
+   "status": "Was operational",
+   "resultado": "MarCO-A Radio Occultation did not detect the Mars atmosphere or ionosphere during the flyby. An assessment of the MarCO flyby and RO data indicates that the MarCO 2-way data has a stable frequency residual and performance is in the same order of MRO 2-way data. Modeling results suggest that the 2-way MarCO radio signal could have been able to have a positive detection of the atmosphere and ionosphere comparable to MRO. Frequency residual measurements derived from MarCO X-band radio links confirm that the 1-way X-band data could have detected the neutral atmosphere but not the ionosphere.",
+   "falha": "",
+   "links": "http://www.intersmallsatconference.com/past/2020/B.4-Buccino/2020ISSC_MarCO_Occultation_v1.pdf"
+  },
+  {
+   "missao": "MarCO 2",
+   "slug": "marco",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2018-05-05",
+   "status": "Was operational",
+   "resultado": "MarCO-A Radio Occultation did not detect the Mars atmosphere or ionosphere during the flyby. An assessment of the MarCO flyby and RO data indicates that the MarCO 2-way data has a stable frequency residual and performance is in the same order of MRO 2-way data. Modeling results suggest that the 2-way MarCO radio signal could have been able to have a positive detection of the atmosphere and ionosphere comparable to MRO. Frequency residual measurements derived from MarCO X-band radio links confirm that the 1-way X-band data could have detected the neutral atmosphere but not the ionosphere.",
+   "falha": "",
+   "links": "http://www.intersmallsatconference.com/past/2020/B.4-Buccino/2020ISSC_MarCO_Occultation_v1.pdf"
+  },
+  {
+   "missao": "BHUTAN-1",
+   "slug": "bhutan-1",
+   "categoria": "A - sensoriamento remoto; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2018-06-29",
+   "status": "Reentered, Operational",
+   "resultado": "Strong CW.\nVery few uplink success.\nAPRS beacon OK, but no uplink.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat"
+  },
+  {
+   "missao": "MAYA-1",
+   "slug": "maya-1",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2018-06-29",
+   "status": "Reentered, Operational",
+   "resultado": "Strong CW.\nVery few uplink success.\nAPRS beacon OK, but no uplink.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat"
+  },
+  {
+   "missao": "UiTMSAT-1",
+   "slug": "uitmsat-1",
+   "categoria": "A - sensoriamento remoto; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2018-06-29",
+   "status": "Reentered, Operational",
+   "resultado": "Strong CW.\nVery few uplink success.\nAPRS beacon OK, but no uplink.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat"
+  },
+  {
+   "missao": "Fox-1C",
+   "slug": "fox-1c",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2018-12-03",
+   "status": "Semi-operational",
+   "resultado": "",
+   "falha": "Anomaly with her receive capability.",
+   "links": ""
+  },
+  {
+   "missao": "ITASAT 1",
+   "slug": "itasat-1",
+   "categoria": "A - sensoriamento remoto; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2018-12-03",
+   "status": "Semi-operational",
+   "resultado": "",
+   "falha": "Batteries not working in eclipse causing resets, which wipes uplinked configuration changes",
+   "links": ""
+  },
+  {
+   "missao": "RAAF M1",
+   "slug": "raaf-m1",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2018-12-03",
+   "status": "No signal",
+   "resultado": "",
+   "falha": "Unknown, but suspecting COTS radio",
+   "links": ""
+  },
+  {
+   "missao": "SNUSat-2",
+   "slug": "snusat-2",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2018-12-03",
+   "status": "Was semi-operational, ?",
+   "resultado": "",
+   "falha": "According to the telemetry SNUSAT-2 is under serious tumbling motion.",
+   "links": ""
+  },
+  {
+   "missao": "AeroCube-11A",
+   "slug": "aerocube-11",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2018-12-16",
+   "status": "Reentered, Operational",
+   "resultado": "Results show good multispectral image quality from the CubeSat sensor, and illustrate the ability of R3 to detect vegetation and other features in a manner similar to Landsat, as well as the challenge in perfectly exposing all 6 VIS/NIR Landsat bands using our commercial 10-bit CMOS array.\nWe planned and accomplished a Landsat-8 near conjunction collection on 22 January, 2020 over France. These R3 data have not yet been transmitted via lasercom, due to star sensor degradation issues which have made closing the laser link difficult. These data may eventually be downlinked via the experimental software defined radio which was successfully brought online during the mission.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=4714&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=4714&context=smallsat"
+  },
+  {
+   "missao": "AeroCube-11B",
+   "slug": "aerocube-11",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2018-12-16",
+   "status": "Reentered, Operational",
+   "resultado": "Results show good multispectral image quality from the CubeSat sensor, and illustrate the ability of R3 to detect vegetation and other features in a manner similar to Landsat, as well as the challenge in perfectly exposing all 6 VIS/NIR Landsat bands using our commercial 10-bit CMOS array.\nWe planned and accomplished a Landsat-8 near conjunction collection on 22 January, 2020 over France. These R3 data have not yet been transmitted via lasercom, due to star sensor degradation issues which have made closing the laser link difficult. These data may eventually be downlinked via the experimental software defined radio which was successfully brought online during the mission.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=4714&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=4714&context=smallsat"
+  },
+  {
+   "missao": "ZACUBE-2",
+   "slug": "zacube-2",
+   "categoria": "A - sensoriamento remoto; C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2018-12-27",
+   "status": "Reentered, Operational, ?",
+   "resultado": "Images taken and X-band transmitter tested at 50 Mbps.",
+   "falha": "",
+   "links": "https://twitter.com/fsatispace/status/1177554181143584768"
+  },
+  {
+   "missao": "Xiaoxiang-1 03",
+   "slug": "xiaoxiang-1-03",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2019-01-21",
+   "status": "Reentered, Operational",
+   "resultado": "Second country in the world to carry out ionic liquid microelectric propulsion space verification tests. Has assisted customers to complete software radio experiments, ionic liquid microelectric propulsion space verification tests, self-developed off-orbit sail experiments, and very low-cost imaging experiments of spaceborne cameras.",
+   "falha": "",
+   "links": "https://www.weibo.com/ttarticle/p/show?id=2309404365385536247134#_0"
+  },
+  {
+   "missao": "M6P",
+   "slug": "m6p",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2019-04-01",
+   "status": "Reentered, Operational",
+   "resultado": "BTD-1 demonstration for Blink Astro concluded in September 2019 with primary goals achieved.",
+   "falha": "",
+   "links": "https://www.linkedin.com/posts/blink-astro-llc_iot-cubesat-spacega-activity-6583712358147911680-G1uh/"
+  },
+  {
+   "missao": "NepaliSat-1",
+   "slug": "nepalisat-1",
+   "categoria": "A(fraco) - câmera sem alvo declarado; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2019-04-17",
+   "status": "Reentered, Operational",
+   "resultado": "Full mission success.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat"
+  },
+  {
+   "missao": "Raavana-1",
+   "slug": "raavana-1",
+   "categoria": "A(fraco) - câmera sem alvo declarado; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2019-04-17",
+   "status": "Reentered, Operational",
+   "resultado": "Full mission success.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat"
+  },
+  {
+   "missao": "Uguisu",
+   "slug": "uguisu",
+   "categoria": "A(fraco) - câmera sem alvo declarado; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2019-04-17",
+   "status": "Reentered, Operational",
+   "resultado": "Full mission success.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat"
+  },
+  {
+   "missao": "TTU101",
+   "slug": "ttu100",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2019-07-05",
+   "status": "Reentered, Semi-operational, ?",
+   "resultado": "Last signal was given by the satellite 2024-08-11 at 20:41 and on the night of August 12, 2024, the satellite burned up in the atmosphere.",
+   "falha": "",
+   "links": "https://www.facebook.com/tudengisatelliit/posts/pfbid0DvV9PuWf16UvxaX6w9QZmjMys4MUcXvCND6HpQjyG2ZL7yYVpetQb8rhTwVASWiYl"
+  },
+  {
+   "missao": "AeroCube-15A",
+   "slug": "aerocube-15",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2019-11-02",
+   "status": "Reentered, Operational",
+   "resultado": "At present, the program has focused on calibrating the CubeSats’ sensors and observation tasking has been minimal.\nCareful preparation of both an on-orbit spacecraft test plan and flight experiment plan allowed the first year of operations, described in our second paper, to fulfill the program’s requirements for success.2 Calibration of the visible and infrared sensors using bright standard stars was demonstrated. Laser pointing was aligned on orbit between spacecraft to speed up laser communications operations. A novel 1.4µm SWIR band was characterized for Earth observation for the first time. The ability of the SWIR sensor to observe gas flares, terrestrial and cloud backgrounds, rockets, severe weather, wildfires other IR targets was accomplished. Initial stereo observations were also carried out along with other spacecraft ConOps. A data pipeline was finalized which processed the Rogue-a,b sensor data and associated metadata into convenient standard formats for exploitation.\nWe were able to continue operations beyond one year, and an extended operations plan was pursued. The next year on-orbit focused on adding to our observations of space launches, additional IR targets and backgrounds. Sensor settings were honed to better reveal wildfire activity in the 1.4µm SWIR band as well as to obtain multiple, well-exposed multi-minute orbital data sets on storms and Earth backgrounds. Unique staring sensor data were acquired for large wildfires, hurricanes, and tornadic thunderstorms. Nighttime sensor data were collected, including from our narrow-field-of-view star sensor. We described highlights from these environmental observations in our third paper.3 Additional rocket observations gathered during this second year of operations were not fully analyzed and published until this paper.\nOur focus shifted to data exploitation in our final year of spacecraft operations. We continued collecting data with an emphasis on rocket observations, especially daytime observations, for which opportunities had previously been elusive. We eventually succeeded in observing several launches under daylit conditions. Our entire rocket observation experiment series is described in this paper, showing our successes in tracking Falcon 9, Soyuz, Long March, and Atlas V space launches from different types of orbital geometries against Earth and space backgrounds. Data from both the rocket experiments, and the environmental observations, were used to study a variety of detection algorithms, and used to develop pointing-based and image-based registration approaches for deeper analysis.\nOperations continued until the failure of Rogue-Betas’s onboard flash memory storage card on November 30, 2022, and the reentry of Rogue-Alpha on February 7, 2023 (Rogue Beta reentered on February 10, 2023).",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/smallsat/2021/all2021/149/ | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5794&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5794&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5794&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5794&context=smallsat"
+  },
+  {
+   "missao": "AeroCube-15B",
+   "slug": "aerocube-15",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2019-11-02",
+   "status": "Reentered, Was operational",
+   "resultado": "At present, the program has focused on calibrating the CubeSats’ sensors and observation tasking has been minimal.\nCareful preparation of both an on-orbit spacecraft test plan and flight experiment plan allowed the first year of operations, described in our second paper, to fulfill the program’s requirements for success.2 Calibration of the visible and infrared sensors using bright standard stars was demonstrated. Laser pointing was aligned on orbit between spacecraft to speed up laser communications operations. A novel 1.4µm SWIR band was characterized for Earth observation for the first time. The ability of the SWIR sensor to observe gas flares, terrestrial and cloud backgrounds, rockets, severe weather, wildfires other IR targets was accomplished. Initial stereo observations were also carried out along with other spacecraft ConOps. A data pipeline was finalized which processed the Rogue-a,b sensor data and associated metadata into convenient standard formats for exploitation.\nWe were able to continue operations beyond one year, and an extended operations plan was pursued. The next year on-orbit focused on adding to our observations of space launches, additional IR targets and backgrounds. Sensor settings were honed to better reveal wildfire activity in the 1.4µm SWIR band as well as to obtain multiple, well-exposed multi-minute orbital data sets on storms and Earth backgrounds. Unique staring sensor data were acquired for large wildfires, hurricanes, and tornadic thunderstorms. Nighttime sensor data were collected, including from our narrow-field-of-view star sensor. We described highlights from these environmental observations in our third paper.3 Additional rocket observations gathered during this second year of operations were not fully analyzed and published until this paper.\nOur focus shifted to data exploitation in our final year of spacecraft operations. We continued collecting data with an emphasis on rocket observations, especially daytime observations, for which opportunities had previously been elusive. We eventually succeeded in observing several launches under daylit conditions. Our entire rocket observation experiment series is described in this paper, showing our successes in tracking Falcon 9, Soyuz, Long March, and Atlas V space launches from different types of orbital geometries against Earth and space backgrounds. Data from both the rocket experiments, and the environmental observations, were used to study a variety of detection algorithms, and used to develop pointing-based and image-based registration approaches for deeper analysis.\nOperations continued until the failure of Rogue-Betas’s onboard flash memory storage card on November 30, 2022, and the reentry of Rogue-Alpha on February 7, 2023 (Rogue Beta reentered on February 10, 2023).",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/smallsat/2021/all2021/149/ | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5794&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5794&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5794&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5794&context=smallsat"
+  },
+  {
+   "missao": "HARP",
+   "slug": "harp",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2019-11-02",
+   "status": "Reentered, Operational",
+   "resultado": "The Hyper-Angular Rainbow Polarimeter (HARP) CubeSat achieved “first light” on April 16. The tiny satellite sent back its very first image over Europe with bright splashes of colors defining clouds and aerosols, which are tiny particles in the atmosphere. HARP’s measurements help us better understand how clouds and aerosols impact weather, climate and air quality.",
+   "falha": "",
+   "links": "https://www.nasa.gov/image-feature/goddard/2020/tiny-nasa-satellite-captures-first-image-of-clouds-and-aerosols"
+  },
+  {
+   "missao": "Phoenix CubeSat",
+   "slug": "phoenix-cubesat",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2019-11-02",
+   "status": "Reentered, Semi-operational, Was operational",
+   "resultado": "Phoenix's beacon was heard for the first time at a ground station located in Indonesia. Amateur operators continued to hear its health beacon throughout the day by tracking the ISS, including the Phoenix operations team, using the ASU ground station. The team was also able to perform a successful schedule uplink to collect more telemetry from the ADCS, which marked the first CubeSat operation from the university!\nSince deployment day, it has been difficult to hear from the spacecraft. During Phoenix's last pass of the day over the ASU ground station, the spacecraft went into an error state, which we believe depleted the battery below the voltage cutoff level. This would have cut power to the rest of the hardware, preventing the Phoenix from transmitting its health beacon, responding to our commands, or tracking the sun to generate more power.\nIt was discovered that while the AX100 transceiver was operational, the OBC did not respond to any packets beyond short ping commands. Further, ping communication only occurred successfully during daytime passes. This suggested that Phoenix was likely not tracking the sun using the ADCS, preventing the battery from charging sufficiently to power the spacecraft during eclipses.\nUpon further investigation into the error state, the anomalous stream of packets was linked to a syn-ack packet flood. Benchtop testing with an engineering model of the AX100 transceiver and conversations with the vendor indicate that a single bit flip in the packet checksum could have enabled the Reliable Data Protocol (RDP). This would have introduced the syn-ack stream in an effort to verify a link between the ground station and the spacecraft, resulting in a gradual drain of the battery level. However, while the packet stream issue is considered resolved, it is still unclear as to why we can only receive CSP ping packet responses from the OBC after the power reset.\nAlthough Phoenix’s science objective was not achieved, the spacecraft can still be utilized for other purposes. The ability to conduct two-way communications allows the spacecraft to be useful for calibrating ground stations to communicate with CubeSats in LEO.",
+   "falha": "Uplink established, but bit flip in the radio and resulting stream of packets at the end of the first day depleted battery below voltage cutoff level. Afterwards OBC only responds to pings in daylight and the cause is unknown.",
+   "links": "http://phxcubesat.asu.edu/ | http://phxcubesat.asu.edu/ | http://phxcubesat.asu.edu/ | http://phxcubesat.asu.edu/ | http://phxcubesat.asu.edu/"
+  },
+  {
+   "missao": "SMOG-P",
+   "slug": "smog-p",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2019-12-06",
+   "status": "Reentered, Operational",
+   "resultado": "Map of the collected spectrum data.",
+   "falha": "",
+   "links": "https://gnd.bme.hu/smogmap/?fbclid=IwAR3x02cppJ0lJmuvMjlTwkMUsbJ5MEjVXJhE15QRdvo57H5HyQFhbKhF5wA"
+  },
+  {
+   "missao": "Pathfinder Risk Reduction",
+   "slug": "ptd-0",
+   "categoria": "A - sensoriamento remoto; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2019-12-11",
+   "status": "Reentered, Operational",
+   "resultado": "Inaugural flight of Tyvak's next-generation spacecraft systems, which performed beyond expectations.\nLockheed Martin launched the Pony Express 1 mission as a hosted payload on Tyvak-0129, a next-generation Tyvak 6U spacecraft. Early on-orbit data show Pony Express 1 is performing its important pathfinding mission very well.",
+   "falha": "",
+   "links": "https://www.c4isrnet.com/battlefield-tech/space/2020/01/28/lockheed-martin-experiments-with-a-mesh-network-in-space/ | https://www.c4isrnet.com/battlefield-tech/space/2020/01/28/lockheed-martin-experiments-with-a-mesh-network-in-space/"
+  },
+  {
+   "missao": "ANGELS",
+   "slug": "angels",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2019-12-18",
+   "status": "Reentered, Operational",
+   "resultado": "On the back of this success, CNES and Hemeria have signed an agreement to extend the satellite’s lifetime for a further two and a half years.",
+   "falha": "",
+   "links": "https://www.hemeria-group.com/wp-content/uploads/2021/12/cp_hemeria_cnes_kineis_tas_angels_uk.pdf"
+  },
+  {
+   "missao": "Quetzal-1",
+   "slug": "quetzal-1",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2020-03-07",
+   "status": "Reentered, Was operational",
+   "resultado": "Design and On-Orbit Performance of the Attitude Determination and Passive Control System for the Quetzal-1 CubeSat.\nAcademic development and space operations of a multispectral imaging payload for 1U CubeSats\nThe first decoded beacon was received ∼1 h later at 16:43:55 UTC, marking the start of the commissioning phase of the satellite.\nThe commissioning phase lasted from deployment through June 2020 and did not yet include payload checks. Health data received from the satellite confirmed that the EPS subsystem was able to adequately harvest, store, and distribute the energy required for nominal operations on orbit.4 The telemetry also confirmed that the ADCS had successfully detumbled the satellite, and that the average angle between the camera boresight and Nadir was 48.06 deg0.88 deg (99% CI) when the satellite was passing over Guatemala. This angle was deemed adequate to capture pictures of the Earth’s surface with the on-board camera, based on the payload’s optical design.\nAfter the commissioning phase of the mission, communication tests were performed to determine the most effective way of commanding the satellite during payload operations. It was determined that each command needed to be sent as a batch of six repeating command packets. This maximized the probability that the command would be successfully received by the omnidirectional antennas of the satellite. It was determined that passes with a maximum elevation >40 deg were adequate to execute picture capture and download processes. The satellite could be easily commanded at elevations >30 deg. At lower elevations, the communication link became irregular.\nThe watchdog reset timer that rebooted the OBC every 2 h ensured that the satellite always returned to its nominal configuration even if the reconfiguration commands sent after picture download were not successfully received by the satellite due to low elevation, or otherwise.\nThe piezoelectric motor rotated ∼1812 times in space. This estimate was calculated by counting the times it rotated when it reconfigured itself to its 0 deg position after an OBC watchdog timer reset, and adding the successful payload operations detailed in the next section.\nA total of 20 pictures were captured and 16 of those were downloaded. Five were all-black images due to reduced lighting during eclipse conditions, another five were all-white images showing little to no details, suggesting a potential limitation on the camera’s AEC capabilities.\nQuetzal-1 mission reached its end of mission due to battery failure following repeated subzero temperature exposures. Although the battery heaters showed appropriate performance during the life of the satellite, it is believed the OBC failed to command the heater to activate as a result of a Payload-OBC I2C bus hang, based on preflight testing.",
+   "falha": "Battery failure following repeated subzero temperature exposures. OBC likely failed to enable the heater.",
+   "links": "https://jossonline.com/storage/2023/05/Final-Alvarez-Design-and-On-Orbit-Performance-of-the-Attitude-Determination-and-Passive-Control-System-for-the-Quetzal-1-CubeSat.pdf | https://www.spiedigitallibrary.org/journals/journal-of-applied-remote-sensing/volume-17/issue-04/047501/Academic-development-and-space-operations-of-a-multispectral-imaging-payload/10.1117/1.JRS.17.047501.full?SSO=1 | https://www.spiedigitallibrary.org/journals/journal-of-applied-remote-sensing/volume-17/issue-04/047501/Academic-development-and-space-operations-of-a-multispectral-imaging-payload/10.1117/1.JRS.17.047501.full?SSO=1 | https://www.spiedigitallibrary.org/journals/journal-of-applied-remote-sensing/volume-17/issue-04/047501/Academic-development-and-space-operations-of-a-multispectral-imaging-payload/10.1117/1.JRS.17.047501.full?SSO=1 | https://www.spiedigitallibrary.org/journals/journal-of-applied-remote-sensing/volume-17/issue-04/047501/Academic-development-and-space-operations-of-a-multispectral-imaging-payload/10.1117/1.JRS.17.047501.full?SSO=1 | https://www.spiedigitallibrary.org/journals/journal-of-applied-remote-sensing/volume-17/issue-04/047501/Academic-development-and-space-operations-of-a-multispectral-imaging-payload/10.1117/1.JRS.17.047501.full?SSO=1 | https://www.spiedigitallibrary.org/journals/journal-of-applied-remote-sensing/volume-17/issue-04/047501/Academic-development-and-space-operations-of-a-multispectral-imaging-payload/10.1117/1.JRS.17.047501.full?SSO=1 | https://www.spiedigitallibrary.org/journals/journal-of-applied-remote-sensing/volume-17/issue-04/047501/Academic-development-and-space-operations-of-a-multispectral-imaging-payload/10.1117/1.JRS.17.047501.full?SSO=1 | https://www.spiedigitallibrary.org/journals/journal-of-applied-remote-sensing/volume-17/issue-04/047501/Academic-development-and-space-operations-of-a-multispectral-imaging-payload/10.1117/1.JRS.17.047501.full?SSO=1"
+  },
+  {
+   "missao": "AMICal Sat",
+   "slug": "amical-sat",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2020-09-03",
+   "status": "Reentered, Operational",
+   "resultado": "AMICal Sat became our longest-serving satellite, remaining responsive for more than 5 years.",
+   "falha": "",
+   "links": "https://www.linkedin.com/posts/satrev-s-a_spaceexploration-satellitetechnology-cubesat-activity-7293237721819484161-TZ15?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM"
+  },
+  {
+   "missao": "TTU100",
+   "slug": "ttu100",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2020-09-03",
+   "status": "Reentered, Semi-operational, ?",
+   "resultado": "Last signal was given by the satellite 2024-08-11 at 20:41 and on the night of August 12, 2024, the satellite burned up in the atmosphere.",
+   "falha": "",
+   "links": "https://www.facebook.com/tudengisatelliit/posts/pfbid0DvV9PuWf16UvxaX6w9QZmjMys4MUcXvCND6HpQjyG2ZL7yYVpetQb8rhTwVASWiYl"
+  },
+  {
+   "missao": "LacunaSat-3",
+   "slug": "lacunasat",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2020-09-28",
+   "status": "Reentered, Operational",
+   "resultado": "After a successful launch in March 2021, Open Cosmos was able to establish contact with the satellite at the first pass and following a period of commissioning, the LS2 satellite quickly began collecting and transmitting data, connecting to Open Cosmos ground stations to download the data every 12 hours. With this frequency of revisit, Lacuna Space was able to provide customers with an automated process of tracking and monitoring their remote assets on a daily basis and providing very high levels of reliability with an uptime exceeding 99.7%.",
+   "falha": "",
+   "links": "https://www.open-cosmos.com/news/ls2-bringing-connectivity-to-remote-locations"
+  },
+  {
+   "missao": "SPOC",
+   "slug": "spoc",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2020-10-03",
+   "status": "Reentered, Was operational",
+   "resultado": "",
+   "falha": "However, around December 9, temperature on the battery board and the CMC began to spike. On December 14, the last telemetry frame was received from SPOC by SatNOGS ground station EU1XX. SPOC’s last known state was Safe Reboot Mode on the Failsafe software image. Our best interpretation of these results is that a solar flare taking place on December 14 (the tenth largest of 2020) caused a single-event upset (SEU) or single-event latch-up (SEL), damaging hardware components on the electrical power system (EPS).",
+   "links": ""
+  },
+  {
+   "missao": "Lemur-2 132 Mango1",
+   "slug": "lemur-mango",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2021-01-24",
+   "status": "Reentered, Operational",
+   "resultado": "Successful on-orbit performance marks another major milestone for Jacobs in advanced, affordable space radar payloads for military, civil and commercial customers. Mango One has successfully completed payload checkout and begun performing radio frequency (RF) survey missions using the modular and scalable Jacobs next generation active electronically scanned arrays (AESA) and advanced RF payload control electronics. Additional demonstrations of radar and communications capabilities will continue.",
+   "falha": "",
+   "links": "https://invest.jacobs.com/investors/Press-Release-Details/2021/Jacobs-Mango-One-Satellite-on-Orbit-Laying-Pathway-for-Next-Generation-Affordable-Space-Solutions/default.aspx?"
+  },
+  {
+   "missao": "UVSQ-Sat",
+   "slug": "uvsq-sat",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2021-01-24",
+   "status": "Reentered, Operational",
+   "resultado": "UVSQ-SAT, still fully operational, celebrates its third anniversary, 2024-01-24.\nJoined in April 2023 by a second nano-satellite, INSPIRE-Sat 7, it continues its data collection mission. A third Cube-Sat, UVSQ-sat NG, will be launched in 2025 to join this first constellation of university nano-satellites dedicated to the observation of essential climate variables.\nIn three years, UVSQ-Sat has:\nCompleted more than 15,000 laps around the Earth.\nMade more than 5,000 passes over the LATMOS based in Guyancourt (78), i.e. 5 passes per day.\nMobilized more than 70 radio amateurs, university space centers or companies that regularly monitor this satellite all over the world.\nProvided over 20 million telemetry measurements.\nDelivers over 3 million scientific data points – including Solar Reflected Flux (OSR) and Earth IR Flux (OLR).",
+   "falha": "",
+   "links": "https://www.uvsq.fr/24-janvier-2021-24-janvier-2024-uvsq-sat-fete-son-troisieme-anniversaire-en-orbite | https://www.uvsq.fr/24-janvier-2021-24-janvier-2024-uvsq-sat-fete-son-troisieme-anniversaire-en-orbite | https://www.uvsq.fr/24-janvier-2021-24-janvier-2024-uvsq-sat-fete-son-troisieme-anniversaire-en-orbite | https://www.uvsq.fr/24-janvier-2021-24-janvier-2024-uvsq-sat-fete-son-troisieme-anniversaire-en-orbite | https://www.uvsq.fr/24-janvier-2021-24-janvier-2024-uvsq-sat-fete-son-troisieme-anniversaire-en-orbite | https://www.uvsq.fr/24-janvier-2021-24-janvier-2024-uvsq-sat-fete-son-troisieme-anniversaire-en-orbite | https://www.uvsq.fr/24-janvier-2021-24-janvier-2024-uvsq-sat-fete-son-troisieme-anniversaire-en-orbite"
+  },
+  {
+   "missao": "GuaraniSat-1",
+   "slug": "guaranisat-1",
+   "categoria": "A(fraco) - câmera sem alvo declarado; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2021-02-20",
+   "status": "Reentered, Operational, ?",
+   "resultado": "Full mission success.\nLoss of two satellites due to power shortage.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat"
+  },
+  {
+   "missao": "Maya-2",
+   "slug": "maya-2",
+   "categoria": "A(fraco) - câmera sem alvo declarado; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2021-02-20",
+   "status": "Reentered, Operational, ?",
+   "resultado": "Full mission success.\nLoss of two satellites due to power shortage.",
+   "falha": "Two BIRDS-4 had one solar panel failure and negative power budget. Need to confirm which ones.",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat"
+  },
+  {
+   "missao": "Tsuru",
+   "slug": "tsuru",
+   "categoria": "A(fraco) - câmera sem alvo declarado; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2021-02-20",
+   "status": "Reentered, Operational, ?",
+   "resultado": "Full mission success.\nLoss of two satellites due to power shortage.",
+   "falha": "Two BIRDS-4 had one solar panel failure and negative power budget. Need to confirm which ones.",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5233&context=smallsat"
+  },
+  {
+   "missao": "LacunaSat-2b",
+   "slug": "lacunasat",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2021-03-22",
+   "status": "Reentered, Operational",
+   "resultado": "After a successful launch in March 2021, Open Cosmos was able to establish contact with the satellite at the first pass and following a period of commissioning, the LS2 satellite quickly began collecting and transmitting data, connecting to Open Cosmos ground stations to download the data every 12 hours. With this frequency of revisit, Lacuna Space was able to provide customers with an automated process of tracking and monitoring their remote assets on a daily basis and providing very high levels of reliability with an uptime exceeding 99.7%.",
+   "falha": "",
+   "links": "https://www.open-cosmos.com/news/ls2-bringing-connectivity-to-remote-locations"
+  },
+  {
+   "missao": "RAAF M2 A",
+   "slug": "raaf-m2",
+   "categoria": "A(fraco) - câmera sem alvo declarado; C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2021-03-22",
+   "status": "Reentered, Operational",
+   "resultado": "Successfully commissioned several of our mostly in-house subsystems:\nThe attitude determination and control system (ADCS)\nThe software-defined radio (SDR)\nThe supervisor and GPS\nThe engineering camera\nIn addition, we’ve deployed the first of four deployable solar arrays on each of the spacecraft using our in-house burn wire mechanisms. The graphs below show the power generated by the solar cells before and after exposure to sunlight (top), and the dynamic response of the spacecraft due to the impulse of the deployment recorded by the ADCS sensors (bottom) for M2-B.\nOperations for the coming weeks will be focused on rehearsing for the much awaited controlled separation, aka \"divorce\", of the two spacecraft!\nIn May 2021, successfully performed on board artificial intelligence inferencing (correctly recognising hand-written characters on pre-loaded images), to test the functionality of the AI environment and pipeline using the NVIDIA Jetson TX2 edge-computer on one of the two M2 satellites.\nThis is a necessary step before separating the two spacecraft from each other (currently joined, see the image) and, as the mission unfolds, coupling our AI algorithms and on-board sensors to perform tasks such as cloud detection and maritime surveillance.\nIn September 2021, the spacecraft were separated.",
+   "falha": "",
+   "links": "https://www.linkedin.com/feed/update/urn:li:activity:6793001131409846272/ | https://www.linkedin.com/feed/update/urn:li:activity:6793001131409846272/ | https://www.linkedin.com/feed/update/urn:li:activity:6793001131409846272/ | https://www.linkedin.com/feed/update/urn:li:activity:6793001131409846272/ | https://www.linkedin.com/feed/update/urn:li:activity:6793001131409846272/ | https://www.linkedin.com/feed/update/urn:li:activity:6793001131409846272/ | https://www.linkedin.com/feed/update/urn:li:activity:6793001131409846272/ | https://www.linkedin.com/feed/update/urn:li:activity:6805732956343275520/ | https://www.linkedin.com/feed/update/urn:li:activity:6805732956343275520/ | https://www.linkedin.com/feed/update/urn:li:activity:6845888471043854336/"
+  },
+  {
+   "missao": "RAAF M2 B",
+   "slug": "raaf-m2",
+   "categoria": "A(fraco) - câmera sem alvo declarado; C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2021-03-22",
+   "status": "Reentered, Operational",
+   "resultado": "Successfully commissioned several of our mostly in-house subsystems:\nThe attitude determination and control system (ADCS)\nThe software-defined radio (SDR)\nThe supervisor and GPS\nThe engineering camera\nIn addition, we’ve deployed the first of four deployable solar arrays on each of the spacecraft using our in-house burn wire mechanisms. The graphs below show the power generated by the solar cells before and after exposure to sunlight (top), and the dynamic response of the spacecraft due to the impulse of the deployment recorded by the ADCS sensors (bottom) for M2-B.\nOperations for the coming weeks will be focused on rehearsing for the much awaited controlled separation, aka \"divorce\", of the two spacecraft!\nIn May 2021, successfully performed on board artificial intelligence inferencing (correctly recognising hand-written characters on pre-loaded images), to test the functionality of the AI environment and pipeline using the NVIDIA Jetson TX2 edge-computer on one of the two M2 satellites.\nThis is a necessary step before separating the two spacecraft from each other (currently joined, see the image) and, as the mission unfolds, coupling our AI algorithms and on-board sensors to perform tasks such as cloud detection and maritime surveillance.\nIn September 2021, the spacecraft were separated.",
+   "falha": "",
+   "links": "https://www.linkedin.com/feed/update/urn:li:activity:6793001131409846272/ | https://www.linkedin.com/feed/update/urn:li:activity:6793001131409846272/ | https://www.linkedin.com/feed/update/urn:li:activity:6793001131409846272/ | https://www.linkedin.com/feed/update/urn:li:activity:6793001131409846272/ | https://www.linkedin.com/feed/update/urn:li:activity:6793001131409846272/ | https://www.linkedin.com/feed/update/urn:li:activity:6793001131409846272/ | https://www.linkedin.com/feed/update/urn:li:activity:6793001131409846272/ | https://www.linkedin.com/feed/update/urn:li:activity:6805732956343275520/ | https://www.linkedin.com/feed/update/urn:li:activity:6805732956343275520/ | https://www.linkedin.com/feed/update/urn:li:activity:6845888471043854336/"
+  },
+  {
+   "missao": "WildTrackCube – SIMBA",
+   "slug": "wildtrackcube",
+   "categoria": "A - sensoriamento remoto; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2021-03-22",
+   "status": "Reentered, Operational",
+   "resultado": "The telemetry on WildTrackCube-SIMBA is gathered every 60 seconds continuously.\nThe LEDs on-board WildTrackCube-SIMBA have been observed from ground on several occasions and have been used for early object recognition.\nSpacecraft in action during detumbling, where the angular velocity was decreased from 50 deg/s to almost 0.\nThe 25-deg FOV camera has already been used to shoot pictures of the Earth, with two examples shown in Figure 10 and Figure 11. The first in particular contains images of human-made structures, clearly visible in the lower right corner.\nThe receiver was tested in several configurations, with the objective of finding the optimal one for reception of low power devices on ground.",
+   "falha": "",
+   "links": "https://iafastro.directory/iac/proceedings/IAC-22/IAC-22/B4/3/manuscripts/IAC-22,B4,3,12,x73652.pdf | https://iafastro.directory/iac/proceedings/IAC-22/IAC-22/B4/3/manuscripts/IAC-22,B4,3,12,x73652.pdf | https://iafastro.directory/iac/proceedings/IAC-22/IAC-22/B4/3/manuscripts/IAC-22,B4,3,12,x73652.pdf | https://iafastro.directory/iac/proceedings/IAC-22/IAC-22/B4/3/manuscripts/IAC-22,B4,3,12,x73652.pdf | https://iafastro.directory/iac/proceedings/IAC-22/IAC-22/B4/3/manuscripts/IAC-22,B4,3,12,x73652.pdf"
+  },
+  {
+   "missao": "TROPICS Pathfinder",
+   "slug": "tropics",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2021-06-30",
+   "status": "Reentered, Operational, ?",
+   "resultado": "As of August 2023, the satellites have been undergoing tests of their main instruments, microwave radiometers to collect temperature and humidity data on tropical storms.\nIn addition to the high frequency of observations, the TROPICS satellites provide high-quality data. Blackwell said the precipitation rain rate estimate derived from TROPICS Pathfinder data is better than state-of-the-art instruments on much larger spacecraft.\nWithin four weeks of receiving MIT LL’s purchase order, ATLAS had completed spacecraft integration and TROPICS was declared operational on ATLAS’ Global Federated Network—a process that typically takes ground segment providers several months or more to perform.",
+   "falha": "",
+   "links": "https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/ | https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/ | https://www.satelliteevolution.com/post/atlas-space-operations-completes-rapid-onboarding-of-critical-tropics-spacecraft"
+  },
+  {
+   "missao": "LEDSAT",
+   "slug": "ledsat",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2021-08-17",
+   "status": "Reentered, Operational",
+   "resultado": "The CubeSat switched on successfully after the deployment and all the parameters received through the telemetry were nominal. The LEDs payload was successfully switched on and observed by the S5Lab optical ground station network just 3 days after the deployment, proving the capability to detect the LEDs from ground.",
+   "falha": "",
+   "links": "https://iafastro.directory/iac/proceedings/IAC-22/IAC-22/B4/3/manuscripts/IAC-22,B4,3,12,x73652.pdf"
+  },
+  {
+   "missao": "Binar 1",
+   "slug": "binar",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2021-08-29",
+   "status": "Reentered, Semi-operational, ?",
+   "resultado": "5 days passed and we resided ourselves to the fact that maybe we couldn’t reach Binar. Then… 2 weeks later we heard back from the satellite after successfully enabling a secondary beacon!! So now what? Where do we go from here? We take what we learn and improve it for the next mission.\nFor example, we assumed the radio module we tested on the ground worked the same as the one we sent to space—but that wasn’t the case, leading to some frantic last-minute changes that eventually meant we didn’t get the images or data we hoped for from orbit.",
+   "falha": "No signal until COTS communication system was put into its own beacon mode, which depleted the battery after 11.5 days. Most likely adapter board failure.",
+   "links": "https://digitalcommons.usu.edu/smallsat/2022/all2022/56/ | https://www.thespacereview.com/article/4486/1"
+  },
+  {
+   "missao": "CUAVA-1",
+   "slug": "cuava-1",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2021-08-29",
+   "status": "Reentered, No signal",
+   "resultado": "As discussed in some of the highlighted failure root causes include:\nthe high computational burden imposed by the operating system on OnBoard Computer (OBC);\na vulnerable SD card and boot sequence;\nlast minute double tie-down requirement for antennas imposed by the launcher;\nElectrical Power System (EPS) compatibility issue with the rest of the satellite bus;\npotential current leakage from a payload switched ON at boot;\nnot enough margin for the solar panel sizing;\ninsufficient testing time (and COVID impact);\nSome of the risk mitigation strategies are listed as below:\nintroduce a payload computer to reduce the computational burden on the OBC;\nmove the graphical software interface off-line to the ground station computer with the revised software operation system;\nimplement a recovery and dual boot sequence;\nchange the EPS subsystem for better capability and reliability;\nadditional power margin added during solar panel sizing\nThese changes address and should resolve the CUAVA1 risks identified above.",
+   "falha": "Various theories listed.",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5558&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5558&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5558&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5558&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5558&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5558&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5558&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5558&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5558&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5558&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5558&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5558&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5558&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5558&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5558&context=smallsat"
+  },
+  {
+   "missao": "EASAT-2",
+   "slug": "easat-2",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2022-01-13",
+   "status": "Reentered, Semi-operational",
+   "resultado": "",
+   "falha": "Antennas not deployed, very weak signals.",
+   "links": ""
+  },
+  {
+   "missao": "Hades",
+   "slug": "hades",
+   "categoria": "A(fraco) - câmera sem alvo declarado; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2022-01-13",
+   "status": "Reentered, Semi-operational",
+   "resultado": "",
+   "falha": "Antennas not deployed, very weak signals.",
+   "links": ""
+  },
+  {
+   "missao": "HYPSO-1",
+   "slug": "hypso",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2022-01-13",
+   "status": "Operational",
+   "resultado": "Payload is alive!\nWhen we enter 2024, our first research satellite, the HYPSO-1, soon pass the two-year orbit mark! We have collected over 2000 observations and are continuously developing both the on-board software and the data processing and distribution pipeline for data sharing.\nIn addition to the ongoing HYPSO-1 operation, our team has also delivered the two payloads for our next satellite: HYPSO-2. Back in August 2022, we shipped an upgraded hyperspectral camera and a software-defined radio to be integrated at Kongsberg NanoAvionics. The integration and environmental tests finished in December, and some of our team went to Vilnius for final testing and “goodbyes”.",
+   "falha": "",
+   "links": "https://www.ntnu.edu/web/smallsat/blog/-/blogs/payload-is-alive- | https://www.linkedin.com/posts/ntnu-hypso_we-now-have-only-a-few-days-left-of-2023-activity-7143592038846951425-ZGQC/ | https://www.linkedin.com/posts/ntnu-hypso_we-now-have-only-a-few-days-left-of-2023-activity-7143592038846951425-ZGQC/"
+  },
+  {
+   "missao": "IRIS-A",
+   "slug": "iris-a",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2022-01-13",
+   "status": "Reentered, Operational",
+   "resultado": "Taiwan's first locally made global positioning system (GPS) receiver for satellite missions has functioned normally and passed key environmental tests during nearly two months in space, raising hopes for Taiwan's home-grown satellite development program.",
+   "falha": "",
+   "links": "https://focustaiwan.tw/sci-tech/202203110012"
+  },
+  {
+   "missao": "VZLUSAT-2",
+   "slug": "vzlusat-2",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2022-01-13",
+   "status": "Reentered, Operational",
+   "resultado": "The first part of commissioning included verification of the satellite platform systems, i.e., the power supply system, the UHF radio communication, and the on-board computer. Initial values of the satellite temperature indicated that the satellite was cooled down to -10 ° C, which was caused by its 11-day stay inside the deployer. After turning the satellite systems on, the temperature inside the satellite increased to operating temperature in the 0 ° C to + 10 ° C range.\nIn the second week after the deployment, gamma-ray burst detector for Masaryk University in Brno and Konkoly Observatory and X-ray solar cameras from Rigaku Innovative Technologies Europe and ADVACAM were turned on. Both devices have successfully performed the first measurements and are now also awaiting gradual commissioning.",
+   "falha": "",
+   "links": "https://www.vzlu.cz/the-main-systems-of-the-vzlusat-2-nanosatellite-put-into-operation/?lang=en | https://www.vzlu.cz/the-main-systems-of-the-vzlusat-2-nanosatellite-put-into-operation/?lang=en"
+  },
+  {
+   "missao": "INSPIRESat-1",
+   "slug": "inspiresat-1",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2022-02-14",
+   "status": "Reentered, Operational",
+   "resultado": "First contact was established with the spacecraft 45 minutes after launch. The first science instruments were turned on by February 27th. DAXSS has now observed multiple solar flares in the current increasing phase of solar cycle 25 for a period of 16 months.\nThe IS-1 spacecraft completed its primary mission when it completed six months of science operations by August 30th, 2022 to achieve comprehensive success. The spacecraft has measured many solar flare events within 15 month on-orbit period and ionosphere plasma measurements during the brief eclipse period the spacecraft encountered between May-August, 2022.\nThe SD-cards are big enough that the first 15 months of observations are still on-board and available for downlink. The amount of the DAXSS science packets downlink has been limited so far because UHF communication has only been used for the prime mission, but more (even all) of the data is anticipated to be downlinked once reliable S-band radio is commissioned.\nSpacecraft Anomalies\nIn 15 months of operations, the spacecraft has encountered multiple ADCS resets assumed to be due to Single Event Upsets (SEU’s).\nThe DAXSS instrument has shown two instances of anomalously high current draws which were isolated to the OBC of the instrument caused by SEU’s. Power cycling the instrument cleared these upsets. The spacecraft also experienced a hang up on the I2C line when the S-Band transmitter was switched on. Since primary science mission could be achieved by data downlink over UHF, it was decided to commission S-Band after the primary mission duration of 6 months. This has since been resolved by not beaconing on the UHF when S-band is in transmit mode. The UHF beaconing was causing noise in the I2C causing it to hang-up. However science data downlink over S-band has not been consistently done resulting large volume of science data still needing to be downloaded.\nSince October 2022, the spacecraft has had multiple issues with the on-board SD cards which include anomalous read pointer values for the science data partitions, Sd cards not being written to etc. Currently science data is being written to the 16 MB onboard flash memory and science data is downlinked daily before being over written. The SD Cards can still be read from and science data recorded previously is still being downlinked.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/smallsat/2023/all2023/54/ | https://digitalcommons.usu.edu/smallsat/2023/all2023/54/ | https://digitalcommons.usu.edu/smallsat/2023/all2023/54/ | https://digitalcommons.usu.edu/smallsat/2023/all2023/54/ | https://digitalcommons.usu.edu/smallsat/2023/all2023/54/ | https://digitalcommons.usu.edu/smallsat/2023/all2023/54/"
+  },
+  {
+   "missao": "Zhixing-3A",
+   "slug": "zhixing-3a",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2022-05-09",
+   "status": "Reentered, Operational",
+   "resultado": "After more than 10 days of multi-station measurement and control confirmation, the satellite measurement and control uplink and downlink are normal, the energy on the satellite is sufficient and stable, and the thermal design meets expectations. The platform function tests such as independent attitude and orbit determination, ground/sun maneuvering, and station-to-station data transmission have been completed. Others New technology verification and load performance tests have also been completed one after another, and the satellite is currently in normal operation.\nThrough the Zhixing-3A satellite and the Zhixing-1A satellite that was already in orbit in the early stage, Zhixing Space has fully verified the overall design of the satellite, the design of satellite affairs and attitude control software, and the design capabilities of ground operation and control software. The engineering application of the launched Zhixing X series radar satellites has laid a solid foundation.",
+   "falha": "",
+   "links": "http://www.smartsatellite.com/details?article_id=129 | http://www.smartsatellite.com/details?article_id=129"
+  },
+  {
+   "missao": "Foresail-1",
+   "slug": "foresail-1",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2022-05-25",
+   "status": "Reentered, Was operational",
+   "resultado": "",
+   "falha": "Connection was suddenly lost after the satellite's transmitter power was increased in June.",
+   "links": ""
+  },
+  {
+   "missao": "Platform-1",
+   "slug": "platform-1",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2022-05-25",
+   "status": "Reentered, Operational",
+   "resultado": "In order to provide a stable CubeSat as a Service, the Mission Control System has continuously improved and operated with 184 successful jobs uploaded from the ground and executed dynamically in space.\nAs of 2023-03-14:\n110+ GB data downloaded.\n6520+ telecommands.\n1293+ passes.\n155+ ML script executions.\n4 ground stations.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5798&context=smallsat"
+  },
+  {
+   "missao": "TROPICS 1",
+   "slug": "tropics",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2022-06-12",
+   "status": "Launch failure",
+   "resultado": "As of August 2023, the satellites have been undergoing tests of their main instruments, microwave radiometers to collect temperature and humidity data on tropical storms.\nIn addition to the high frequency of observations, the TROPICS satellites provide high-quality data. Blackwell said the precipitation rain rate estimate derived from TROPICS Pathfinder data is better than state-of-the-art instruments on much larger spacecraft.\nWithin four weeks of receiving MIT LL’s purchase order, ATLAS had completed spacecraft integration and TROPICS was declared operational on ATLAS’ Global Federated Network—a process that typically takes ground segment providers several months or more to perform.",
+   "falha": "",
+   "links": "https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/ | https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/ | https://www.satelliteevolution.com/post/atlas-space-operations-completes-rapid-onboarding-of-critical-tropics-spacecraft"
+  },
+  {
+   "missao": "TROPICS 2",
+   "slug": "tropics",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2022-06-12",
+   "status": "Launch failure",
+   "resultado": "As of August 2023, the satellites have been undergoing tests of their main instruments, microwave radiometers to collect temperature and humidity data on tropical storms.\nIn addition to the high frequency of observations, the TROPICS satellites provide high-quality data. Blackwell said the precipitation rain rate estimate derived from TROPICS Pathfinder data is better than state-of-the-art instruments on much larger spacecraft.\nWithin four weeks of receiving MIT LL’s purchase order, ATLAS had completed spacecraft integration and TROPICS was declared operational on ATLAS’ Global Federated Network—a process that typically takes ground segment providers several months or more to perform.",
+   "falha": "",
+   "links": "https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/ | https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/ | https://www.satelliteevolution.com/post/atlas-space-operations-completes-rapid-onboarding-of-critical-tropics-spacecraft"
+  },
+  {
+   "missao": "MIMAN",
+   "slug": "miman",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2022-06-21",
+   "status": "Semi-operational, ?",
+   "resultado": "",
+   "falha": "First communication took place 48 days after deployment but then issue with large rotational speed and battery charging.",
+   "links": ""
+  },
+  {
+   "missao": "Snuglite-II",
+   "slug": "snuglite-2",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2022-06-21",
+   "status": "Was operational",
+   "resultado": "",
+   "falha": "Problem with antenna and communication module data transmission and reception due to an error in the electrical part of the satellite continuously from the initial ejection.",
+   "links": ""
+  },
+  {
+   "missao": "GreenCube",
+   "slug": "greencube",
+   "categoria": "A(fraco) - câmera sem alvo declarado; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2022-07-13",
+   "status": "Operational",
+   "resultado": "The GreenCube 3U+ CubeSat, launched on 13 July 2022 in MEO, has allowed extended operations of a nano-satellite in Medium Earth Orbit.\nThe spacecraft was aimed at testing a cultivation unit on-board a CubeSat platform in MEO for the cultivation of microgreens in an extremely challenging radiation environment. A secondary payload, a propulsion system, was implemented and tested. The satellite equips and currently operates an amateur radio digipeater in MEO.\nThe spacecraft is still operational after 14 months of mission, against the initial predictions of few months of activity, given the environmental conditions of the selected orbit. The satellite operations in MEO have allowed to gather many lessons learned on how to conduct UHF operations, including the modulation of baud rate with respect to elevation and the scheduling of conventionally executed operations, such as telemetry down link, high fidelity data (mainly for attitude determination) down link, software upgrade and in-orbit patching, etc.\nWhile major modifications were considered, with respect to the standard S5Lab bus architecture for CubeSats, on the space segment, the ground segment required minor modifications for the UHF link at ground. The operations were conducted nominally. The extended usage of an amateur radio digipeater developed by the team allowed the radio amateur community to take advantage of a peculiar mission profile, allowing for intercontinental QSL, while lessons learned were gathered by the team for future amateur radio payload operations.",
+   "falha": "",
+   "links": "https://iafastro.directory/iac/proceedings/IAC-23/IAC-23/B4/3/manuscripts/IAC-23,B4,3,2,x79650.pdf | https://iafastro.directory/iac/proceedings/IAC-23/IAC-23/B4/3/manuscripts/IAC-23,B4,3,2,x79650.pdf | https://iafastro.directory/iac/proceedings/IAC-23/IAC-23/B4/3/manuscripts/IAC-23,B4,3,2,x79650.pdf | https://iafastro.directory/iac/proceedings/IAC-23/IAC-23/B4/3/manuscripts/IAC-23,B4,3,2,x79650.pdf"
+  },
+  {
+   "missao": "TRISAT-R",
+   "slug": "trisat-r",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2022-07-13",
+   "status": "Operational",
+   "resultado": "We are very pleased to announce that the SkyLabs on-board computer with an embedded GNSS receiver provided for the TRISAT-R mission has successfully locked to the navigation signals at the planned altitude of approximately 6000 km in the Medium Earth orbit (MEO).\nThe nanosatellite TRISAT-R flying in MEO received its first in-orbit software update of the attitude determination and control algorithm to stabilize the spacecraft into a stable two-axis attitude control.\nTRISAT-R continues to operate reliably, despite being exposed to intense radiation in mid-Earth orbit (MEO) for more than seven months.\nAs of May 2024, TRISAT-R proved to be a robust nanosatellite in a very challenging orbit. Up to this date no critical radiation-based anomaly was observed, and, thanks to the shielding strategy, also no component degradation was observed, with exception of the solar panels, which are expectedly slowly losing maximum power capabilities due to their exposure to a high radiation environment. As it seems, the solar panel degradation will determine the end of life for TRISAT-R, but according to current predictions, we anticipate at least one more year of operation. The avionics platform FDIR mechanism also performed nominally, and during the mission we were able to perform two full firmware upgrades and 3 patches. The presented mission showed the potential as self-sufficient 3U remote sensing probes in MEO orbit, paving the way for a next generations of power optimized sensing probes for multi-point data collection",
+   "falha": "",
+   "links": "https://www.linkedin.com/feed/update/urn:li:activity:6970674752491302912/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6970674752491302912%29 | https://www.linkedin.com/feed/update/urn:li:activity:6988768012640108544/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6988768012640108544%29 | https://www.skylabs.si/trisat-r-with-nanosky-satellite-avionics-continues-to-operate-flawlessly/ | https://az659834.vo.msecnd.net/eventsairwesteuprod/production-atpi-public/c26933f15fa747c7abbb5aeec3c4e4a2"
+  },
+  {
+   "missao": "TechEdSat-15",
+   "slug": "techedsat-15",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2022-10-01",
+   "status": "Reentered, Operational",
+   "resultado": "Successful test of new flight software and data collection systems.",
+   "falha": "Lower than planned orbit resulting in only 4-5 day orbital lifetime.",
+   "links": "http://mstl.atl.calpoly.edu/~workshop/archive/2023/presentations/2023_Day1_Session1_Brock_MooneyRivki_TechEdSat.pdf"
+  },
+  {
+   "missao": "ZimSat-1",
+   "slug": "zimsat-1",
+   "categoria": "A - sensoriamento remoto; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2022-11-07",
+   "status": "Reentered, Semi-operational, ?",
+   "resultado": "2023-02-19: ZimSat-1 ready to transmit data. Will begin transmitting data from space next month after undergoing orbital stabilization.\n2023-06-04: ZimSat-1 has started collecting data after undergoing orbital stabilization. Now sending and receving images of specific areas around Zimbabwe.\n2023-06-05: Painos Gweme, Reports Progress on ZimSat-1. ZimSat-1 is operational and has commenced performing the downlink and uplink functions after a successful orbital stabilisation.\nAll the BIRDS-5 CubeSats decayed in May 2023, thus the timing of some of the news is late.",
+   "falha": "",
+   "links": "https://www.sundaymail.co.zw/zimsat-1-ready-to-transmit-data | https://www.sundaymail.co.zw/zim-satellite-starts-transmitting-data | https://africanews.space/zingsas-coordinator-painos-gweme-reports-progress-on-zimsat-1/"
+  },
+  {
+   "missao": "ArgoMoon",
+   "slug": "argomoon",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2022-11-16",
+   "status": "Was operational",
+   "resultado": "Took images of the Earth and moon after deployment. However, the company said it needed more time than originally planned to commission the spacecraft.\nSignals detected; imaged Earth and Moon; safing; received additional DSN passes; no signal since DOY 332 and spacecraft is out of propellant; EOM declared March 17, 2023.",
+   "falha": "",
+   "links": "https://spacenews.com/deep-space-smallsats-face-big-challenges/ | http://www.intersmallsatconference.com/past/2023/C.3%20-%20Lichten.zip"
+  },
+  {
+   "missao": "LunaH-Map",
+   "slug": "lunah-map",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2022-11-16",
+   "status": "Retired, Operational",
+   "resultado": "On Nov. 28, NASA’s LunaH-Map spacecraft acquired its first star tracker image, showing the constellation Auriga and its two brightest stars, Menkalinan and Mahasim.\nThe mission team also made several attempts to image the Earth and Moon; however, these images resulted in saturation of the star tracker. In the coming weeks, additional imaging opportunities of the Earth and Moon will be evaluated to help further demonstrate these novel autonavigation capabilities.\nWhile a recent telemetry downlink showed an unexpected spacecraft reset, a Deep Space Network (DSN) pass has since indicated that, with the exception of the likely stuck propulsion system valve, the spacecraft is healthy with all subsystems nominal and operating as expected.\nThe problem instead was with the cubesat’s propulsion system, an electric thruster called BIT-3 from Busek that uses solid iodine as propellant. The thruster did not operate as expected in the days after launch, causing the spacecraft to miss its primary opportunity to maneuver into orbit around the moon.\nPropulsion system (Busek ion thruster) unable to activate; missed LOI; losing link margin; using DSN arrays to close link.\nLunaH-Map Mission Status (Interplanetary Small Satellite Conference 2023):\nBatteries at 70% SOC on deployment (consistent with optimistic predicts from lab data).\nAll spacecraft systems were commissioned successfully.\nNeutron data were collected early after deployment.\nReaction wheel speeds are being managed via reorienting the spacecraft.\nSuccessfully acquired star field and planet images with star tracker.\nPropulsion system did not ignite after initial attempts prior to the lunar flyby:\nThis was not unexpected given the long wait after spacecraft delivery to launch (over a year) ß more on this later.\nDoppler ranging data showed detectable spacecraft motion during ignition attempts, and reaction wheel speeds change in directions consistent with minor amount of iodine flow. This suggests a partially stuck valve.\nThe propulsion system has heaters to condition the valve to unstick, however, to date attempts at raising tank and valve temperatures have been unsuccessful.\nEOM will be end of May 2023 unless ignition is achieved.\nContacts 2X per week continue to attempt ignition.",
+   "falha": "Propulsion valve is likely stuck but otherwise operational.",
+   "links": "https://blogs.nasa.gov/lunah-map/2022/12/07/nasas-lunah-map-captures-image-of-auriga-constellation/ | https://blogs.nasa.gov/lunah-map/2022/12/07/nasas-lunah-map-captures-image-of-auriga-constellation/ | https://blogs.nasa.gov/lunah-map/2022/12/07/nasas-lunah-map-captures-image-of-auriga-constellation/ | https://spacenews.com/deep-space-smallsats-face-big-challenges/ | http://www.intersmallsatconference.com/past/2023/C.3%20-%20Lichten.zip | http://www.intersmallsatconference.com/past/2023/A.2%20-%20Hardgrove.zip | http://www.intersmallsatconference.com/past/2023/A.2%20-%20Hardgrove.zip | http://www.intersmallsatconference.com/past/2023/A.2%20-%20Hardgrove.zip | http://www.intersmallsatconference.com/past/2023/A.2%20-%20Hardgrove.zip | http://www.intersmallsatconference.com/past/2023/A.2%20-%20Hardgrove.zip | http://www.intersmallsatconference.com/past/2023/A.2%20-%20Hardgrove.zip | http://www.intersmallsatconference.com/past/2023/A.2%20-%20Hardgrove.zip | http://www.intersmallsatconference.com/past/2023/A.2%20-%20Hardgrove.zip | http://www.intersmallsatconference.com/past/2023/A.2%20-%20Hardgrove.zip | http://www.intersmallsatconference.com/past/2023/A.2%20-%20Hardgrove.zip | http://www.intersmallsatconference.com/past/2023/A.2%20-%20Hardgrove.zip | http://www.intersmallsatconference.com/past/2023/A.2%20-%20Hardgrove.zip"
+  },
+  {
+   "missao": "LunIR",
+   "slug": "lunir",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2022-11-16",
+   "status": "Was semi-operational",
+   "resultado": "The company said in December that an “unexpected issue with our radio signal” kept the spacecraft from conducting any observations during the flyby. Nonetheless, Lockheed called the mission a successful technology demonstration by proving that an infrared sensor and cryocooler could be packaged into a 6U cubesat.\nSolar panel(s) partially deployed, blocking antenna; flyby failed; DSN help requested.",
+   "falha": "Ran into an unexpected issue with our radio signal and couldn’t snap any pics of the Moon.",
+   "links": "https://spacenews.com/deep-space-smallsats-face-big-challenges/ | http://www.intersmallsatconference.com/past/2023/C.3%20-%20Lichten.zip"
+  },
+  {
+   "missao": "OMOTENASHI",
+   "slug": "omotenashi",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2022-11-16",
+   "status": "Was semi-operational",
+   "resultado": "Tumbling; early signal, no signal now.\nInitial detection for 80 minutes then nothing further. RS provided data and plots to project to help assess spacecraft condition and what may have happened\n.\nThe first contact pass from NASA DSN Madrid station began shortly after the separation. However, telemetry from OMOTENASHI could not be locked for a while. In order to check the status of the spacecraft, we sent a “high power transmission mode” command, and the telemetry locked. Because the attitude control system showed “Sun pointing” mode, the +Y panel with solar cells should face the sun. However, the status of Sun-pointing mode was “Converging”, which meant that the attitude control system was in the process of trying to point towards the sun. The solar angle, which is the angle between +Y panel normal and the direction of the sun, was approximately 145 degrees. That meant the solar cell panels faced almost in the opposite direction of the sun. In fact, the generation power of the solar cells was zero and the battery voltage showed it was almost depleted. Moreover, the spacecraft was rotating around Y axis at about -80 deg/s. It was beyond the control limit of the attitude control system and the Sun-pointing control was not completed. Finally, the battery was depleted and communication with the spacecraft lost. Considering the attitude when the communication lost, the spacecraft power was assumed to be reactivated from March or April in 2023. However, the spacecraft would fly-by the moon on 21 November. Therefore, we gave up the lunar landing experiment and decided to restart the operation from March 2023.\nWe estimated the cause of the anomaly from the telemetry data (Fig. 5) and the time history of the receiving signal recorded by Madrid station (Fig. 6). By a Fault Tree Analysis (FTA), we think the failure scenario as follows, 1. “Rate dump” control using gas jet propulsion was activated automatically because the disturbance of the separation from OSA was over the angular momentum limit of the attitude control system. The Rate-dump control seemed to be converged normally and move to “Normal control” in which RWs are used instead of the gas jets. Therefore, gas jet propulsion units were automatically switched off. 2. However, before the completion of the Rate-dump control, one or two of thruster valves were not completely closed and the leakage of the gas continued. It cased the disturbance torque to the spacecraft and the spacecraft started rotation around its Y axis. 3. The thrusters are connected to a plenum tank, which is connected to a propellant tank with two valves. It cannot be considered that three valves had open failures at the same time. Therefore, if the propellant in the plenum was gaseous state, the leakage would stop soon because the volume of the plenum was small. Unfortunately, however, liquid propellant seemed to exist in the plenum, because gas leaked from the propellant tank through the valves in three years (from the filling of the propellant in September 2019 to the launch in November 2022) became liquid in the plenum tank. Even the leak rate of the valves was very small, the long period has caused a lot of propellant leak and the propellant liquefied inside the plenum. 4. Because the rotation of the spacecraft, that is, its angular momentum became big beyond the threshold, the attitude control system stopped the drive of the reaction wheels. Therefore, Sun-point control was not completed. To restart Sun-point control, we tried to reduce the angular momentum by initiating Rate-dump control manually. But there was not enough time to reduce the momentum, and the battery was depleted.\nFrom March 2023, we started the search and rescue operation. Since the tracking time of the spacecraft at the first contact pass was very short, the trajectory estimation of OMOTENASHI had a large error. The uncertainty was due to the estimation error of the separation velocity from OSA. To narrow the search area, we tried to reduce the estimation error of the separation velocity as much as possible. All CubeSats were deployed from OSA while spinning with about 6 deg/s. The spin axis direction of OSA and the attached positions of the deployers to OSA were informed from NASA. However, the rotational phase of OSA at the instance of the separation of OMOTENASHI was unknown. We estimated it from other CubeSats’ trajectories, though only three of ten CubeSats made precise orbit determination. The antenna beam width of JAXA ground stations are about 0.1 degrees. It was very small compared with OMOTENASHI’s position error. Therefore, we searched one direction for two minutes, which were required to send commands for the search and rescue. And we changed to search another direction, and so on. The spacecraft is going far from Earth. We estimated that the communication with the spacecraft was possible till the end of September 2023. So, we gave up the operation then.\nThough we gave up “semi-hard landing on the moon”, some newly developed or procured instruments were checked at the first contact pass. Power system except solar cells, COM, OBC, and some functions of the attitude control system were confirmed. Moreover, we measured the radiation environment outside the Earth’s magnetosphere for the first time in Japan. Fig. 7 shows the measured counts of both Ch.1 (Proton + GCR) and Ch.2 (GCR) sensors. The number obtained by subtracting the Ch.2 counts from the Ch.1 counts corresponds to protons. A detailed analysis to correct the shielding effect of the spacecraft body and calibrate the sensor outputs based on ground tests is underway [23].",
+   "falha": "Spacecraft was rotating rapidly due to leaky propulsion and solar cells were opposite direction to the Sun. Transmitter turned off at the end of the pass due to low voltage and has not restored.",
+   "links": "http://www.intersmallsatconference.com/past/2023/C.3%20-%20Lichten.zip | http://www.intersmallsatconference.com/past/2023/B.6%20-%20Buccino.zip | https://iafastro.directory/iac/proceedings/IAC-23/IAC-23/B4/8/manuscripts/IAC-23,B4,8,2,x76126.pdf | https://iafastro.directory/iac/proceedings/IAC-23/IAC-23/B4/8/manuscripts/IAC-23,B4,8,2,x76126.pdf | https://iafastro.directory/iac/proceedings/IAC-23/IAC-23/B4/8/manuscripts/IAC-23,B4,8,2,x76126.pdf | https://iafastro.directory/iac/proceedings/IAC-23/IAC-23/B4/8/manuscripts/IAC-23,B4,8,2,x76126.pdf"
+  },
+  {
+   "missao": "Kelpie 1",
+   "slug": "kelpie",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2023-01-03",
+   "status": "Operational",
+   "resultado": "Suffered an anomaly of its payload antenna which did not deploy. Due to the malfunction the satellite will be unable to deliver the planned data services, and as such it is considered a total loss. The loss of the satellite has been reported to the company's insurer.",
+   "falha": "",
+   "links": ""
+  },
+  {
+   "missao": "Menut",
+   "slug": "menut",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-01-03",
+   "status": "Operational",
+   "resultado": "A little more than a month after its launch, the 'Menut', the second nanosatellite placed in orbit by the Government in the framework of the NewSpace Strategy of Catalonia, has provided the first observation images of the Earth obtained from space: an infrared image (grayscale) of some marshes located near New Orleans, USA, and a colour image (RGB) of the clouds in Europe.\nAfter a four week LEOP, we started receiving high quality images which have already provided invaluable insights for the Generalitat de Catalunya, monitoring the effects of a recent storm over the Terres de l'Ebre and the loss of water volume in the Darnius-Boadella reservoir.",
+   "falha": "",
+   "links": "https://www.open-cosmos.com/news/first-earth-observation-images-from-menut-satellite-received | https://www.linkedin.com/posts/opencosmos_wrapping-up-a-hugely-successful-2023-for-activity-7143227228456173568-zNH5?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+   "missao": "STAR VIBE",
+   "slug": "scansat",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-01-03",
+   "status": "Operational",
+   "resultado": "April 2023 update: More than 100 days on orbit, 200 communication sessions and 80 images taken - the newest one from the Iran and Turkmenistan you can see below. Satellite is doing good job, our mission operation team works on providing an image sessions all the time. Now we're planning to go to next stage of extended mission, among others to download the imagery using S-band in high resolution and VIBE instrument launching.\nStill operating after 24 months.",
+   "falha": "",
+   "links": "https://www.linkedin.com/feed/update/urn:li:activity:7056984571120095234/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7056984571120095234%29 | https://www.linkedin.com/posts/j%C4%99drzej-kowalewski-01_r%C3%B3wno-dwa-lata-temu-na-orbit%C4%99-polecia%C5%82-star-activity-7280960184053620736-fIX9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM"
+  },
+  {
+   "missao": "AzaadiSAT 2",
+   "slug": "azaadisat-2",
+   "categoria": "A(fraco) - câmera sem alvo declarado; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2023-02-10",
+   "status": "Reentered, Was operational",
+   "resultado": "",
+   "falha": "Power system issues due to software",
+   "links": ""
+  },
+  {
+   "missao": "CIRBE",
+   "slug": "cirbe",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-04-15",
+   "status": "Reentered, Operational",
+   "resultado": "CIRBE commissioning completed efficiently and captured a significant radiation storm within 10 days of launch.\nAfter a year in space, the CubeSat experienced an anomaly and unexpectedly went quiet on April 15, 2024. Luckily, on June 15, the spacecraft sprang back to life and resumed taking measurements.",
+   "falha": "Lost contact for 2 months.",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5687&context=smallsat | https://science.nasa.gov/science-research/heliophysics/nasa-cubesat-finds-new-radiation-belts-after-may-2024-solar-storm/"
+  },
+  {
+   "missao": "Connecta T2.1",
+   "slug": "connecta-t2.1",
+   "categoria": "A - sensoriamento remoto; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2023-04-15",
+   "status": "Reentered, Operational",
+   "resultado": "Lumi's retroreflector mounted on Plan-S Satellite and Space Technologies Connecta T2.1 (56210 2023-054AJ). Lasting just 24 picoseconds each, these laser pulses mean the satellite was tracked to within 3.7mm, virtually eliminating uncertainty in position.",
+   "falha": "",
+   "links": "https://www.linkedin.com/posts/lumi-space_spacesustainability-spaceeconomy-lasers-activity-7222196298152620033-TVTK?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+   "missao": "KILICSAT",
+   "slug": "kilicsat",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2023-04-15",
+   "status": "Reentered, Operational",
+   "resultado": "As a result of our satellite's 45-day adventure in space, we have received more than a million AIS Messages and visualized more than five hundred thousand AIS Messages by downloading them to the ground station at THK University.\nKILICSAT successfully collected over a million AIS messages from ships traversing the seas, showcasing Turkiye's capability to contribute valuable data for maritime safety and navigation.",
+   "falha": "",
+   "links": "https://www.linkedin.com/feed/update/urn:li:activity:7072166998935224320/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7072166998935224320%29 | https://www.linkedin.com/posts/gumushaerospace_cubesat-cubesats-ais-activity-7193032428544835584-0zFW?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+   "missao": "Lemur-2 165 SPACEGUS,",
+   "slug": "lemur-2-adler-2",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-04-15",
+   "status": "Reentered, Operational",
+   "resultado": "Speaking about the mission, Stefan Amberger, co-founder of Tilebox, said, “Over the past year alone, approximately 11 million raw data records were ingested, processed, cleaned, and made available to the Austrian Space Forum for ADLER-2 in near real-time. The intuitive access to this data has enabled dozens of developers and scientists to explore the data with minimal effort, and the feedback has helped us significantly expand our service in the meantime.”",
+   "falha": "",
+   "links": "https://spacewatch.global/2024/08/austrian-space-forum-concludes-successful-space-debris-mission/"
+  },
+  {
+   "missao": "LLITED A",
+   "slug": "llited",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-04-15",
+   "status": "Reentered, Operational",
+   "resultado": "Both LLITED-A and LLITED-B spacecraft completed early orbit check out and commissioning, but due to a solar cell anomaly are operating with a significant reduction in power. This has resulted in a much lower duty cycle for each of the three science payloads: an ionization gauge (MIGSI) to observe neutral density, a planar ion probe (PIP) to observe plasma density, and a GPS radio occultation sensor for observing (CTECS-A) total electron content. The combination of the operating orbit and power budget has required a refocusing of the mission science goals and a highly tailored ConOps\n.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5853&context=smallsat"
+  },
+  {
+   "missao": "LLITED B",
+   "slug": "llited",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-04-15",
+   "status": "Reentered, Operational",
+   "resultado": "Both LLITED-A and LLITED-B spacecraft completed early orbit check out and commissioning, but due to a solar cell anomaly are operating with a significant reduction in power. This has resulted in a much lower duty cycle for each of the three science payloads: an ionization gauge (MIGSI) to observe neutral density, a planar ion probe (PIP) to observe plasma density, and a GPS radio occultation sensor for observing (CTECS-A) total electron content. The combination of the operating orbit and power budget has required a refocusing of the mission science goals and a highly tailored ConOps\n.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5853&context=smallsat"
+  },
+  {
+   "missao": "VIREO",
+   "slug": "vireo",
+   "categoria": "A - sensoriamento remoto; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2023-04-15",
+   "status": "Reentered, Operational",
+   "resultado": "VIREO’s on-board demonstration experiments have been running for months with excellent results, from the very beginning of the space experiments, the on-board AI algorithm successfully pre-selected the images that the system sent back to Earth.\nA number of space experiments have been carried out on board VIREO, including a joint development with the aiMotive team. This involved processing image data captured by the satellite’s cameras in space using AI-based image processing algorithms. This demonstration was also an innovative technology transfer, as we integrated an automotive hardware accelerator, aiWare, into the satellite. Another significant experiment was the on-board run of an AI-enabled software algorithm suite from KP Labs in Poland, which learned on-board cloud detection and cloud mask generation using VIREO on-board images after reconfiguring the neural network.\nA new feature on the satellite is that, in addition to the experiments already presented, we have also tested a payload control subsystem of our own design in the 10 × 10 × 10 cm cargo bay. This will support future CubeSat projects by simplifying and speeding up integration and providing outstanding on-board computing capacity for the various sensors and experiments. We are also prepared for future Earth observation missions.\nWe have also demonstrated several imaging techniques with four different types of cameras in space. For example, we have demonstrated that the satellite can capture images by focusing on a point on the ground and tracking it as it moves in orbit. We have also taken ground target tracking and burst shooting images and developed automated image acquisition processes for Earth-observation purposes.\nDuring its 16-month mission, CubeSat captured breathtaking images. These stunning images of the Earth from space provides a unique perspective of our planet that also shows its fragile beauty.\nAlthough the mission is over, the success of VIREO has proven that artificial intelligence technology can make earth observation faster and more efficient, which can mean advances in sectors such as agriculture, disaster management, and energy extraction.\nImages from space can be used to quickly and accurately track changes in the earth’s surface and unexpected events. In addition, its further development could pave the way for areas such as better coordination of satellite fleets, bringing the internet to remote areas, space mining, reducing space debris or the success of very distant space missions.\nToday, on 7th August 2024 morning, the satellite will deorbit over New Zealand at 11:39am, reach our atmosphere and will be destroyed forever.\nNew platform capabilities demonstrated in VIREO mission:\nWithin 1U payload bay:\n2 general-purpose, AI-capable Single-Board Computers designed from scratch\n2 × SpaceWire + 1 × Gigabit Ethernet links (harness-based)\n2 × automotive GMSL + 2 × commercial JPEG camera systems in 2 different lens configurations\nAI-related IODs: cloud-detection capabilities demonstrated using:\nNextChip’s Apache5 SoC with aimotive’s aiWare CNN accelerator\nKP Labs’ „The Herd” AI-based algorithm collection\nTechnological advancements in C3S’ portfolio:\nHardware: System-on-module, System-on-Chip, high-density storage, high-speed serial links, and FPGA integration\nSoftware: combined FreeRTOS & Linux-based OBDH approach, adaptive payload-handling mechanism\nFPGA: first mission of an in-house developed soft-processor system incl. ≈30 proprietary IP cores\nMechanical engineering: 3D-printed camera support structure\nOperation: fully automated image acquisition processes for Earth-observation purposes\nrandom thumbling\nground target tracking\nburst shooting (in nadir direction or with an automatically calculated roll angle)",
+   "falha": "",
+   "links": "https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/ | https://c3s.hu/2024/08/07/vireo-deorbit-mission-accomplished/"
+  },
+  {
+   "missao": "Lumelite-4",
+   "slug": "lumelite-4",
+   "categoria": "A(fraco) - câmera sem alvo declarado; C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2023-04-22",
+   "status": "Operational",
+   "resultado": "Since its deployment, LUMELITE-4 has been conducting on-orbit experiments, made possible with invaluable ground support from the Centre for Remote Imaging, Sensing and Processing (CRISP).",
+   "falha": "",
+   "links": "https://www.linkedin.com/posts/star-nus_oneyearanniversary-activity-7194322910809923584-ailu?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+   "missao": "GS-1",
+   "slug": "g-space-1",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-05-01",
+   "status": "Operational",
+   "resultado": "Orbit Guard #1 has finally embarked on its trajectory shift! Currently drifting under the GEO arch since November 16th, 2023, toward its first mission-dedicated orbital slot, the servicer should commence its first in-orbit services mission by December 10th.\nLatest Update: As of November 20, 2023, at 10:00:00 UTC, Orbit Guard #1 proudly reports a semi-major axis of 42,026 kilometers and a longitude of 124.4 degrees—testaments to its unwavering advancement toward its mission objectives.\nCelebrating its 1-year anniversary since launched by SpaceX's Falcon Heavy on May 1st, 2023. This past year, Orbit Guard #1 successfully fulfilled all its tech demonstration and commercial missions and has paved the way for our future projects. In numbers :\n4 years in design and manufacturing\n365 days in orbit\n1146km electric orbit raising\n2 slots station kept\n125 degrees travelled across the GEO belt\n1st in-orbit tests of our rendezvous solution\n1st commercial CubeSat in GEO orbit.",
+   "falha": "",
+   "links": "https://www.linkedin.com/feed/update/urn:li:activity:7133716970666897408/ | https://www.linkedin.com/feed/update/urn:li:activity:7133716970666897408/ | https://www.linkedin.com/posts/infinite-orbits_infiniteorbits-inorbitservices-newspace-activity-7191330583694749696-J6mA?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/infinite-orbits_infiniteorbits-inorbitservices-newspace-activity-7191330583694749696-J6mA?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/infinite-orbits_infiniteorbits-inorbitservices-newspace-activity-7191330583694749696-J6mA?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/infinite-orbits_infiniteorbits-inorbitservices-newspace-activity-7191330583694749696-J6mA?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/infinite-orbits_infiniteorbits-inorbitservices-newspace-activity-7191330583694749696-J6mA?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/infinite-orbits_infiniteorbits-inorbitservices-newspace-activity-7191330583694749696-J6mA?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/infinite-orbits_infiniteorbits-inorbitservices-newspace-activity-7191330583694749696-J6mA?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/infinite-orbits_infiniteorbits-inorbitservices-newspace-activity-7191330583694749696-J6mA?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+   "missao": "TROPICS 5",
+   "slug": "tropics",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-05-08",
+   "status": "Reentered, Operational",
+   "resultado": "As of August 2023, the satellites have been undergoing tests of their main instruments, microwave radiometers to collect temperature and humidity data on tropical storms.\nIn addition to the high frequency of observations, the TROPICS satellites provide high-quality data. Blackwell said the precipitation rain rate estimate derived from TROPICS Pathfinder data is better than state-of-the-art instruments on much larger spacecraft.\nWithin four weeks of receiving MIT LL’s purchase order, ATLAS had completed spacecraft integration and TROPICS was declared operational on ATLAS’ Global Federated Network—a process that typically takes ground segment providers several months or more to perform.",
+   "falha": "",
+   "links": "https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/ | https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/ | https://www.satelliteevolution.com/post/atlas-space-operations-completes-rapid-onboarding-of-critical-tropics-spacecraft"
+  },
+  {
+   "missao": "TROPICS 6",
+   "slug": "tropics",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-05-08",
+   "status": "Reentered, Operational",
+   "resultado": "As of August 2023, the satellites have been undergoing tests of their main instruments, microwave radiometers to collect temperature and humidity data on tropical storms.\nIn addition to the high frequency of observations, the TROPICS satellites provide high-quality data. Blackwell said the precipitation rain rate estimate derived from TROPICS Pathfinder data is better than state-of-the-art instruments on much larger spacecraft.\nWithin four weeks of receiving MIT LL’s purchase order, ATLAS had completed spacecraft integration and TROPICS was declared operational on ATLAS’ Global Federated Network—a process that typically takes ground segment providers several months or more to perform.",
+   "falha": "",
+   "links": "https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/ | https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/ | https://www.satelliteevolution.com/post/atlas-space-operations-completes-rapid-onboarding-of-critical-tropics-spacecraft"
+  },
+  {
+   "missao": "Dalian-1 Lianli",
+   "slug": "dalia-1-lianli",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-05-10",
+   "status": "Reentered, Operational",
+   "resultado": "Dalian-1/Lianli was launched on May 10, 2023, and was successfully deployed into orbit from the Tianzhou-6 cargo spacecraft on January 18, 2024.\nA series of HAN propulsion system tests have shown the orbit has been lifted from a perigee of 325.7km and an apogee of 352.6km on February 26th at 02:00:00 Beijing time to a perigee of 340.7km and an apogee of 373.2km on February 29th at 02:00:00 Beijing time, resulting in an average orbital height increase of approximate 18km (considering an orbital decay of approximate 1km per day, the actual orbital height increase would exceed 20km).\nAnother payload is a high-resolution camera, a resolution is less than 1m(PAN) and 4 meter (multiple spectrum) @500km.\nOn-orbit validation of the OpenHarmony real-time operating system based on the Dalian-1 Lianli satellite.",
+   "falha": "",
+   "links": "https://www.linkedin.com/pulse/12u-dalian-1lianli-successfully-raised-over-20km-altitude-xiaozhou-yu-ed4ic/ | https://www.linkedin.com/pulse/12u-dalian-1lianli-successfully-raised-over-20km-altitude-xiaozhou-yu-ed4ic/ | https://www.linkedin.com/pulse/12u-dalian-1lianli-successfully-raised-over-20km-altitude-xiaozhou-yu-ed4ic/ | https://www.eurekalert.org/news-releases/1110114"
+  },
+  {
+   "missao": "KSAT3U",
+   "slug": "ksat3u",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-05-25",
+   "status": "Operational",
+   "resultado": "Maintained its performance well for 6 months after settling into orbit. KSAT3U photographed an area 57 km wide and 32 km long in black and white from 540 km above the Earth. The resolution is 30m.",
+   "falha": "",
+   "links": "https://biz.chosun.com/science-chosun/technology/2023/11/20/KZXCOUG3OVDQNDOYWSMDQSUDFU/"
+  },
+  {
+   "missao": "TROPICS 3",
+   "slug": "tropics",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-05-26",
+   "status": "Reentered, Operational",
+   "resultado": "As of August 2023, the satellites have been undergoing tests of their main instruments, microwave radiometers to collect temperature and humidity data on tropical storms.\nIn addition to the high frequency of observations, the TROPICS satellites provide high-quality data. Blackwell said the precipitation rain rate estimate derived from TROPICS Pathfinder data is better than state-of-the-art instruments on much larger spacecraft.\nWithin four weeks of receiving MIT LL’s purchase order, ATLAS had completed spacecraft integration and TROPICS was declared operational on ATLAS’ Global Federated Network—a process that typically takes ground segment providers several months or more to perform.",
+   "falha": "",
+   "links": "https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/ | https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/ | https://www.satelliteevolution.com/post/atlas-space-operations-completes-rapid-onboarding-of-critical-tropics-spacecraft"
+  },
+  {
+   "missao": "TROPICS 7",
+   "slug": "tropics",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-05-26",
+   "status": "Reentered, Operational",
+   "resultado": "As of August 2023, the satellites have been undergoing tests of their main instruments, microwave radiometers to collect temperature and humidity data on tropical storms.\nIn addition to the high frequency of observations, the TROPICS satellites provide high-quality data. Blackwell said the precipitation rain rate estimate derived from TROPICS Pathfinder data is better than state-of-the-art instruments on much larger spacecraft.\nWithin four weeks of receiving MIT LL’s purchase order, ATLAS had completed spacecraft integration and TROPICS was declared operational on ATLAS’ Global Federated Network—a process that typically takes ground segment providers several months or more to perform.",
+   "falha": "",
+   "links": "https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/ | https://spacenews.com/tropics-cubesat-constellation-ready-for-hurricane-season/ | https://www.satelliteevolution.com/post/atlas-space-operations-completes-rapid-onboarding-of-critical-tropics-spacecraft"
+  },
+  {
+   "missao": "EIVE",
+   "slug": "eive",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-06-12",
+   "status": "Reentered, Operational",
+   "resultado": "EIVE operations were an enormous challenge due to the circumstances of the project, but have been a complete success thus far. Limited by a tight schedule, an unfinished OBSW, a first basic MCS version and reduced test facilities, a rather dynamic environment prevailed, that prevented operations from being entirely planned and prepared. This led to a change in the operations philosophy, which then focused primarily on the fundamentals ranging from satellite survival to idle mode commissioning.\nTests and OBSW implementations were conducted in the knowledge that further OBSW updates would be necessary in orbit to achieve the mission objectives. Although a dedicated spacecraft simulator is preferred for satellite missions, the feasibility of planning and performing satellite operations with limited test facilities has been demonstrated. However, the difficulties and risks related to operations must be known and addressed with a suitable space segment and appropriate safety measures.\nWith the aforementioned focus on the fundamentals, the LEOP was carried out completely successfully and EIVE was confirmed as being capable of surviving in the space environment. Further commissioning of the satellite bus and the payload was completed with some flaws identified. The GNSSs had to be declared defective and the PLOC is subject of further investigations. The first phase of routine operations of the E-band payload has begun with promising results. The SCEX has exceeded expectations and new sub-mission objectives are being defined.",
+   "falha": "",
+   "links": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5858&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5858&context=smallsat | https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=5858&context=smallsat"
+  },
+  {
+   "missao": "GEISAT Precursor",
+   "slug": "gei-sat",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-06-12",
+   "status": "Operational",
+   "resultado": "GEISAT is celebrating 2 years in orbit, and we take the chance to share with you some key facts achieved so far:\n11+ million Earth images\n166+ Terabytes of downloaded images\n11,095 orbits (which is over 3x the distance to the Sun)\n3,000+ targeted acquisitions\nOur first satellite with 5-band SWIR",
+   "falha": "",
+   "links": "https://x.com/satlantis_/status/1933224512499208607 | https://x.com/satlantis_/status/1933224512499208607 | https://x.com/satlantis_/status/1933224512499208607 | https://x.com/satlantis_/status/1933224512499208607 | https://x.com/satlantis_/status/1933224512499208607 | https://x.com/satlantis_/status/1933224512499208607"
+  },
+  {
+   "missao": "Kelpie 2",
+   "slug": "kelpie",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2023-06-12",
+   "status": "Semi-operational",
+   "resultado": "Suffered an anomaly of its payload antenna which did not deploy. Due to the malfunction the satellite will be unable to deliver the planned data services, and as such it is considered a total loss. The loss of the satellite has been reported to the company's insurer.",
+   "falha": "",
+   "links": ""
+  },
+  {
+   "missao": "Khors 1",
+   "slug": "khors-1-2",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2023-06-27",
+   "status": "Operational",
+   "resultado": "Selected AIS results shared on the website.",
+   "falha": "",
+   "links": "https://bsail.ru/?page_id=2881&lang=ru"
+  },
+  {
+   "missao": "Khors 2",
+   "slug": "khors-1-2",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2023-06-27",
+   "status": "Operational",
+   "resultado": "Selected AIS results shared on the website.",
+   "falha": "",
+   "links": "https://bsail.ru/?page_id=2881&lang=ru"
+  },
+  {
+   "missao": "NuLion",
+   "slug": "nulion",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2023-07-30",
+   "status": "Operational",
+   "resultado": "We began to attempt contacting it using our own ground station, following our planned operating procedure. Initially, we did not manage to contact the satellite on its first few passes.\nFortunately, NUS CRISP reached out to us offering help and began tracking NuLIoN. NUS CRISP is an operational ground station and are busy tracking other satellites. Nevertheless, they tracked NuLIoN with their spare capacity. At around 1600hrs, they picked up a short blip on their spectrum analyser, which corresponds to NuLIoN’s frequency. We quickly integrated our ground equipment into their station and waited. In the subsequent pass, we started to see scrambled data coming in but being discarded. At last, we got our first decoded beacon packet at 21:01:07SGT.\nNuLIoN is operating nominally, solar panels and communication antenna are fully deployed. In the upcoming weeks, we will continue to test the satellite and commission it phase by phase till it is ready for its mission.\nDeployment of Oxford Space Systems’ cutting-edge deployable helical antenna.\nSuccessful collaboration with Squareroot8 Technologies in demonstrating Quantum Random Number Generation (QRNG) and Post-Quantum Cryptography (PQC) technologies in space.",
+   "falha": "",
+   "links": "https://www.linkedin.com/posts/nuspace-pte-ltd_sgspace-singapore-collaboration-activity-7091961052006907904-iiwY?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/nuspace-pte-ltd_sgspace-singapore-collaboration-activity-7091961052006907904-iiwY?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/nuspace-pte-ltd_sgspace-singapore-collaboration-activity-7091961052006907904-iiwY?utm_source=share&utm_medium=member_desktop | https://oxford.space/post/?permalink=nuspace-launch-internet-of-things-mission-with-oxford-space-systems-antenna | https://www.linkedin.com/posts/nuspace-pte-ltd_successful-space-demonstration-of-qrng-pqc-activity-7141274681549946881-Lnjv?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+   "missao": "ANSER A Leader",
+   "slug": "anser",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-10-09",
+   "status": "Reentered, Deployment failure",
+   "resultado": "“As soon as our launch and early operations phase was complete, we began work to reconfigure Follower 1 to assume the Leader’s role in the cluster. This was achieved without any apparent decrease in its observation capabilities. However the Leader’s cloud detection functionality cannot be replicated by a Follower satellite. Instead we make use of Copernicus Sentinel satellite images to validate our hyperspectral data instead. This can’t be done in real time, but it still works. With this new configuration, ANSER’s mission is still 100% operational.”",
+   "falha": "",
+   "links": "https://www.spacequip.eu/2024/05/27/winged-cubesat-flock-survives-leaders-loss/"
+  },
+  {
+   "missao": "ANSER B",
+   "slug": "anser",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-10-09",
+   "status": "Operational",
+   "resultado": "“As soon as our launch and early operations phase was complete, we began work to reconfigure Follower 1 to assume the Leader’s role in the cluster. This was achieved without any apparent decrease in its observation capabilities. However the Leader’s cloud detection functionality cannot be replicated by a Follower satellite. Instead we make use of Copernicus Sentinel satellite images to validate our hyperspectral data instead. This can’t be done in real time, but it still works. With this new configuration, ANSER’s mission is still 100% operational.”",
+   "falha": "",
+   "links": "https://www.spacequip.eu/2024/05/27/winged-cubesat-flock-survives-leaders-loss/"
+  },
+  {
+   "missao": "ANSER C",
+   "slug": "anser",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-10-09",
+   "status": "Operational",
+   "resultado": "“As soon as our launch and early operations phase was complete, we began work to reconfigure Follower 1 to assume the Leader’s role in the cluster. This was achieved without any apparent decrease in its observation capabilities. However the Leader’s cloud detection functionality cannot be replicated by a Follower satellite. Instead we make use of Copernicus Sentinel satellite images to validate our hyperspectral data instead. This can’t be done in real time, but it still works. With this new configuration, ANSER’s mission is still 100% operational.”",
+   "falha": "",
+   "links": "https://www.spacequip.eu/2024/05/27/winged-cubesat-flock-survives-leaders-loss/"
+  },
+  {
+   "missao": "PRETTY",
+   "slug": "pretty",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-10-09",
+   "status": "Operational",
+   "resultado": "Announced in April 2024, that the in-orbit commissioning phase has been successfully completed. Both instruments are working fine. The two instruments are the GNSS reflectometer built by Beyond Gravity and the dosimeter from Seibersdorf Laboratories.\nA prolonged commissioning phase followed, complicated by issues with the satellite’s pointing software and radio interference from other sources.\nA shoebox-sized satellite looking far to the horizon picked up a strong signal reflection from hundreds of kilometres below it, beside a lonely polar island in the Canadian Arctic.\nAustrian Satellite Mission PRETTY Continues under the Leadership of TU Graz, 2025-11-06.",
+   "falha": "",
+   "links": "https://www.linkedin.com/posts/beyondgravity_good-news-from-our-climate-cubesat-pretty-activity-7185645847555035137--k9G?utm_source=share&utm_medium=member_desktop | https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Icy_first_light_of_shoebox-sized_PRETTY_CubeSat | https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Icy_first_light_of_shoebox-sized_PRETTY_CubeSat | https://www.linkedin.com/pulse/austrian-satellite-mission-pretty-continues-under-leadership-w5tqf/?trackingId=ndUeo0QbSMGTKhK18YrvPQ%3D%3D"
+  },
+  {
+   "missao": "Intuition-1",
+   "slug": "intuition-1",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-11-11",
+   "status": "Reentered, Operational",
+   "resultado": "Intuition-1 is reporting nominal telemetry across the board. After successfully deploying UHF antennas and solar arrays, the operations team is currently engaged in the precise activation of subsystems as we progress toward the satellite's full operational state.\nSuccessfully activated the Leopard Data Processing Unit (DPU), marking a significant development in our satellite's functionality. This unit, with its capability for high-speed processing up to 7.6 Gb/s and a substantial storage capacity of 960 GiB, plays a critical role in processing hyperspectral images on-board through Neural Networks.",
+   "falha": "",
+   "links": "https://www.linkedin.com/feed/update/urn:li:activity:7133757229844811776/ | https://www.linkedin.com/posts/kp-labs-sp-z-o-o_kplabs-missionai-mission-activity-7181238843898044416-HA3F?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+   "missao": "MANTIS",
+   "slug": "mantis",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-11-11",
+   "status": "Reentered, Operational",
+   "resultado": "Downloading clear, strong images just eleven days post launch.",
+   "falha": "",
+   "links": "https://www.linkedin.com/posts/opencosmos_wrapping-up-a-hugely-successful-2023-for-activity-7143227228456173568-zNH5?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+   "missao": "PLATERO",
+   "slug": "platero",
+   "categoria": "A - sensoriamento remoto; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2023-11-11",
+   "status": "Operational",
+   "resultado": "Received telemetry points from PLATERO just 36 seconds after waking up. First images were acquired 10 days after launch and have already been supplied to the customer, Junta de Andalucía.",
+   "falha": "",
+   "links": "https://www.linkedin.com/posts/opencosmos_wrapping-up-a-hugely-successful-2023-for-activity-7143227228456173568-zNH5?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+   "missao": "STORK-7",
+   "slug": "stork-7-aman-1",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-11-11",
+   "status": "Reentered, Deployment failure",
+   "resultado": "Data from Oman’s first satellite Aman-1, which was launched by Omani ETCO Space, will be used to monitor and track the country’s gas networks per an agreement signed during COMEX 2024, which concluded here on Thursday. The agreement was signed by Omantel and OQ Gas Networks (OQGN), which owns and operates Oman’s natural gas transportation system.",
+   "falha": "",
+   "links": "https://www.omanobserver.om/article/1154519/business/energy/omans-first-satellite-to-be-used-for-gas-networks-monitoring"
+  },
+  {
+   "missao": "ALISIO",
+   "slug": "alisio",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-12-01",
+   "status": "Operational",
+   "resultado": "Following an 11 day journey to reach the right orbit position, ALISIO-1 was successfully deployed from the Orbital Transfer Vehicle. We are pleased to report that contact was established during the first available pass over the ground station, with telemetry successfully downloaded and the satellite smoothly de-tumbled.\nLaunched from the Orbital Transfer Vehicle on the 12th December, we closed LEOP just two days later on the 14th!",
+   "falha": "",
+   "links": "https://www.linkedin.com/posts/opencosmos_opencosmos-spacetech-earthobservation-activity-7140657443692269569-dXD6/ | https://www.linkedin.com/posts/opencosmos_wrapping-up-a-hugely-successful-2023-for-activity-7143227228456173568-zNH5?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+   "missao": "BEESAT-14",
+   "slug": "beesat-14-15",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-12-01",
+   "status": "Operational",
+   "resultado": "After the two satellites were ejected, the operations team from the Chair of Space Technology carried out the commissioning phase, during which the individual systems were switched on, tested and put into operation step by step. Since the separation of ION, the satellites have been slowly moving away from each other, as expected.\nTo achieve the mission objective of formation flight, this drift must be reversed to reduce the distance between the two spacecraft. The team successfully performed two thrust maneuvers with NanoFF B, the satellite that is shown in the video. The orbit has successfully been raised by around 120m. Further maneuvers are required to stop the drift completely and will be carried out over the next few weeks.\nAfter NanoFF-B’s deployment on January 10, 2024, B-Dot was activated within 24 hours, effectively reducing the total angular rate from 8 °/s to under 0.5 °/s within just one orbit (see fig. 8). Following NanoFF-A’s deployment on January 15, 2024, the total angular rate was approximately 5.8 °/s. Over the course of 3 weeks, natural damping gradually decreased this to around 4 °/s. Subsequently, after B-Dot activation, the angular rate was further reduced to approximately 0.5 °/s within half an orbit (see fig. 9). Despite the discrepancies found between design and measured coil parameters, the data from the detumbling of the two spacecraft shows that they are performing well on orbit, which we take as a further confirmation for the successful optimization.\nIn July 2024, finished the first software upload to our satellites. Both of them now have an updated 𝗔𝘁𝘁𝗶𝘁𝘂𝗱𝗲 & 𝗢𝗿𝗯𝗶𝘁 𝗖𝗼𝗻𝘁𝗿𝗼𝗹 𝗦𝘆𝘀𝘁𝗲𝗺 (AOCS) software with new features that help us with experiments and operational efficiency. The upload process was shortened significantly by compressing the image on ground and then decompressing it on the satellite after reception. Doing so, we were able to achieve an image size reduction of over 38%. Uploading the image took less than 3 days per satellite.\nThe new AOCS update includes:\nIntroduction of a new precise, numerical orbit propagator which considers perturbations due to the non-spherical Earth and atmospheric density. This will be used for long-term position estimation in case of a loss of GNSS 3D fix and running experiments in orbit.\nThe AOCS node on each satellite now forwards the position/velocity of both the satellites to the Formation Flight Computer. With this update we were able to calculate the relative orbital elements (ROEs) of the satellite formation in real time on-board the satellites (using TLEs) for the first time (see image below).\nImprove the accuracy of our GNSS navigation solution data\nSeveral convenience functions & telemetry to improve operational efficiency & stability",
+   "falha": "",
+   "links": "https://www.tu.berlin/en/about/profile/press-releases-news/nanoff-satellites | https://www.tu.berlin/en/about/profile/press-releases-news/nanoff-satellites | https://az659834.vo.msecnd.net/eventsairwesteuprod/production-atpi-public/96f23a414f9644c8bc86e601756c2de4 | https://www.linkedin.com/posts/nanoff-tuberlin_this-week-we-have-finished-the-first-software-activity-7222620826364252161-ij_X?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/nanoff-tuberlin_this-week-we-have-finished-the-first-software-activity-7222620826364252161-ij_X?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/nanoff-tuberlin_this-week-we-have-finished-the-first-software-activity-7222620826364252161-ij_X?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/nanoff-tuberlin_this-week-we-have-finished-the-first-software-activity-7222620826364252161-ij_X?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/nanoff-tuberlin_this-week-we-have-finished-the-first-software-activity-7222620826364252161-ij_X?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/nanoff-tuberlin_this-week-we-have-finished-the-first-software-activity-7222620826364252161-ij_X?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+   "missao": "BEESAT-15",
+   "slug": "beesat-14-15",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2023-12-01",
+   "status": "Operational",
+   "resultado": "After the two satellites were ejected, the operations team from the Chair of Space Technology carried out the commissioning phase, during which the individual systems were switched on, tested and put into operation step by step. Since the separation of ION, the satellites have been slowly moving away from each other, as expected.\nTo achieve the mission objective of formation flight, this drift must be reversed to reduce the distance between the two spacecraft. The team successfully performed two thrust maneuvers with NanoFF B, the satellite that is shown in the video. The orbit has successfully been raised by around 120m. Further maneuvers are required to stop the drift completely and will be carried out over the next few weeks.\nAfter NanoFF-B’s deployment on January 10, 2024, B-Dot was activated within 24 hours, effectively reducing the total angular rate from 8 °/s to under 0.5 °/s within just one orbit (see fig. 8). Following NanoFF-A’s deployment on January 15, 2024, the total angular rate was approximately 5.8 °/s. Over the course of 3 weeks, natural damping gradually decreased this to around 4 °/s. Subsequently, after B-Dot activation, the angular rate was further reduced to approximately 0.5 °/s within half an orbit (see fig. 9). Despite the discrepancies found between design and measured coil parameters, the data from the detumbling of the two spacecraft shows that they are performing well on orbit, which we take as a further confirmation for the successful optimization.\nIn July 2024, finished the first software upload to our satellites. Both of them now have an updated 𝗔𝘁𝘁𝗶𝘁𝘂𝗱𝗲 & 𝗢𝗿𝗯𝗶𝘁 𝗖𝗼𝗻𝘁𝗿𝗼𝗹 𝗦𝘆𝘀𝘁𝗲𝗺 (AOCS) software with new features that help us with experiments and operational efficiency. The upload process was shortened significantly by compressing the image on ground and then decompressing it on the satellite after reception. Doing so, we were able to achieve an image size reduction of over 38%. Uploading the image took less than 3 days per satellite.\nThe new AOCS update includes:\nIntroduction of a new precise, numerical orbit propagator which considers perturbations due to the non-spherical Earth and atmospheric density. This will be used for long-term position estimation in case of a loss of GNSS 3D fix and running experiments in orbit.\nThe AOCS node on each satellite now forwards the position/velocity of both the satellites to the Formation Flight Computer. With this update we were able to calculate the relative orbital elements (ROEs) of the satellite formation in real time on-board the satellites (using TLEs) for the first time (see image below).\nImprove the accuracy of our GNSS navigation solution data\nSeveral convenience functions & telemetry to improve operational efficiency & stability",
+   "falha": "",
+   "links": "https://www.tu.berlin/en/about/profile/press-releases-news/nanoff-satellites | https://www.tu.berlin/en/about/profile/press-releases-news/nanoff-satellites | https://az659834.vo.msecnd.net/eventsairwesteuprod/production-atpi-public/96f23a414f9644c8bc86e601756c2de4 | https://www.linkedin.com/posts/nanoff-tuberlin_this-week-we-have-finished-the-first-software-activity-7222620826364252161-ij_X?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/nanoff-tuberlin_this-week-we-have-finished-the-first-software-activity-7222620826364252161-ij_X?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/nanoff-tuberlin_this-week-we-have-finished-the-first-software-activity-7222620826364252161-ij_X?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/nanoff-tuberlin_this-week-we-have-finished-the-first-software-activity-7222620826364252161-ij_X?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/nanoff-tuberlin_this-week-we-have-finished-the-first-software-activity-7222620826364252161-ij_X?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/nanoff-tuberlin_this-week-we-have-finished-the-first-software-activity-7222620826364252161-ij_X?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+   "missao": "Lilium-1",
+   "slug": "lilium-1",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2023-12-01",
+   "status": "Reentered, Operational",
+   "resultado": "Operating almost flawlessly.",
+   "falha": "",
+   "links": ""
+  },
+  {
+   "missao": "MH-1",
+   "slug": "mh1",
+   "categoria": "A - sensoriamento remoto; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2024-03-04",
+   "status": "Reentered, Operational, ?",
+   "resultado": "Start of essential communications with the Santa Maria Teleport on March 19, 2024.\nWith the completion of the first part of the LEOP (Launch and Early Orbit Phase), which includes the evaluation of the satellite's health and integrity and the initial tests of the on-board sensors, AEROS MH-1 began collecting the first images through the low-resolution RGB camera.",
+   "falha": "",
+   "links": "https://www.linkedin.com/posts/thalesedisoft_primeiras-imagens-do-sat%C3%A9lite-aeros-mh-activity-7213798599434915840-Hi-g?utm_source=share&utm_medium=member_desktop | https://www.linkedin.com/posts/thalesedisoft_primeiras-imagens-do-sat%C3%A9lite-aeros-mh-activity-7213798599434915840-Hi-g?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+   "missao": "RROCI-2",
+   "slug": "rroci-2",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2024-03-04",
+   "status": "Operational",
+   "resultado": "In only 15 months after contract award, the EO/IR Weather System (EWS) demonstration CubeSat hit its 'first light' milestone on 12 Jun 2024.",
+   "falha": "",
+   "links": "https://www.linkedin.com/posts/robert-davis-5722061b1_sscspacesensing-sensemakesensewin-activity-7213225240213012482-ORNA?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+   "missao": "VEERY-0E “Ectobius”",
+   "slug": "veery-0e",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2024-03-04",
+   "status": "Operational, ?",
+   "resultado": "The radar payload on Veery v0.3 is alive and returning data! It's the smallest (lowest cost) radar ever flown in space.",
+   "falha": "",
+   "links": "https://x.com/CareWeather/status/1774080595192361321"
+  },
+  {
+   "missao": "VIOLET",
+   "slug": "violet",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2024-03-21",
+   "status": "Reentered, No signal",
+   "resultado": "Violet never responded after reaching space.",
+   "falha": "",
+   "links": "https://www.cbc.ca/lite/story/1.7316786"
+  },
+  {
+   "missao": "iCUBE-Q",
+   "slug": "icube-q",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2024-05-03",
+   "status": "Operational, ?",
+   "resultado": "The \"SJTU Siyuan-2\" CubeSat was successfully launched into orbit on Chang'e-6, and was successfully released and separated today after 5 days of on-orbit storage. Just 14 seconds after its \"solo flight\", it successfully established a satellite-to-ground link, and the Kashgar ground station successfully received satellite telemetry data; one minute later, the satellite sails were successfully deployed, the flywheel was controlled, and it entered the rate damping mode; at 16:21:26, the satellite completed the satellite rate damping and switched to the solar orientation mode; at 16:23:18, the Kashgar ground station successfully received the first separated imaging image data; in the evening, the lunar landform remote sensing data was successfully obtained.\nThe reporter learned from the satellite team of Shanghai Jiaotong University that the Siyuan-2 currently flying normally, the voltage of the whole satellite is normal, the attitude is stable, all functions are working stably and normally, and the separated imaging data has been successfully obtained, and the mission has been a complete success. In the future, according to the scheduled plan, it will continue to use its micro-camera to obtain detailed images of the lunar surface, carry out intelligent processing of image data on orbit, and verify new technologies such as nanosatellite-level deep space lunar-earth communication, and fully explore low-cost deep space exploration models based on micro-nano satellites.",
+   "falha": "",
+   "links": "https://m.163.com/dy/article/J1MPHF7M0512DU6N.html | https://m.163.com/dy/article/J1MPHF7M0512DU6N.html"
+  },
+  {
+   "missao": "PREFIRE-2",
+   "slug": "prefire",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2024-05-25",
+   "status": "Operational",
+   "resultado": "The first cube satellite, or CubeSat, launched on May 25 from New Zealand and started sending back science data in July. Launched on June 5, the second CubeSat had an issue with its GPS unit, which researchers were planning to use to help geolocate the science data from the satellite. After the GPS unit on the first CubeSat also began experiencing issues, the PREFIRE team decided to turn off the GPS units on both CubeSats and use an alternative method for geolocating the science data. The second CubeSat started sending back science data in August. The GPS issue has not affected the science operations of either CubeSat.",
+   "falha": "",
+   "links": "https://blogs.nasa.gov/smallsatellites/2024/12/03/twin-mini-nasa-satellites-capture-data-on-polar-heat-emissions/"
+  },
+  {
+   "missao": "PREFIRE-1",
+   "slug": "prefire",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2024-06-05",
+   "status": "Operational",
+   "resultado": "The first cube satellite, or CubeSat, launched on May 25 from New Zealand and started sending back science data in July. Launched on June 5, the second CubeSat had an issue with its GPS unit, which researchers were planning to use to help geolocate the science data from the satellite. After the GPS unit on the first CubeSat also began experiencing issues, the PREFIRE team decided to turn off the GPS units on both CubeSats and use an alternative method for geolocating the science data. The second CubeSat started sending back science data in August. The GPS issue has not affected the science operations of either CubeSat.",
+   "falha": "",
+   "links": "https://blogs.nasa.gov/smallsatellites/2024/12/03/twin-mini-nasa-satellites-capture-data-on-polar-heat-emissions/"
+  },
+  {
+   "missao": "Curium One",
+   "slug": "curium-one",
+   "categoria": "A(fraco) - câmera sem alvo declarado; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2024-07-09",
+   "status": "No signal, Was semi-operational",
+   "resultado": "Tammo Jan Dijkema, 2024-08-1:\nOn July 9, 2024, with the first launch of the Ariane 6 rocket, various cubesats were placed into orbit around the Earth. One of these cubesats was Curium One, which was developed with contributions from the Libre Space Foundation. One of the goals of this satellite was to demonstrate a new communication system.\nUnfortunately, it soon became apparent after the launch that no signals from Curium One could be received by conventional ground stations. However, when we aimed the Dwingeloo Telescope at this satellite, we were able to detect signals on the first attempt. These signals were very weak, which explains why smaller ground stations couldn’t detect anything. To determine what was wrong with the satellite, the creators studied the data from Dwingeloo. It was found that, although the signal level was much too weak, many parts of the satellite were functioning properly. The most plausible explanation for the weak signal is that the antennas did not deploy correctly.\nUnfortunately, we can no longer hear the satellite even with the Dwingeloo Telescope: the first observation where we detected nothing was on July 22 at 17:00. It seems that between July 21 and 22, the satellite was switched off.\nBesides the Dwingeloo Telescope, no one else has detected this satellite, making the seven observations from the Dwingeloo Telescope extremely important for the creators. The Dwingeloo observations also show which of the Ariane 6 cubesats is Curium One, so that the team can track the correct satellite in future observations.\nAll observations can be viewed on SatNogs. The high resolution image shows the received data packages, each 0.1 seconds long.",
+   "falha": "Antenna not deployed?",
+   "links": "https://www.camras.nl/en/blog/2024/curium-one-observed-from-dwingeloo/ | https://www.camras.nl/en/blog/2024/curium-one-observed-from-dwingeloo/ | https://www.camras.nl/en/blog/2024/curium-one-observed-from-dwingeloo/ | https://www.camras.nl/en/blog/2024/curium-one-observed-from-dwingeloo/ | https://www.camras.nl/en/blog/2024/curium-one-observed-from-dwingeloo/"
+  },
+  {
+   "missao": "CUAVA-2",
+   "slug": "cuava-2",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2024-08-16",
+   "status": "Operational",
+   "resultado": "2024-12-16:\nCUAVA-2 experienced difficulties with the satellite’s first SD card failing around 5 days after launch, likely due to radiation from space weather. The satellite automatically booted its backup system and commissioning of the satellite is under way.",
+   "falha": "SD card issues, but not a failure cause.",
+   "links": "https://www.linkedin.com/posts/arc-training-centre-for-cubesats-uavs-and-their-applications-cuava_cuava-2-satellite-reaches-1800-revolutions-ugcPost-7274257417436065792-iaZd/?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+   "missao": "HYPSO-2",
+   "slug": "hypso-2",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2024-08-16",
+   "status": "Operational",
+   "resultado": "Our second satellite HYPSO-2 has:\nCompleted 5450 orbits\nRecorded 800 hyperspectral captures\nCarried out 3000 communications passes on S & X band provided by KSAT – Kongsberg Satellite Services.\nHad about 3500 communications passes over the Norwegian University of Science and Technology (NTNU) ground station on UHF and some at our local S-band antenna.",
+   "falha": "",
+   "links": "https://www.linkedin.com/posts/ntnu-hypso_hyperspectral-cubesat-ocean-activity-7362381364270116866-gStc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM | https://www.linkedin.com/posts/ntnu-hypso_hyperspectral-cubesat-ocean-activity-7362381364270116866-gStc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM | https://www.linkedin.com/posts/ntnu-hypso_hyperspectral-cubesat-ocean-activity-7362381364270116866-gStc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM | https://www.linkedin.com/posts/ntnu-hypso_hyperspectral-cubesat-ocean-activity-7362381364270116866-gStc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM | https://www.linkedin.com/posts/ntnu-hypso_hyperspectral-cubesat-ocean-activity-7362381364270116866-gStc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM"
+  },
+  {
+   "missao": "Φsat-2",
+   "slug": "phi-sat-2",
+   "categoria": "A - sensoriamento remoto; C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2024-08-16",
+   "status": "Operational",
+   "resultado": "Successfully completed its Launch and Early Orbit Phase (LEOP) within two days. The platform commissioning phase, lasting approximately four weeks, included verifications on power generation, communications, and attitude determination and control. Concurrently, the payload commissioning phase began, focusing on the multispectral camera, payload pre-processor, and AI accelerator.\nThe mission is currently in the payload commissioning and calibration phase, with over 30 scenes acquired and distributed. The upcoming operational phase will involve continuous Earth observation data acquisition and processing, utilizing AI applications to enhance data analysis and ensure optimal performance.",
+   "falha": "",
+   "links": "https://2025.smallsateurope.com/sessions-four/in-orbit-commissioning-results-of-the-%cf%86sat-2-mission/ | https://2025.smallsateurope.com/sessions-four/in-orbit-commissioning-results-of-the-%cf%86sat-2-mission/"
+  },
+  {
+   "missao": "ONGLAISAT",
+   "slug": "nspo-1",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2024-11-05",
+   "status": "Reentered, Operational, ?",
+   "resultado": "ArkEdge Space Achieves World-Class Ground Resolution Imaging with ONGLAISAT, a Jointly Developed CubeSat, 2025-02-07.\nSuccessful imaging demonstration with a newly developed optical system.\nValidation of advanced TDI (Time Delay Integration) [1] imaging sensor technology\nSuccessful demonstration of onboard image processing technology\nVerification of advanced satellite bus technology, including high-precision attitude control.",
+   "falha": "",
+   "links": "https://arkedgespace.com/en/news/2025-02-07_onglaisat | https://arkedgespace.com/en/news/2025-02-07_onglaisat | https://arkedgespace.com/en/news/2025-02-07_onglaisat | https://arkedgespace.com/en/news/2025-02-07_onglaisat | https://arkedgespace.com/en/news/2025-02-07_onglaisat"
+  },
+  {
+   "missao": "Pleiades - Orpheus",
+   "slug": "pleiades-orpheus",
+   "categoria": "A - sensoriamento remoto; B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2024-12-21",
+   "status": "Operational",
+   "resultado": "",
+   "falha": "A bug has resulted in a lower-than-expected transmit power (20dBm/100mW) compared to the planned 30dBm/1000mW.",
+   "links": ""
+  },
+  {
+   "missao": "AE1C",
+   "slug": "ae1c",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2025-01-14",
+   "status": "Operational",
+   "resultado": "ArkEdge Space Demonstrates Satellite Short Messaging for Global IoT Connectivity ～Live demonstration validates energy-efficient, long-distance data transmission between compact IoT devices and ArkEdge’s micro-satellites. The demonstration used the AE-1c satellite.\nFor this mission, ArkEdge Space integrated PBR-10, a microscale water-vapor-based propulsion system developed by Pale Blue Inc. (“Pale Blue”) as a hosted payload onboard AE1c. The primary objectives of the mission were to acquire in-orbit operational data and verify the propulsion system’s functionality. ArkEdge Space led the full scope of the process—from the design and development of bus system, to mission system integration and operational support. Both the satellite and the propulsion system performed nominally, and the targeted operational outcomes were successfully achieved.",
+   "falha": "",
+   "links": "https://arkedgespace.com/en/news/2025-11-06_iot | https://arkedgespace.com/en/news/2025-06-11_ae1c"
+  },
+  {
+   "missao": "ANSER Leader-S",
+   "slug": "anser",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2025-01-14",
+   "status": "Operational",
+   "resultado": "“As soon as our launch and early operations phase was complete, we began work to reconfigure Follower 1 to assume the Leader’s role in the cluster. This was achieved without any apparent decrease in its observation capabilities. However the Leader’s cloud detection functionality cannot be replicated by a Follower satellite. Instead we make use of Copernicus Sentinel satellite images to validate our hyperspectral data instead. This can’t be done in real time, but it still works. With this new configuration, ANSER’s mission is still 100% operational.”",
+   "falha": "",
+   "links": "https://www.spacequip.eu/2024/05/27/winged-cubesat-flock-survives-leaders-loss/"
+  },
+  {
+   "missao": "BlueBon",
+   "slug": "bluebon",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2025-01-14",
+   "status": "Operational",
+   "resultado": "First Contact:\nCommunication was established during the first pass over SatRev’s ground stations.\nTelemetry confirmed:\nSuccessful deployment of HDRMs.\nPlatform performance as designed, verifying both ground and space segments.\nCurrent Status:\nNominal LEOPs (Launch and Early Orbit Phase).\nSubsystem telemetry with every pass shows successful communication, energy harvesting, and modules functionality.\nNext Steps: Commissioning of hi-throughput radio, ADCS, and TLE refinement based on onboard sensors.",
+   "falha": "",
+   "links": "https://www.linkedin.com/posts/satrev-s-a_satrev-spacex-cubesat-activity-7303782397471281152-T7gd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM | https://www.linkedin.com/posts/satrev-s-a_satrev-spacex-cubesat-activity-7303782397471281152-T7gd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM | https://www.linkedin.com/posts/satrev-s-a_satrev-spacex-cubesat-activity-7303782397471281152-T7gd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM | https://www.linkedin.com/posts/satrev-s-a_satrev-spacex-cubesat-activity-7303782397471281152-T7gd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM | https://www.linkedin.com/posts/satrev-s-a_satrev-spacex-cubesat-activity-7303782397471281152-T7gd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM | https://www.linkedin.com/posts/satrev-s-a_satrev-spacex-cubesat-activity-7303782397471281152-T7gd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM | https://www.linkedin.com/posts/satrev-s-a_satrev-spacex-cubesat-activity-7303782397471281152-T7gd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM | https://www.linkedin.com/posts/satrev-s-a_satrev-spacex-cubesat-activity-7303782397471281152-T7gd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM | https://www.linkedin.com/posts/satrev-s-a_satrev-spacex-cubesat-activity-7303782397471281152-T7gd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM"
+  },
+  {
+   "missao": "JACK 001",
+   "slug": "jack",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2025-06-23",
+   "status": "Unknown, ?, Was operational",
+   "resultado": "All 12 Nuri-deployed cube satellites establish ground communication, 2025-12-08.",
+   "falha": "",
+   "links": "https://www.koreaherald.com/article/10631608"
+  },
+  {
+   "missao": "ETRISat",
+   "slug": "etrisat",
+   "categoria": "B - coleta de plataformas (DCS/IoT); C - sinais cooperativos (AIS/ADS-B/RF)",
+   "lancamento": "2025-11-26",
+   "status": "Operational",
+   "resultado": "All 12 Nuri-deployed cube satellites establish ground communication, 2025-12-08.",
+   "falha": "",
+   "links": "https://www.koreaherald.com/article/10631608"
+  },
+  {
+   "missao": "JACK 003",
+   "slug": "jack",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2025-11-26",
+   "status": "Operational",
+   "resultado": "All 12 Nuri-deployed cube satellites establish ground communication, 2025-12-08.",
+   "falha": "",
+   "links": "https://www.koreaherald.com/article/10631608"
+  },
+  {
+   "missao": "JACK 004",
+   "slug": "jack",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "2025-11-26",
+   "status": "Operational",
+   "resultado": "All 12 Nuri-deployed cube satellites establish ground communication, 2025-12-08.",
+   "falha": "",
+   "links": "https://www.koreaherald.com/article/10631608"
+  },
+  {
+   "missao": "GENA-OT",
+   "slug": "gena-ot",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "lancamento": "2025-11-28",
+   "status": "Operational",
+   "resultado": "The satellite deployed its solar arrays and began communicating with us soon after launch, exactly as planned. All critical Launch and Early Orbit Phase (LEOP) steps have been completed, and we are now concluding the first commissioning milestone, including full attitude control.\nGENA-OT is behaving beautifully in orbit: plenty of power, strong communications, and stable temperatures. We’re now in the final stages of validation before entering nominal customer operations.",
+   "falha": "",
+   "links": "https://www.linkedin.com/posts/ororatech_spaceintelligence-missionupdate-spacetech-activity-7406330624653045760-0HJU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM | https://www.linkedin.com/posts/ororatech_spaceintelligence-missionupdate-spacetech-activity-7406330624653045760-0HJU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAt6RjABfKWEquksacZ3EVEQFZa3Fpq53uM"
+  },
+  {
+   "missao": "RADSAT-SK2",
+   "slug": "radsat-sk2",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "not launched",
+   "status": "not launched",
+   "resultado": "Late 2023 - no contact with RADSAT-SK yet. Sill trying to talk with RADSAT-SK\n.",
+   "falha": "",
+   "links": "https://www.nasa.gov/wp-content/uploads/2023/11/nasa-cubesat-presentation-nov-15-2023.pdf?emrc=9a63c5"
+  },
+  {
+   "missao": "Sejong 5",
+   "slug": "sejong-5",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "not launched",
+   "status": "not launched",
+   "resultado": "All 12 Nuri-deployed cube satellites establish ground communication, 2025-12-08.",
+   "falha": "",
+   "links": "https://www.koreaherald.com/article/10631608"
+  },
+  {
+   "missao": "ANSER D",
+   "slug": "anser",
+   "categoria": "A - sensoriamento remoto",
+   "lancamento": "x_cancelled",
+   "status": "cancelled, ?",
+   "resultado": "“As soon as our launch and early operations phase was complete, we began work to reconfigure Follower 1 to assume the Leader’s role in the cluster. This was achieved without any apparent decrease in its observation capabilities. However the Leader’s cloud detection functionality cannot be replicated by a Follower satellite. Instead we make use of Copernicus Sentinel satellite images to validate our hyperspectral data instead. This can’t be done in real time, but it still works. With this new configuration, ANSER’s mission is still 100% operational.”",
+   "falha": "",
+   "links": "https://www.spacequip.eu/2024/05/27/winged-cubesat-flock-survives-leaders-loss/"
+  }
+ ],
+ "brasil": [
+  {
+   "missao": "SERPENS",
+   "slug": "serpens",
+   "lancamento": "2015-08-19",
+   "classe": "3U",
+   "organizacao": "SERPENS (Sistema Espacial para Realização de Pesquisa e Experimentos com Nanossatélites) programme university consortium",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "status": "operou como previsto",
+   "descricao": "Demonstrate store and forward messaging and plasma propulsion."
+  },
+  {
+   "missao": "ITASAT 1",
+   "slug": "itasat-1",
+   "lancamento": "2018-12-03",
+   "classe": "6U",
+   "organizacao": "Technological Institute of Aeronautics",
+   "categoria": "A - sensoriamento remoto; B - coleta de plataformas (DCS/IoT)",
+   "status": "operou e encerrou",
+   "descricao": "Test Brazilian data collection transponder for the Brazilian Data Collection System and Argos System."
+  },
+  {
+   "missao": "PION-BR1",
+   "slug": "pion-br1",
+   "lancamento": "2022-01-13",
+   "classe": "PocketQube 1p",
+   "organizacao": "PION Labs",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "status": "sem sinal após o lançamento",
+   "descricao": "Demonstrate PocketQube platform and attitude determination system."
+  },
+  {
+   "missao": "VCUB1",
+   "slug": "vcub1",
+   "lancamento": "2023-04-15",
+   "classe": "6U",
+   "organizacao": "Visiona Tecnologia Espacial",
+   "categoria": "A - sensoriamento remoto; B - coleta de plataformas (DCS/IoT)",
+   "status": "operou como previsto",
+   "descricao": "Demonstrate Visiona's ability to design high-performance space systems."
+  },
+  {
+   "missao": "FloripaSat-2A",
+   "slug": "floripasat-2a",
+   "lancamento": "2025-12-23",
+   "classe": "1U",
+   "organizacao": "Federal University of Santa Catarina",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "status": "falha no lançamento",
+   "descricao": "Educational mission with amateur radio payload."
+  },
+  {
+   "missao": "FloripaSat-2B",
+   "slug": "floripasat-2b",
+   "lancamento": "2025-12-23",
+   "classe": "2U",
+   "organizacao": "Federal University of Santa Catarina",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "status": "falha no lançamento",
+   "descricao": "Educational mission with amateur radio payload."
+  },
+  {
+   "missao": "Jussara-K",
+   "slug": "jussara-k",
+   "lancamento": "2025-12-23",
+   "classe": "1U",
+   "organizacao": "Federal University of Maranhão (UFMA)",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "status": "falha no lançamento",
+   "descricao": "Collect environmental data in hard-to-reach regions, communicating with strategically positioned ground-based data collection platforms"
+  },
+  {
+   "missao": "Aldebaran-1",
+   "slug": "aldebaran-1",
+   "lancamento": "2026-01-12",
+   "classe": "1U",
+   "organizacao": "Federal University of Maranhao",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "status": "falha no lançamento",
+   "descricao": "Educational mission with a LoRa transmitter."
+  },
+  {
+   "missao": "Edusat",
+   "slug": "edusat",
+   "lancamento": "2026-01-12",
+   "classe": "PocketQube 1p",
+   "organizacao": "?",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "status": "falha no lançamento",
+   "descricao": "Demonstrate IoT sensors in Brazil."
+  },
+  {
+   "missao": "Galaxy Explorer",
+   "slug": "galaxy-explorer",
+   "lancamento": "2026-01-12",
+   "classe": "PocketQube 1p",
+   "organizacao": "?",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "status": "falha no lançamento",
+   "descricao": "Radiation measurement and connect to IoT sensors in Brazil."
+  },
+  {
+   "missao": "Uaisat",
+   "slug": "uaisat",
+   "lancamento": "2026-01-12",
+   "classe": "PocketQube 1p",
+   "organizacao": "Federal University of São João del-Rei",
+   "categoria": "A - sensoriamento remoto",
+   "status": "falha no lançamento",
+   "descricao": "Collection of data on agriculture."
+  },
+  {
+   "missao": "GOLDS-UFSC",
+   "slug": "golds-ufsc",
+   "lancamento": "not launched",
+   "classe": "2U",
+   "organizacao": "Federal University of Santa Catarina",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "status": "não lançada",
+   "descricao": "Educational mission with amateur radio payload."
+  },
+  {
+   "missao": "Catarina-A1",
+   "slug": "catarina-a1",
+   "lancamento": "not launched",
+   "classe": "2U",
+   "organizacao": "Federal University of Santa Catarina",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "status": "não lançada",
+   "descricao": "Educational and amateur radio mission. Validate the functioning of the EDC (Environmental Data Collector) module."
+  },
+  {
+   "missao": "Catarina-A2",
+   "slug": "catarina-a1",
+   "lancamento": "not launched",
+   "classe": "2U",
+   "organizacao": "Federal University of Santa Catarina",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "status": "não lançada",
+   "descricao": "Educational and amateur radio mission. Validate the functioning of the EDC (Environmental Data Collector) module."
+  },
+  {
+   "missao": "CONASAT A",
+   "slug": "conasat",
+   "lancamento": "x_cancelled",
+   "classe": "8U (2Ux2Ux2U)",
+   "organizacao": "National Institute for Space Research",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "status": "cancelada",
+   "descricao": "Gather environmental data collected and transmitted to satellite by remote platforms on ground."
+  },
+  {
+   "missao": "CONASAT B",
+   "slug": "conasat",
+   "lancamento": "x_cancelled",
+   "classe": "8U (2Ux2Ux2U)",
+   "organizacao": "National Institute for Space Research",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "status": "cancelada",
+   "descricao": "Gather environmental data collected and transmitted to satellite by remote platforms on ground."
+  }
+ ],
+ "cots_fornecedores": [
+  {
+   "chave": "Clyde Space",
+   "linhas": 60
+  },
+  {
+   "chave": "GomSpace",
+   "linhas": 34
+  },
+  {
+   "chave": "ISISpace",
+   "linhas": 28
+  },
+  {
+   "chave": "NanoAvionics",
+   "linhas": 27
+  },
+  {
+   "chave": "Sputnix",
+   "linhas": 22
+  },
+  {
+   "chave": "Bright Ascension",
+   "linhas": 17
+  },
+  {
+   "chave": "Tyvak",
+   "linhas": 13
+  },
+  {
+   "chave": "Blue Canyon",
+   "linhas": 13
+  },
+  {
+   "chave": "EnduroSat",
+   "linhas": 12
+  },
+  {
+   "chave": "Space Inventor",
+   "linhas": 8
+  },
+  {
+   "chave": "DHV",
+   "linhas": 7
+  },
+  {
+   "chave": "CubeSpace",
+   "linhas": 6
+  },
+  {
+   "chave": "Open Cosmos",
+   "linhas": 6
+  },
+  {
+   "chave": "Pumpkin",
+   "linhas": 5
+  },
+  {
+   "chave": "ThrustMe",
+   "linhas": 5
+  }
+ ],
+ "cots_por_subsistema": [
+  {
+   "chave": "PLATFORM",
+   "total": 155,
+   "principais": "NanoAvionics (25), Sputnix (20), GomSpace (13)"
+  },
+  {
+   "chave": "THRUSTER",
+   "total": 33,
+   "principais": "ThrustMe (5), Accion (3), Aurora Propulsion Technologies (3)"
+  },
+  {
+   "chave": "TRANSCEIVER",
+   "total": 26,
+   "principais": "CPUT VUTRX (4), ISISpace (4), EnduroSat (3)"
+  },
+  {
+   "chave": "SOLAR PANELS",
+   "total": 24,
+   "principais": "Clyde Space (7), DHV (7), MMA Design (3)"
+  },
+  {
+   "chave": "ADCS",
+   "total": 20,
+   "principais": "Clyde Space (6), Blue Canyon (6), Adcole (3)"
+  },
+  {
+   "chave": "IMAGER",
+   "total": 20,
+   "principais": "Satlantis (4), Simera Sense (4), SCS (3)"
+  },
+  {
+   "chave": "EPS",
+   "total": 18,
+   "principais": "Clyde Space (8), GomSpace (7), Space Inventor (1)"
+  },
+  {
+   "chave": "OBC",
+   "total": 17,
+   "principais": "Clyde Space (5), ISISpace (5), GomSpace (3)"
+  },
+  {
+   "chave": "BATTERY",
+   "total": 14,
+   "principais": "Clyde Space (8), GomSpace (5), Space Inventor (1)"
+  },
+  {
+   "chave": "OBSW",
+   "total": 12,
+   "principais": "Bright Ascension (10), Kubos (2)"
+  },
+  {
+   "chave": "ANTENNA",
+   "total": 10,
+   "principais": "Anywaves X-Band (2), Sputnix (1), Anywaves S-band Full Duplex (1)"
+  },
+  {
+   "chave": "MCS",
+   "total": 9,
+   "principais": "Bright Ascension (7), Saber Astro PIGI (1), Spaceit (1)"
+  }
+ ],
+ "keywords": [
+  {
+   "chave": "Propulsion",
+   "linhas": 95
+  },
+  {
+   "chave": "AIS",
+   "linhas": 73
+  },
+  {
+   "chave": "First CubeSat of country",
+   "linhas": 39
+  },
+  {
+   "chave": "ADS-B",
+   "linhas": 35
+  },
+  {
+   "chave": "Globalstar or Iridium or Inmarsat",
+   "linhas": 21
+  },
+  {
+   "chave": "Open-source",
+   "linhas": 21
+  },
+  {
+   "chave": "Laser transmitter",
+   "linhas": 19
+  },
+  {
+   "chave": "De-orbit device",
+   "linhas": 15
+  },
+  {
+   "chave": "Hyperspectral",
+   "linhas": 12
+  },
+  {
+   "chave": "Intersatellite links",
+   "linhas": 10
+  },
+  {
+   "chave": "Machine Learning AI",
+   "linhas": 9
+  },
+  {
+   "chave": "Steerable Solar Arrays",
+   "linhas": 9
+  },
+  {
+   "chave": "Beyond Earth orbit",
+   "linhas": 8
+  },
+  {
+   "chave": "Formation flying",
+   "linhas": 6
+  },
+  {
+   "chave": "Hosted Payloads",
+   "linhas": 6
+  }
+ ],
+ "constelacoes": [
+  {
+   "chave": "Flock-1",
+   "ficha": "dove-flock",
+   "linhas": 766,
+   "organizacao": "Planet Labs",
+   "pais": "US",
+   "categoria": "A - sensoriamento remoto",
+   "descricao": "Constellation for optical Earth observation with 3-5m resolution."
+  },
+  {
+   "chave": "Lemur-2",
+   "ficha": "lemur-2",
+   "linhas": 225,
+   "organizacao": "Spire",
+   "pais": "US",
+   "categoria": "A - sensoriamento remoto; C - sinais cooperativos (AIS/ADS-B/RF)",
+   "descricao": "Constellation for GPS-RO weather data, AIS and ADS-B."
+  },
+  {
+   "chave": "PEARLS",
+   "ficha": "pearls",
+   "linhas": 200,
+   "organizacao": "Sky and Space",
+   "pais": "UK",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "descricao": "Constellation for voice, M2M and IoT communicaftion services."
+  },
+  {
+   "chave": "SpaceBEE-1",
+   "ficha": "spacebee-1-4",
+   "linhas": 196,
+   "organizacao": "Swarm Technologies",
+   "pais": "US",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "descricao": "Test two-way communications and data relay for planned IoT constellation."
+  },
+  {
+   "chave": "SITRO-AIS",
+   "ficha": "sitro-ais",
+   "linhas": 77,
+   "organizacao": "Sitronics Group",
+   "pais": "Russia",
+   "categoria": "A - sensoriamento remoto; B - coleta de plataformas (DCS/IoT); C - sinais cooperativos (AIS/ADS-B/RF)",
+   "descricao": "Constellations for AIS for tracking ships and high-resolution optical remote sensing."
+  },
+  {
+   "chave": "Astrocast",
+   "ficha": "astrocast",
+   "linhas": 30,
+   "organizacao": "Astrocast",
+   "pais": "Switzerland",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "descricao": "Constellation for IoT/M2M services."
+  },
+  {
+   "chave": "Helios",
+   "ficha": "helios-sirion",
+   "linhas": 29,
+   "organizacao": "Helios Wire",
+   "pais": "US",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "descricao": "Commercial constellation for IoT/M2M."
+  },
+  {
+   "chave": "Connecta",
+   "ficha": "connecta-iot",
+   "linhas": 24,
+   "organizacao": "Plan-S",
+   "pais": "Turkey",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "descricao": "Connecta IoT Network constellation project, which will provide Internet of Things (IoT) communication services."
+  },
+  {
+   "chave": "BRO-ONE",
+   "ficha": "bro-unseenlabs",
+   "linhas": 23,
+   "organizacao": "Unseenlabs",
+   "pais": "France",
+   "categoria": "C - sinais cooperativos (AIS/ADS-B/RF)",
+   "descricao": "Spectrum monitoring service. Maritime surveillance. Electromagnetic intelligence service."
+  },
+  {
+   "chave": "Landmapper-HD",
+   "ficha": "corvus-hd",
+   "linhas": 20,
+   "organizacao": "Astro Digital",
+   "pais": "US",
+   "categoria": "A - sensoriamento remoto",
+   "descricao": "Commercial constellation providing multispectral Earth observation data."
+  },
+  {
+   "chave": "Unicorn-2A",
+   "ficha": "unicorn-2",
+   "linhas": 19,
+   "organizacao": "Alba Orbital",
+   "pais": "UK",
+   "categoria": "A - sensoriamento remoto",
+   "descricao": "Earth Observation constellation to provide near-real time satellite imagery."
+  },
+  {
+   "chave": "Kepler-4",
+   "ficha": "kepler-gen1",
+   "linhas": 18,
+   "organizacao": "Kepler Communications",
+   "pais": "Canada",
+   "categoria": "B - coleta de plataformas (DCS/IoT)",
+   "descricao": "Commercial constellation for IoT/M2M and wideband communications."
+  }
+ ]
+}

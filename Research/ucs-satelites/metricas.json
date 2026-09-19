@@ -1,0 +1,2341 @@
+{
+ "panorama": [
+  {
+   "recorte": "A — sensoriamento remoto da Terra",
+   "n": 1320
+  },
+  {
+   "recorte": "B — coleta de plataformas no solo (DCS/IoT)",
+   "n": 231
+  },
+  {
+   "recorte": "C — sinais cooperativos (AIS/ADS-B/ELINT/RF)",
+   "n": 349
+  },
+  {
+   "recorte": "Recorte de coleta de dados (A ∪ B ∪ C)",
+   "n": 1575,
+   "destaque": true
+  },
+  {
+   "recorte": "Base UCS inteira (em órbita em 2023-05-01)",
+   "n": 7560,
+   "destaque": true
+  }
+ ],
+ "situacao": [
+  {
+   "chave": "ainda em órbita",
+   "linhas": 791
+  },
+  {
+   "chave": "reentrou desde 2023",
+   "linhas": 773
+  },
+  {
+   "chave": "sem elemento orbital publicado",
+   "linhas": 11
+  }
+ ],
+ "sobrevivencia": {
+  "recorte": 1575,
+  "em_orbita": 791,
+  "pct": 50.2,
+  "reentrados": 773
+ },
+ "situacao_por_recorte": [
+  {
+   "chave": "A — sensoriamento remoto",
+   "linhas": 1320,
+   "em_orbita": 692,
+   "reentrou": 618
+  },
+  {
+   "chave": "B — coleta de plataformas",
+   "linhas": 231,
+   "em_orbita": 79,
+   "reentrou": 151
+  },
+  {
+   "chave": "C — sinais cooperativos",
+   "linhas": 349,
+   "em_orbita": 183,
+   "reentrou": 166
+  }
+ ],
+ "ano": [
+  {
+   "chave": "1993",
+   "linhas": 1,
+   "A": 1,
+   "B": 1,
+   "C": 0
+  },
+  {
+   "chave": "1994",
+   "linhas": 1,
+   "A": 1,
+   "B": 0,
+   "C": 1
+  },
+  {
+   "chave": "1996",
+   "linhas": 1,
+   "A": 1,
+   "B": 0,
+   "C": 1
+  },
+  {
+   "chave": "1997",
+   "linhas": 11,
+   "A": 3,
+   "B": 8,
+   "C": 1
+  },
+  {
+   "chave": "1998",
+   "linhas": 13,
+   "A": 3,
+   "B": 11,
+   "C": 1
+  },
+  {
+   "chave": "1999",
+   "linhas": 9,
+   "A": 4,
+   "B": 5,
+   "C": 0
+  },
+  {
+   "chave": "2000",
+   "linhas": 2,
+   "A": 2,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "2001",
+   "linhas": 3,
+   "A": 3,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "2002",
+   "linhas": 5,
+   "A": 3,
+   "B": 2,
+   "C": 0
+  },
+  {
+   "chave": "2003",
+   "linhas": 4,
+   "A": 4,
+   "B": 0,
+   "C": 1
+  },
+  {
+   "chave": "2004",
+   "linhas": 8,
+   "A": 6,
+   "B": 2,
+   "C": 0
+  },
+  {
+   "chave": "2005",
+   "linhas": 8,
+   "A": 8,
+   "B": 0,
+   "C": 2
+  },
+  {
+   "chave": "2006",
+   "linhas": 13,
+   "A": 13,
+   "B": 0,
+   "C": 1
+  },
+  {
+   "chave": "2007",
+   "linhas": 15,
+   "A": 15,
+   "B": 0,
+   "C": 3
+  },
+  {
+   "chave": "2008",
+   "linhas": 13,
+   "A": 13,
+   "B": 1,
+   "C": 1
+  },
+  {
+   "chave": "2009",
+   "linhas": 20,
+   "A": 18,
+   "B": 2,
+   "C": 5
+  },
+  {
+   "chave": "2010",
+   "linhas": 20,
+   "A": 19,
+   "B": 0,
+   "C": 5
+  },
+  {
+   "chave": "2011",
+   "linhas": 28,
+   "A": 26,
+   "B": 3,
+   "C": 10
+  },
+  {
+   "chave": "2012",
+   "linhas": 27,
+   "A": 25,
+   "B": 1,
+   "C": 7
+  },
+  {
+   "chave": "2013",
+   "linhas": 32,
+   "A": 27,
+   "B": 6,
+   "C": 5
+  },
+  {
+   "chave": "2014",
+   "linhas": 52,
+   "A": 40,
+   "B": 9,
+   "C": 15
+  },
+  {
+   "chave": "2015",
+   "linhas": 50,
+   "A": 36,
+   "B": 12,
+   "C": 12
+  },
+  {
+   "chave": "2016",
+   "linhas": 57,
+   "A": 56,
+   "B": 0,
+   "C": 11
+  },
+  {
+   "chave": "2017",
+   "linhas": 121,
+   "A": 118,
+   "B": 1,
+   "C": 53
+  },
+  {
+   "chave": "2018",
+   "linhas": 161,
+   "A": 135,
+   "B": 22,
+   "C": 44
+  },
+  {
+   "chave": "2019",
+   "linhas": 110,
+   "A": 103,
+   "B": 6,
+   "C": 27
+  },
+  {
+   "chave": "2020",
+   "linhas": 149,
+   "A": 137,
+   "B": 13,
+   "C": 31
+  },
+  {
+   "chave": "2021",
+   "linhas": 239,
+   "A": 188,
+   "B": 45,
+   "C": 63
+  },
+  {
+   "chave": "2022",
+   "linhas": 250,
+   "A": 185,
+   "B": 62,
+   "C": 24
+  },
+  {
+   "chave": "2023",
+   "linhas": 149,
+   "A": 124,
+   "B": 19,
+   "C": 25
+  }
+ ],
+ "altitude": [
+  {
+   "chave": "LEO até 400 km",
+   "linhas": 36,
+   "A": 35,
+   "B": 1,
+   "C": 3
+  },
+  {
+   "chave": "LEO 400–600 km",
+   "linhas": 1074,
+   "A": 894,
+   "B": 160,
+   "C": 240
+  },
+  {
+   "chave": "LEO 600–800 km",
+   "linhas": 248,
+   "A": 199,
+   "B": 48,
+   "C": 34
+  },
+  {
+   "chave": "LEO 800–1 200 km",
+   "linhas": 106,
+   "A": 104,
+   "B": 4,
+   "C": 49
+  },
+  {
+   "chave": "LEO acima de 1 200 km",
+   "linhas": 22,
+   "A": 5,
+   "B": 17,
+   "C": 1
+  },
+  {
+   "chave": "MEO",
+   "linhas": 2,
+   "A": 2,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "GEO (~35 786 km)",
+   "linhas": 61,
+   "A": 56,
+   "B": 0,
+   "C": 16
+  },
+  {
+   "chave": "elíptica",
+   "linhas": 19,
+   "A": 19,
+   "B": 0,
+   "C": 6
+  },
+  {
+   "chave": "não declarada",
+   "linhas": 7,
+   "A": 6,
+   "B": 1,
+   "C": 0
+  }
+ ],
+ "massa": [
+  {
+   "chave": "até 10 kg",
+   "linhas": 604,
+   "A": 448,
+   "B": 149,
+   "C": 174
+  },
+  {
+   "chave": "10–100 kg",
+   "linhas": 341,
+   "A": 280,
+   "B": 43,
+   "C": 47
+  },
+  {
+   "chave": "100–500 kg",
+   "linhas": 196,
+   "A": 165,
+   "B": 35,
+   "C": 17
+  },
+  {
+   "chave": "500 kg–1 t",
+   "linhas": 88,
+   "A": 88,
+   "B": 1,
+   "C": 1
+  },
+  {
+   "chave": "1–5 t",
+   "linhas": 184,
+   "A": 182,
+   "B": 1,
+   "C": 29
+  },
+  {
+   "chave": "acima de 5 t",
+   "linhas": 36,
+   "A": 36,
+   "B": 0,
+   "C": 16
+  },
+  {
+   "chave": "não declarada",
+   "linhas": 126,
+   "A": 121,
+   "B": 2,
+   "C": 65
+  }
+ ],
+ "massa_resumo": {
+  "n": 1449,
+  "mediana": 43.0,
+  "min": 1.0,
+  "max": 20000.0
+ },
+ "potencia_resumo": {
+  "n": 134,
+  "mediana": 350.0,
+  "min": 4.05,
+  "max": 15300.0
+ },
+ "vida": {
+  "com_vida_declarada": 346,
+  "alem_da_vida": 284,
+  "pct": 82.1,
+  "mediana_vida": 5.0,
+  "mediana_idade": 10.735
+ },
+ "vida_lista": [
+  {
+   "nome": "SCD-1 (Satélite de Coleta de Dados)",
+   "norad": "22491",
+   "operador": "Instituto Nacional de Pesquisas Espaciais (INPE)",
+   "pais": "Brazil",
+   "categoria": "A — sensoriamento remoto; B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1993-02-09",
+   "vida_prevista": 3.0,
+   "idade": 33.6,
+   "excedente": 30.6,
+   "url": "https://www.n2yo.com/satellite/?s=22490"
+  },
+  {
+   "nome": "DLR Tubsat",
+   "norad": "25757",
+   "operador": "Deutsches Zentrum für Luft- und Raumfahrt",
+   "pais": "Germany",
+   "categoria": "A — sensoriamento remoto",
+   "lancamento": "1999-05-26",
+   "vida_prevista": 1.0,
+   "idade": 27.31,
+   "excedente": 26.3,
+   "url": "https://www.n2yo.com/satellite/?s=25757"
+  },
+  {
+   "nome": "FORTÉ (Fast On-orbit Recording of Transient Events)",
+   "norad": "24920",
+   "operador": "Los Alamos National Laboratory",
+   "pais": "USA",
+   "categoria": "A — sensoriamento remoto",
+   "lancamento": "1997-08-29",
+   "vida_prevista": 3.0,
+   "idade": 29.05,
+   "excedente": 26.1,
+   "url": "https://www.n2yo.com/satellite/?s=24920"
+  },
+  {
+   "nome": "NOAA-15 (NOAA-K)",
+   "norad": "25338",
+   "operador": "National Oceanographic and Atmospheric Administration (NOAA) (part of international program)",
+   "pais": "USA",
+   "categoria": "A — sensoriamento remoto",
+   "lancamento": "1998-05-13",
+   "vida_prevista": 3.0,
+   "idade": 28.34,
+   "excedente": 25.3,
+   "url": "https://www.n2yo.com/satellite/?s=25338"
+  },
+  {
+   "nome": "SCD-2 (Satélite de Coleta de Dados)",
+   "norad": "25504",
+   "operador": "Instituto Nacional de Pesquisas Espaciais (INPE)",
+   "pais": "Brazil",
+   "categoria": "A — sensoriamento remoto; B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1998-10-23",
+   "vida_prevista": 3.0,
+   "idade": 27.9,
+   "excedente": 24.9,
+   "url": "https://www.n2yo.com/satellite/?s=25504"
+  },
+  {
+   "nome": "DMSP 5D-2 F14 (Defense Meteorological Satellites Program, USA 131)",
+   "norad": "24753",
+   "operador": "DoD/NOAA",
+   "pais": "USA",
+   "categoria": "A — sensoriamento remoto",
+   "lancamento": "1997-04-04",
+   "vida_prevista": 5.0,
+   "idade": 29.45,
+   "excedente": 24.4,
+   "url": "https://www.n2yo.com/satellite/?s=24753"
+  },
+  {
+   "nome": "ORBCOMM FM-10 (ORBCOMM A2)",
+   "norad": "25113",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1997-12-23",
+   "vida_prevista": 5.0,
+   "idade": 28.73,
+   "excedente": 23.7,
+   "url": "https://www.n2yo.com/satellite/?s=25113"
+  },
+  {
+   "nome": "ORBCOMM FM-11 (ORBCOMM A3)",
+   "norad": "25114",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1997-12-23",
+   "vida_prevista": 5.0,
+   "idade": 28.73,
+   "excedente": 23.7,
+   "url": "https://www.n2yo.com/satellite/?s=25114"
+  },
+  {
+   "nome": "ORBCOMM FM-12 (ORBCOMM A4)",
+   "norad": "25115",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1997-12-23",
+   "vida_prevista": 5.0,
+   "idade": 28.73,
+   "excedente": 23.7,
+   "url": "https://www.n2yo.com/satellite/?s=25115"
+  },
+  {
+   "nome": "ORBCOMM FM-5 (ORBCOMM A6)",
+   "norad": "25117",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1997-12-23",
+   "vida_prevista": 5.0,
+   "idade": 28.73,
+   "excedente": 23.7,
+   "url": "https://www.n2yo.com/satellite/?s=25117"
+  },
+  {
+   "nome": "ORBCOMM FM-6 (ORBCOMM A7)",
+   "norad": "25118",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1997-12-23",
+   "vida_prevista": 5.0,
+   "idade": 28.73,
+   "excedente": 23.7,
+   "url": "https://www.n2yo.com/satellite/?s=25118"
+  },
+  {
+   "nome": "ORBCOMM FM-7 (ORBCOMM A8)",
+   "norad": "25119",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1997-12-23",
+   "vida_prevista": 5.0,
+   "idade": 28.73,
+   "excedente": 23.7,
+   "url": "https://www.n2yo.com/satellite/?s=25119"
+  },
+  {
+   "nome": "ORBCOMM FM-8 (ORBCOMM A1)",
+   "norad": "25112",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1997-12-23",
+   "vida_prevista": 5.0,
+   "idade": 28.73,
+   "excedente": 23.7,
+   "url": "https://www.n2yo.com/satellite/?s=25112"
+  },
+  {
+   "nome": "ORBCOMM FM-9 (ORBCOMM A5)",
+   "norad": "25116",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1997-12-23",
+   "vida_prevista": 5.0,
+   "idade": 28.73,
+   "excedente": 23.7,
+   "url": "https://www.n2yo.com/satellite/?s=25116"
+  },
+  {
+   "nome": "ORBCOMM FM-4 (ORBCOMM G2)",
+   "norad": "25159",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1998-02-10",
+   "vida_prevista": 5.0,
+   "idade": 28.6,
+   "excedente": 23.6,
+   "url": "https://www.n2yo.com/satellite/?s=25159"
+  },
+  {
+   "nome": "ORBCOMM FM-13 (ORBCOMM B1)",
+   "norad": "25420",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1998-08-02",
+   "vida_prevista": 5.0,
+   "idade": 28.12,
+   "excedente": 23.1,
+   "url": "https://www.n2yo.com/satellite/?s=25420"
+  },
+  {
+   "nome": "ORBCOMM FM-14 (ORBCOMM B2)",
+   "norad": "25419",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1998-08-02",
+   "vida_prevista": 5.0,
+   "idade": 28.12,
+   "excedente": 23.1,
+   "url": "https://www.n2yo.com/satellite/?s=25419"
+  },
+  {
+   "nome": "ORBCOMM FM-15 (ORBCOMM B3)",
+   "norad": "25418",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1998-08-02",
+   "vida_prevista": 5.0,
+   "idade": 28.12,
+   "excedente": 23.1,
+   "url": "https://www.n2yo.com/satellite/?s=25418"
+  },
+  {
+   "nome": "ORBCOMM FM-18 (ORBCOMM B6)",
+   "norad": "25414",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1998-08-02",
+   "vida_prevista": 5.0,
+   "idade": 28.12,
+   "excedente": 23.1,
+   "url": "https://www.n2yo.com/satellite/?s=25414"
+  },
+  {
+   "nome": "ORBCOMM FM-19 (ORBCOMM B7)",
+   "norad": "25415",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1998-08-02",
+   "vida_prevista": 5.0,
+   "idade": 28.12,
+   "excedente": 23.1,
+   "url": "https://www.n2yo.com/satellite/?s=25415"
+  },
+  {
+   "nome": "ORBCOMM FM-20 (ORBCOMM B8)",
+   "norad": "25416",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1998-08-02",
+   "vida_prevista": 5.0,
+   "idade": 28.12,
+   "excedente": 23.1,
+   "url": "https://www.n2yo.com/satellite/?s=25416"
+  },
+  {
+   "nome": "ORBCOMM FM-21 (ORBCOMM C1)",
+   "norad": "25475",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1998-09-23",
+   "vida_prevista": 5.0,
+   "idade": 27.98,
+   "excedente": 23.0,
+   "url": "https://www.n2yo.com/satellite/?s=25475"
+  },
+  {
+   "nome": "ORBCOMM FM-23 (ORBCOMM C3)",
+   "norad": "25477",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1998-09-23",
+   "vida_prevista": 5.0,
+   "idade": 27.98,
+   "excedente": 23.0,
+   "url": "https://www.n2yo.com/satellite/?s=25477"
+  },
+  {
+   "nome": "ORBCOMM FM-27 (ORBCOMM C7)",
+   "norad": "25481",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1998-09-23",
+   "vida_prevista": 5.0,
+   "idade": 27.98,
+   "excedente": 23.0,
+   "url": "https://www.n2yo.com/satellite/?s=25481"
+  },
+  {
+   "nome": "DMSP 5D-3 F15 (Defense Meteorological Satellites Program, USA 147)",
+   "norad": "25991",
+   "operador": "DoD/NOAA",
+   "pais": "USA",
+   "categoria": "A — sensoriamento remoto",
+   "lancamento": "1999-12-12",
+   "vida_prevista": 5.0,
+   "idade": 26.76,
+   "excedente": 21.8,
+   "url": "https://www.n2yo.com/satellite/?s=25991"
+  },
+  {
+   "nome": "ORBCOMM FM-30 (ORBCOMM D2)",
+   "norad": "25980",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1999-12-04",
+   "vida_prevista": 5.0,
+   "idade": 26.78,
+   "excedente": 21.8,
+   "url": "https://www.n2yo.com/satellite/?s=25980"
+  },
+  {
+   "nome": "ORBCOMM FM-31 (ORBCOMM D3)",
+   "norad": "25981",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1999-12-04",
+   "vida_prevista": 5.0,
+   "idade": 26.78,
+   "excedente": 21.8,
+   "url": "https://www.n2yo.com/satellite/?s=25981"
+  },
+  {
+   "nome": "ORBCOMM FM-32 (ORBCOMM D4)",
+   "norad": "25982",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1999-12-04",
+   "vida_prevista": 5.0,
+   "idade": 26.78,
+   "excedente": 21.8,
+   "url": "https://www.n2yo.com/satellite/?s=25982"
+  },
+  {
+   "nome": "ORBCOMM FM-35 (ORBCOMM D7)",
+   "norad": "25985",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1999-12-04",
+   "vida_prevista": 5.0,
+   "idade": 26.78,
+   "excedente": 21.8,
+   "url": "https://www.n2yo.com/satellite/?s=25985"
+  },
+  {
+   "nome": "ORBCOMM FM-36 (ORBCOMM D8)",
+   "norad": "25984",
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "lancamento": "1999-12-04",
+   "vida_prevista": 5.0,
+   "idade": 26.78,
+   "excedente": 21.8,
+   "url": "https://www.n2yo.com/satellite/?s=25984"
+  },
+  {
+   "nome": "EOS-AM Terra",
+   "norad": "25994",
+   "operador": "Earth Sciences Enterprise (NASA)",
+   "pais": "USA/Canada/Japan",
+   "categoria": "A — sensoriamento remoto",
+   "lancamento": "1999-12-18",
+   "vida_prevista": 6.0,
+   "idade": 26.75,
+   "excedente": 20.8,
+   "url": "https://www.n2yo.com/satellite/?s=25994"
+  },
+  {
+   "nome": "Coriolis (Windsat)",
+   "norad": "27640",
+   "operador": "US Air Force/ US Navy/NASA",
+   "pais": "USA",
+   "categoria": "A — sensoriamento remoto",
+   "lancamento": "2003-01-06",
+   "vida_prevista": 3.0,
+   "idade": 23.69,
+   "excedente": 20.7,
+   "url": "https://www.n2yo.com/satellite/?s=27640"
+  },
+  {
+   "nome": "Cloudsat",
+   "norad": "29107",
+   "operador": "National Aeronautics and Space Administration (NASA)/Colorado State University",
+   "pais": "USA",
+   "categoria": "A — sensoriamento remoto",
+   "lancamento": "2006-04-28",
+   "vida_prevista": 2.0,
+   "idade": 20.39,
+   "excedente": 18.4,
+   "url": "https://www.n2yo.com/satellite/?s=29107"
+  },
+  {
+   "nome": "COSMIC-A (Formosat-3A, Constellation Observing System for Meteorology, Ionosphere and Climate)",
+   "norad": "29047",
+   "operador": "National Space Program Office (NSPO)/University Corporation for Atmospheric Research (UCAR) Boulder, CO",
+   "pais": "Taiwan",
+   "categoria": "A — sensoriamento remoto",
+   "lancamento": "2006-04-15",
+   "vida_prevista": 2.0,
+   "idade": 20.42,
+   "excedente": 18.4,
+   "url": "https://www.n2yo.com/satellite/?s=29047"
+  },
+  {
+   "nome": "COSMIC-B (Formosat-3B, Constellation Observing System for Meteorology, Ionosphere and Climate)",
+   "norad": "29048",
+   "operador": "National Space Program Office (NSPO)/University Corporation for Atmospheric Research (UCAR) Boulder, CO",
+   "pais": "Taiwan",
+   "categoria": "A — sensoriamento remoto",
+   "lancamento": "2006-04-15",
+   "vida_prevista": 2.0,
+   "idade": 20.42,
+   "excedente": 18.4,
+   "url": "https://www.n2yo.com/satellite/?s=29048"
+  },
+  {
+   "nome": "COSMIC-D (Formosat-3D, Constellation Observing System for Meteorology, Ionosphere and Climate)",
+   "norad": "29050",
+   "operador": "National Space Program Office (NSPO)/University Corporation for Atmospheric Research (UCAR) Boulder, CO",
+   "pais": "Taiwan",
+   "categoria": "A — sensoriamento remoto",
+   "lancamento": "2006-04-15",
+   "vida_prevista": 2.0,
+   "idade": 20.42,
+   "excedente": 18.4,
+   "url": "https://www.n2yo.com/satellite/?s=29050"
+  },
+  {
+   "nome": "COSMIC-E (Formosat-3E, Constellation Observing System for Meteorology, Ionosphere and Climate)",
+   "norad": "29051",
+   "operador": "National Space Program Office (NSPO)/University Corporation for Atmospheric Research (UCAR) Boulder, CO",
+   "pais": "Taiwan",
+   "categoria": "A — sensoriamento remoto",
+   "lancamento": "2006-04-15",
+   "vida_prevista": 2.0,
+   "idade": 20.42,
+   "excedente": 18.4,
+   "url": "https://www.n2yo.com/satellite/?s=29051"
+  },
+  {
+   "nome": "COSMIC-F (Formosat-3F, Constellation Observing System for Meteorology, Ionosphere and Climate)",
+   "norad": "29052",
+   "operador": "National Space Program Office (NSPO)/University Corporation for Atmospheric Research (UCAR) Boulder, CO",
+   "pais": "Taiwan",
+   "categoria": "A — sensoriamento remoto",
+   "lancamento": "2006-04-15",
+   "vida_prevista": 2.0,
+   "idade": 20.42,
+   "excedente": 18.4,
+   "url": "https://www.n2yo.com/satellite/?s=29052"
+  },
+  {
+   "nome": "EOS-PM Aqua (Advanced Microwave Scanning Radiometer for EOS, EOS PM-1)",
+   "norad": "27424",
+   "operador": "National Aeronautics and Space Administration (NASA) - Earth Science Enterprise/Japan Meteorological Agency/Brazilian Space Agency",
+   "pais": "USA/Japan/Brazil",
+   "categoria": "A — sensoriamento remoto",
+   "lancamento": "2002-05-04",
+   "vida_prevista": 6.0,
+   "idade": 24.37,
+   "excedente": 18.4,
+   "url": "https://www.n2yo.com/satellite/?s=27424"
+  },
+  {
+   "nome": "NOAA-18 (NOAA-N, COSPAS-SARSAT)",
+   "norad": "28654",
+   "operador": "National Oceanographic and Atmospheric Administration (NOAA) (part of international program)",
+   "pais": "USA",
+   "categoria": "A — sensoriamento remoto",
+   "lancamento": "2005-05-20",
+   "vida_prevista": 3.0,
+   "idade": 21.33,
+   "excedente": 18.3,
+   "url": "https://www.n2yo.com/satellite/?s=28654"
+  }
+ ],
+ "usuarios": [
+  {
+   "chave": "Commercial",
+   "linhas": 924,
+   "A": 683,
+   "B": 218,
+   "C": 207
+  },
+  {
+   "chave": "Government",
+   "linhas": 322,
+   "A": 312,
+   "B": 11,
+   "C": 25
+  },
+  {
+   "chave": "Military",
+   "linhas": 256,
+   "A": 253,
+   "B": 2,
+   "C": 110
+  },
+  {
+   "chave": "Civil",
+   "linhas": 34,
+   "A": 34,
+   "B": 0,
+   "C": 5
+  },
+  {
+   "chave": "Government/Civil",
+   "linhas": 17,
+   "A": 17,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Government/Commercial",
+   "linhas": 10,
+   "A": 10,
+   "B": 0,
+   "C": 1
+  },
+  {
+   "chave": "Military/Government",
+   "linhas": 5,
+   "A": 5,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Military/Commercial",
+   "linhas": 2,
+   "A": 2,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Civil/Government",
+   "linhas": 2,
+   "A": 2,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Military/Civil",
+   "linhas": 1,
+   "A": 1,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Commercial/Civil",
+   "linhas": 1,
+   "A": 0,
+   "B": 0,
+   "C": 1
+  },
+  {
+   "chave": "Government/Military",
+   "linhas": 1,
+   "A": 1,
+   "B": 0,
+   "C": 0
+  }
+ ],
+ "pais": [
+  {
+   "chave": "USA",
+   "linhas": 675,
+   "A": 523,
+   "B": 133,
+   "C": 178
+  },
+  {
+   "chave": "China",
+   "linhas": 374,
+   "A": 356,
+   "B": 18,
+   "C": 83
+  },
+  {
+   "chave": "Russia",
+   "linhas": 63,
+   "A": 43,
+   "B": 18,
+   "C": 15
+  },
+  {
+   "chave": "Argentina",
+   "linhas": 42,
+   "A": 39,
+   "B": 3,
+   "C": 0
+  },
+  {
+   "chave": "Japan",
+   "linhas": 40,
+   "A": 39,
+   "B": 0,
+   "C": 1
+  },
+  {
+   "chave": "Canada",
+   "linhas": 37,
+   "A": 13,
+   "B": 22,
+   "C": 6
+  },
+  {
+   "chave": "France",
+   "linhas": 26,
+   "A": 25,
+   "B": 1,
+   "C": 15
+  },
+  {
+   "chave": "India",
+   "linhas": 25,
+   "A": 25,
+   "B": 0,
+   "C": 1
+  },
+  {
+   "chave": "Finland",
+   "linhas": 23,
+   "A": 23,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Luxembourg",
+   "linhas": 22,
+   "A": 22,
+   "B": 0,
+   "C": 22
+  },
+  {
+   "chave": "ESA",
+   "linhas": 21,
+   "A": 20,
+   "B": 1,
+   "C": 1
+  },
+  {
+   "chave": "Germany",
+   "linhas": 13,
+   "A": 13,
+   "B": 0,
+   "C": 1
+  },
+  {
+   "chave": "Taiwan",
+   "linhas": 12,
+   "A": 12,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "South Korea",
+   "linhas": 11,
+   "A": 10,
+   "B": 0,
+   "C": 1
+  },
+  {
+   "chave": "Switzerland",
+   "linhas": 10,
+   "A": 0,
+   "B": 10,
+   "C": 0
+  }
+ ],
+ "operadores": [
+  {
+   "chave": "Planet Labs, Inc.",
+   "linhas": 220,
+   "A": 220,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Spire Global Inc.",
+   "linhas": 134,
+   "A": 134,
+   "B": 0,
+   "C": 134
+  },
+  {
+   "chave": "Chinese Ministry of National Defense",
+   "linhas": 100,
+   "A": 100,
+   "B": 0,
+   "C": 63
+  },
+  {
+   "chave": "Swarm Technologies",
+   "linhas": 90,
+   "A": 0,
+   "B": 90,
+   "C": 0
+  },
+  {
+   "chave": "Chang Guang Satellite Technology Co. Ltd.",
+   "linhas": 60,
+   "A": 60,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Ministry of Defense",
+   "linhas": 37,
+   "A": 37,
+   "B": 0,
+   "C": 13
+  },
+  {
+   "chave": "Satellogic S.A.",
+   "linhas": 37,
+   "A": 37,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "ORBCOMM Inc.",
+   "linhas": 35,
+   "A": 0,
+   "B": 35,
+   "C": 0
+  },
+  {
+   "chave": "National Reconnaissance Office (NRO)",
+   "linhas": 31,
+   "A": 31,
+   "B": 0,
+   "C": 12
+  },
+  {
+   "chave": "ICEYE Ltd.",
+   "linhas": 22,
+   "A": 22,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Kepler Communications",
+   "linhas": 21,
+   "A": 0,
+   "B": 21,
+   "C": 0
+  },
+  {
+   "chave": "Indian Space Research Organization (ISRO)",
+   "linhas": 20,
+   "A": 20,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "China National Academy of Sciences (CNSAS)",
+   "linhas": 19,
+   "A": 19,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Gonets Satcom",
+   "linhas": 18,
+   "A": 0,
+   "B": 18,
+   "C": 0
+  },
+  {
+   "chave": "HawkEye 360",
+   "linhas": 18,
+   "A": 0,
+   "B": 0,
+   "C": 18
+  },
+  {
+   "chave": "China Academy of Space Technology (CAST)",
+   "linhas": 17,
+   "A": 14,
+   "B": 1,
+   "C": 4
+  },
+  {
+   "chave": "BlackSky Global",
+   "linhas": 16,
+   "A": 16,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Kleos Space",
+   "linhas": 16,
+   "A": 16,
+   "B": 0,
+   "C": 16
+  }
+ ],
+ "contratantes": [
+  {
+   "chave": "Planet Labs, Inc.",
+   "linhas": 199,
+   "A": 199,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Spire Global",
+   "linhas": 135,
+   "A": 135,
+   "B": 0,
+   "C": 134
+  },
+  {
+   "chave": "China Academy of Space Technology (CAST)",
+   "linhas": 125,
+   "A": 121,
+   "B": 2,
+   "C": 56
+  },
+  {
+   "chave": "Swarm Technologies",
+   "linhas": 90,
+   "A": 0,
+   "B": 90,
+   "C": 0
+  },
+  {
+   "chave": "Chang Guang Satellite Technology Co. Ltd.",
+   "linhas": 60,
+   "A": 60,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Shanghai Academy of Spaceflight Technology (SAST)",
+   "linhas": 42,
+   "A": 42,
+   "B": 0,
+   "C": 1
+  },
+  {
+   "chave": "Satellogic",
+   "linhas": 37,
+   "A": 37,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Orbital Sciences Corp.",
+   "linhas": 32,
+   "A": 9,
+   "B": 23,
+   "C": 0
+  },
+  {
+   "chave": "ICEYE Ltd.",
+   "linhas": 22,
+   "A": 22,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Indian Space Research Organization (ISRO)",
+   "linhas": 20,
+   "A": 20,
+   "B": 2,
+   "C": 2
+  },
+  {
+   "chave": "ISS Reshetnev",
+   "linhas": 20,
+   "A": 2,
+   "B": 18,
+   "C": 0
+  },
+  {
+   "chave": "Surrey Satellite Technology Ltd.",
+   "linhas": 18,
+   "A": 18,
+   "B": 0,
+   "C": 1
+  },
+  {
+   "chave": "Kepler Aerospace",
+   "linhas": 18,
+   "A": 0,
+   "B": 18,
+   "C": 0
+  },
+  {
+   "chave": "Kleos Space",
+   "linhas": 16,
+   "A": 16,
+   "B": 0,
+   "C": 16
+  },
+  {
+   "chave": "Space Systems/Loral",
+   "linhas": 16,
+   "A": 16,
+   "B": 0,
+   "C": 0
+  }
+ ],
+ "proposito_detalhado": [
+  {
+   "chave": "Optical Imaging",
+   "linhas": 517,
+   "A": 517,
+   "B": 0,
+   "C": 1
+  },
+  {
+   "chave": "(só o propósito geral)",
+   "linhas": 349,
+   "A": 145,
+   "B": 199,
+   "C": 13
+  },
+  {
+   "chave": "Electronic Intelligence",
+   "linhas": 136,
+   "A": 117,
+   "B": 0,
+   "C": 136
+  },
+  {
+   "chave": "Meteorology, Automatic Identification System (AIS)",
+   "linhas": 136,
+   "A": 136,
+   "B": 0,
+   "C": 136
+  },
+  {
+   "chave": "Radar Imaging",
+   "linhas": 98,
+   "A": 98,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Earth Science",
+   "linhas": 58,
+   "A": 58,
+   "B": 3,
+   "C": 0
+  },
+  {
+   "chave": "Meteorology",
+   "linhas": 51,
+   "A": 51,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Automatic Identification System (AIS)",
+   "linhas": 40,
+   "A": 25,
+   "B": 7,
+   "C": 40
+  },
+  {
+   "chave": "Multispectral Imaging",
+   "linhas": 25,
+   "A": 25,
+   "B": 1,
+   "C": 0
+  },
+  {
+   "chave": "Hyperspectral Imaging",
+   "linhas": 23,
+   "A": 23,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Earth Science/Meterology",
+   "linhas": 18,
+   "A": 18,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Internet of Things (IoT)",
+   "linhas": 15,
+   "A": 0,
+   "B": 15,
+   "C": 0
+  },
+  {
+   "chave": "Infrared Imaging",
+   "linhas": 14,
+   "A": 14,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Radar Imaging (SAR)",
+   "linhas": 12,
+   "A": 12,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Maritime Surveillance",
+   "linhas": 8,
+   "A": 8,
+   "B": 0,
+   "C": 8
+  },
+  {
+   "chave": "Radar Imaging/Earth Science",
+   "linhas": 8,
+   "A": 8,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Video Imaging",
+   "linhas": 7,
+   "A": 7,
+   "B": 0,
+   "C": 0
+  },
+  {
+   "chave": "Early Warning",
+   "linhas": 5,
+   "A": 5,
+   "B": 0,
+   "C": 0
+  }
+ ],
+ "lancadores": [
+  {
+   "chave": "Falcon 9",
+   "linhas": 393,
+   "A": 296,
+   "B": 88,
+   "C": 65
+  },
+  {
+   "chave": "PSLV",
+   "linhas": 120,
+   "A": 116,
+   "B": 5,
+   "C": 36
+  },
+  {
+   "chave": "Long March 2D",
+   "linhas": 116,
+   "A": 106,
+   "B": 13,
+   "C": 4
+  },
+  {
+   "chave": "Electron",
+   "linhas": 71,
+   "A": 42,
+   "B": 26,
+   "C": 11
+  },
+  {
+   "chave": "Long March 4C",
+   "linhas": 60,
+   "A": 60,
+   "B": 0,
+   "C": 27
+  },
+  {
+   "chave": "Soyuz-2.1a",
+   "linhas": 53,
+   "A": 49,
+   "B": 3,
+   "C": 28
+  },
+  {
+   "chave": "Soyuz-2.1b",
+   "linhas": 52,
+   "A": 39,
+   "B": 12,
+   "C": 20
+  },
+  {
+   "chave": "Long March 2C",
+   "linhas": 50,
+   "A": 50,
+   "B": 0,
+   "C": 34
+  },
+  {
+   "chave": "Vega",
+   "linhas": 49,
+   "A": 48,
+   "B": 1,
+   "C": 11
+  },
+  {
+   "chave": "Long March 4B",
+   "linhas": 44,
+   "A": 43,
+   "B": 2,
+   "C": 6
+  },
+  {
+   "chave": "Atlas 5",
+   "linhas": 39,
+   "A": 37,
+   "B": 1,
+   "C": 16
+  },
+  {
+   "chave": "Dnepr",
+   "linhas": 35,
+   "A": 21,
+   "B": 11,
+   "C": 10
+  }
+ ],
+ "brasil": [
+  {
+   "nome": "Amazonia-1 (SSR-1)",
+   "norad": "47699",
+   "operador": "National Institute for Space Research (INPE)",
+   "lancamento": "2021-02-28",
+   "categoria": "A — sensoriamento remoto",
+   "proposito": "Earth Observation",
+   "detalhado": "Optical Imaging",
+   "massa": "637",
+   "orbita": "LEO",
+   "em_orbita": "sim",
+   "idade": 5.55,
+   "vida_prevista": "4",
+   "comentario": "First earth observation satellite produced entirely by Brazil.",
+   "url": "https://www.n2yo.com/satellite/?s=47699"
+  },
+  {
+   "nome": "NANOSATC-BR2",
+   "norad": "47953",
+   "operador": "Brazilian National Institute of Space Research (INPE/MCTI), Federal University of Santa Maria (UFSM)",
+   "lancamento": "2021-03-22",
+   "categoria": "A — sensoriamento remoto",
+   "proposito": "Earth Observation",
+   "detalhado": "Earth Science",
+   "massa": "3",
+   "orbita": "LEO",
+   "em_orbita": "sim",
+   "idade": 5.49,
+   "vida_prevista": "",
+   "comentario": "Designed for monitoring of the Earth’s Ionosphere and Magnetic Field",
+   "url": "https://www.n2yo.com/satellite/?s=47953"
+  },
+  {
+   "nome": "SCD-1 (Satélite de Coleta de Dados)",
+   "norad": "22491",
+   "operador": "Instituto Nacional de Pesquisas Espaciais (INPE)",
+   "lancamento": "1993-02-09",
+   "categoria": "A — sensoriamento remoto; B — coleta de plataformas (DCS/IoT)",
+   "proposito": "Earth Observation",
+   "detalhado": "Meteorology/Earth Science",
+   "massa": "110",
+   "orbita": "LEO",
+   "em_orbita": "sim",
+   "idade": 33.6,
+   "vida_prevista": "3",
+   "comentario": "Collects meteorological and environmental data on the Amazon region; barely functioning.",
+   "url": "https://www.n2yo.com/satellite/?s=22490"
+  },
+  {
+   "nome": "SCD-2 (Satélite de Coleta de Dados)",
+   "norad": "25504",
+   "operador": "Instituto Nacional de Pesquisas Espaciais (INPE)",
+   "lancamento": "1998-10-23",
+   "categoria": "A — sensoriamento remoto; B — coleta de plataformas (DCS/IoT)",
+   "proposito": "Earth Observation",
+   "detalhado": "Meteorology/Earth Science",
+   "massa": "110",
+   "orbita": "LEO",
+   "em_orbita": "sim",
+   "idade": 27.9,
+   "vida_prevista": "3",
+   "comentario": "Collects meteorological and environmental data on the Amazon region",
+   "url": "https://www.n2yo.com/satellite/?s=25504"
+  }
+ ],
+ "decaimento": [
+  {
+   "nome": "Improved Trumpet 6 (NROL-35, National Reconnaissance Office Launch-35, SBIRS HEO-3, USA 259)",
+   "norad": "40344",
+   "categoria": "A — sensoriamento remoto; C — sinais cooperativos (AIS/ADS-B/RF)",
+   "operador": "National Reconnaissance Office (NRO)",
+   "perigeu_2023": "2103",
+   "perigeu_hoje": "1476.9",
+   "delta": "-626.1",
+   "epoca": "2026-04-28"
+  },
+  {
+   "nome": "EKS-1 (Integrated Space System, Cosmos 2510, Tundra 11L)",
+   "norad": "41032",
+   "categoria": "A — sensoriamento remoto",
+   "operador": "Ministry of Defense",
+   "perigeu_2023": "1606",
+   "perigeu_hoje": "1075.0",
+   "delta": "-531.0",
+   "epoca": "2026-09-10"
+  },
+  {
+   "nome": "EKS-4 (Integrated Space System, Cosmos 2546, Tundra 14L)",
+   "norad": "45608",
+   "categoria": "A — sensoriamento remoto",
+   "operador": "Ministry of Defense",
+   "perigeu_2023": "1659",
+   "perigeu_hoje": "1283.3",
+   "delta": "-375.7",
+   "epoca": "2026-08-31"
+  },
+  {
+   "nome": "NANOSATC-BR2",
+   "norad": "47953",
+   "categoria": "A — sensoriamento remoto",
+   "operador": "Brazilian National Institute of Space Research (INPE/MCTI), Federal University of Santa Maria (UFSM)",
+   "perigeu_2023": "534",
+   "perigeu_hoje": "165.0",
+   "delta": "-369.0",
+   "epoca": "2026-09-09"
+  },
+  {
+   "nome": "Van Allen Probe B (RBSP-B, Radiation Belt Storm Probes)",
+   "norad": "38753",
+   "categoria": "A — sensoriamento remoto",
+   "operador": "National Aeronautics and Space Administration (NASA)/Johns Hopkins University Applied Physics Laboratory",
+   "perigeu_2023": "595",
+   "perigeu_hoje": "229.6",
+   "delta": "-365.4",
+   "epoca": "2026-09-15"
+  },
+  {
+   "nome": "Hainan-1-01",
+   "norad": "51825",
+   "categoria": "A — sensoriamento remoto",
+   "operador": "Sanya Institute of Remote Sensing",
+   "perigeu_2023": "527",
+   "perigeu_hoje": "161.7",
+   "delta": "-365.3",
+   "epoca": "2026-09-11"
+  },
+  {
+   "nome": "Dove 3p-57 (0 Flock 3P-57 1014)",
+   "norad": "41978",
+   "categoria": "A — sensoriamento remoto",
+   "operador": "Planet Labs, Inc.",
+   "perigeu_2023": "496",
+   "perigeu_hoje": "132.6",
+   "delta": "-363.4",
+   "epoca": "2023-01-12"
+  },
+  {
+   "nome": "Qilu 2",
+   "norad": "55248",
+   "categoria": "A — sensoriamento remoto",
+   "operador": "Shandong Institutes of Industrial Technology",
+   "perigeu_2023": "488",
+   "perigeu_hoje": "147.9",
+   "delta": "-340.1",
+   "epoca": "2025-02-01"
+  },
+  {
+   "nome": "Yaogan 9C (Remote Sensing Satellite 9C)",
+   "norad": "36415",
+   "categoria": "A — sensoriamento remoto; C — sinais cooperativos (AIS/ADS-B/RF)",
+   "operador": "Chinese Ministry of National Defense",
+   "perigeu_2023": "1017",
+   "perigeu_hoje": "679.8",
+   "delta": "-337.2",
+   "epoca": "2026-09-16"
+  },
+  {
+   "nome": "Yaogan 9B (Remote Sensing Satellite 9B)",
+   "norad": "36414",
+   "categoria": "A — sensoriamento remoto; C — sinais cooperativos (AIS/ADS-B/RF)",
+   "operador": "Chinese Ministry of National Defense",
+   "perigeu_2023": "1017",
+   "perigeu_hoje": "680.3",
+   "delta": "-336.7",
+   "epoca": "2026-09-15"
+  },
+  {
+   "nome": "Yaogan 9A (Remote Sensing Satellite 9A)",
+   "norad": "36413",
+   "categoria": "A — sensoriamento remoto; C — sinais cooperativos (AIS/ADS-B/RF)",
+   "operador": "Chinese Ministry of National Defense",
+   "perigeu_2023": "1017",
+   "perigeu_hoje": "681.0",
+   "delta": "-336.0",
+   "epoca": "2026-09-16"
+  },
+  {
+   "nome": "SB-WASS 3-3 (Space Based Wide Area Surveillance System) (NOSS 3-3, USA 181, NRO L23, Intruder)",
+   "norad": "28537",
+   "categoria": "A — sensoriamento remoto; C — sinais cooperativos (AIS/ADS-B/RF)",
+   "operador": "National Reconnaissance Office (NRO)/US Navy",
+   "perigeu_2023": "1017",
+   "perigeu_hoje": "681.7",
+   "delta": "-335.3",
+   "epoca": "2026-09-14"
+  },
+  {
+   "nome": "SB-WASS 3-3 (Space Based Wide Area Surveillance System) (NOSS 3-3, USA 181, NRO L23, Intruder)",
+   "norad": "28541",
+   "categoria": "A — sensoriamento remoto; C — sinais cooperativos (AIS/ADS-B/RF)",
+   "operador": "National Reconnaissance Office (NRO)/US Navy",
+   "perigeu_2023": "1016",
+   "perigeu_hoje": "686.2",
+   "delta": "-329.8",
+   "epoca": "2026-09-14"
+  },
+  {
+   "nome": "Yaogan 16A (Remote Sensing Satellite 16A, Yaogan Weixing 16)",
+   "norad": "39011",
+   "categoria": "A — sensoriamento remoto; C — sinais cooperativos (AIS/ADS-B/RF)",
+   "operador": "Chinese Ministry of National Defense",
+   "perigeu_2023": "1080",
+   "perigeu_hoje": "758.2",
+   "delta": "-321.8",
+   "epoca": "2026-09-16"
+  },
+  {
+   "nome": "Yaogan 16B (Remote Sensing Satellite 16B)",
+   "norad": "39012",
+   "categoria": "A — sensoriamento remoto; C — sinais cooperativos (AIS/ADS-B/RF)",
+   "operador": "Chinese Ministry of National Defense",
+   "perigeu_2023": "1079",
+   "perigeu_hoje": "758.1",
+   "delta": "-320.9",
+   "epoca": "2026-09-15"
+  },
+  {
+   "nome": "Yaogan 17B (Remote Sensing Satellite 17B)",
+   "norad": "39240",
+   "categoria": "A — sensoriamento remoto; C — sinais cooperativos (AIS/ADS-B/RF)",
+   "operador": "Chinese Ministry of National Defense",
+   "perigeu_2023": "1080",
+   "perigeu_hoje": "764.6",
+   "delta": "-315.4",
+   "epoca": "2026-09-16"
+  },
+  {
+   "nome": "Yaogan 17A (Remote Sensing Satellite 17A, Yaogan Weixing 17)",
+   "norad": "39239",
+   "categoria": "A — sensoriamento remoto; C — sinais cooperativos (AIS/ADS-B/RF)",
+   "operador": "Chinese Ministry of National Defense",
+   "perigeu_2023": "1076",
+   "perigeu_hoje": "764.6",
+   "delta": "-311.4",
+   "epoca": "2026-09-16"
+  },
+  {
+   "nome": "Dove 3r-12 (0 Flock 3R-12 1066)",
+   "norad": "43724",
+   "categoria": "A — sensoriamento remoto",
+   "operador": "Planet Labs, Inc.",
+   "perigeu_2023": "476",
+   "perigeu_hoje": "171.2",
+   "delta": "-304.8",
+   "epoca": "2023-01-12"
+  },
+  {
+   "nome": "Yunhai-2 04",
+   "norad": "43912",
+   "categoria": "A — sensoriamento remoto",
+   "operador": "Shanghai Academy of Spaceflight Technology",
+   "perigeu_2023": "1088",
+   "perigeu_hoje": "783.5",
+   "delta": "-304.5",
+   "epoca": "2026-09-16"
+  },
+  {
+   "nome": "Yunhai-2 06",
+   "norad": "43915",
+   "categoria": "A — sensoriamento remoto",
+   "operador": "Shanghai Academy of Spaceflight Technology",
+   "perigeu_2023": "1092",
+   "perigeu_hoje": "789.7",
+   "delta": "-302.3",
+   "epoca": "2026-09-16"
+  },
+  {
+   "nome": "Yunhai-2 05",
+   "norad": "43913",
+   "categoria": "A — sensoriamento remoto",
+   "operador": "Shanghai Academy of Spaceflight Technology",
+   "perigeu_2023": "1090",
+   "perigeu_hoje": "791.2",
+   "delta": "-298.8",
+   "epoca": "2026-09-16"
+  },
+  {
+   "nome": "Yaogan 20B (Remote Sensing Satellite 20B)",
+   "norad": "40110",
+   "categoria": "A — sensoriamento remoto",
+   "operador": "Chinese Ministry of National Defense",
+   "perigeu_2023": "1087",
+   "perigeu_hoje": "791.8",
+   "delta": "-295.2",
+   "epoca": "2026-09-16"
+  },
+  {
+   "nome": "Yaogan 20C (Remote Sensing Satellite 20C)",
+   "norad": "40111",
+   "categoria": "A — sensoriamento remoto",
+   "operador": "Chinese Ministry of National Defense",
+   "perigeu_2023": "1087",
+   "perigeu_hoje": "791.8",
+   "delta": "-295.2",
+   "epoca": "2026-09-16"
+  },
+  {
+   "nome": "iSat (D-Star ONE iSat)",
+   "norad": "43879",
+   "categoria": "C — sinais cooperativos (AIS/ADS-B/RF)",
+   "operador": "iSky Technology",
+   "perigeu_2023": "571",
+   "perigeu_hoje": "277.6",
+   "delta": "-293.4",
+   "epoca": "2026-09-15"
+  },
+  {
+   "nome": "Yaogan 20A (Remote Sensing Satellite 20A)",
+   "norad": "40109",
+   "categoria": "A — sensoriamento remoto",
+   "operador": "Chinese Ministry of National Defense",
+   "perigeu_2023": "1085",
+   "perigeu_hoje": "791.7",
+   "delta": "-293.3",
+   "epoca": "2026-09-16"
+  }
+ ],
+ "decaimento_resumo": {
+  "n": 786,
+  "mediana": -13.6,
+  "caiu": 489,
+  "subiu": 150
+ },
+ "reentradas_ano": [
+  {
+   "chave": "2019",
+   "linhas": 1
+  },
+  {
+   "chave": "2021",
+   "linhas": 3
+  },
+  {
+   "chave": "2022",
+   "linhas": 19
+  },
+  {
+   "chave": "2023",
+   "linhas": 183
+  },
+  {
+   "chave": "2024",
+   "linhas": 359
+  },
+  {
+   "chave": "2025",
+   "linhas": 147
+  },
+  {
+   "chave": "2026",
+   "linhas": 61
+  }
+ ],
+ "reentradas_operador": [
+  {
+   "chave": "Planet Labs, Inc.",
+   "linhas": 202
+  },
+  {
+   "chave": "Spire Global Inc.",
+   "linhas": 122
+  },
+  {
+   "chave": "Swarm Technologies",
+   "linhas": 90
+  },
+  {
+   "chave": "Chang Guang Satellite Technology Co. Ltd.",
+   "linhas": 36
+  },
+  {
+   "chave": "Satellogic S.A.",
+   "linhas": 30
+  },
+  {
+   "chave": "Kepler Communications",
+   "linhas": 20
+  },
+  {
+   "chave": "ICEYE Ltd.",
+   "linhas": 17
+  },
+  {
+   "chave": "Kleos Space",
+   "linhas": 12
+  },
+  {
+   "chave": "Astrocast",
+   "linhas": 10
+  },
+  {
+   "chave": "Ministry of Defense",
+   "linhas": 8
+  },
+  {
+   "chave": "Beijing Commsat Technology Development Co. Ltd.",
+   "linhas": 7
+  },
+  {
+   "chave": "Chinese Ministry of National Defense",
+   "linhas": 7
+  }
+ ],
+ "reentradas_resumo": {
+  "total": 773,
+  "com_data": 773,
+  "antes_do_corte": 83,
+  "idade_mediana": 3.4196167008898017
+ },
+ "qualidade_norad": [
+  {
+   "chave": "carga útil",
+   "linhas": 1555
+  },
+  {
+   "chave": "detrito",
+   "linhas": 11
+  },
+  {
+   "chave": "corpo de foguete",
+   "linhas": 9
+  }
+ ],
+ "qualidade_lista": [
+  {
+   "nome": "1HOPSAT-TD (1st-generation High Optical Performance Satellite)",
+   "norad": "44859",
+   "n2yo_nome": "OBJECT H",
+   "tipo": "corpo de foguete",
+   "operador": "Hera Systems"
+  },
+  {
+   "nome": "CBERS 4A (China-Brazil Earth Resources Satellite 4A)",
+   "norad": "44883",
+   "n2yo_nome": "OBJECT E",
+   "tipo": "corpo de foguete",
+   "operador": "China National Space Administration (CNSA)/National Institute for Space Research (Brazil)"
+  },
+  {
+   "nome": "Dove 4v-20 (0 Flock 4v20 2406)",
+   "norad": "46621",
+   "n2yo_nome": "FREGAT DEB",
+   "tipo": "detrito",
+   "operador": "Planet Labs, Inc."
+  },
+  {
+   "nome": "ETRSS-1",
+   "norad": "44880",
+   "n2yo_nome": "OBJECT B",
+   "tipo": "corpo de foguete",
+   "operador": "Ethiopian Space Science and Technology Institute"
+  },
+  {
+   "nome": "Gonets M-24",
+   "norad": "44905",
+   "n2yo_nome": "OBJECT A",
+   "tipo": "corpo de foguete",
+   "operador": "Gonets Satcom"
+  },
+  {
+   "nome": "Gonets M-25",
+   "norad": "44906",
+   "n2yo_nome": "OBJECT B",
+   "tipo": "corpo de foguete",
+   "operador": "Gonets Satcom"
+  },
+  {
+   "nome": "Gonets M-26",
+   "norad": "44907",
+   "n2yo_nome": "OBJECT C",
+   "tipo": "corpo de foguete",
+   "operador": "Gonets Satcom"
+  },
+  {
+   "nome": "Haiyang 2D (HY 2D)",
+   "norad": "48261",
+   "n2yo_nome": "SL-6 DEB",
+   "tipo": "detrito",
+   "operador": "State Oceanic Administration (SOA)"
+  },
+  {
+   "nome": "Hawk-7C",
+   "norad": "46200",
+   "n2yo_nome": "H-2A DEB",
+   "tipo": "detrito",
+   "operador": "HawkEye 360"
+  },
+  {
+   "nome": "HEAD-2A",
+   "norad": "44838",
+   "n2yo_nome": "OBJECT A",
+   "tipo": "corpo de foguete",
+   "operador": "HEAD Aerospace"
+  },
+  {
+   "nome": "HEAD-2B",
+   "norad": "44839",
+   "n2yo_nome": "OBJECT B",
+   "tipo": "corpo de foguete",
+   "operador": "HEAD Aerospace"
+  },
+  {
+   "nome": "NANOSATC-BR2",
+   "norad": "47953",
+   "n2yo_nome": "OBJECT X",
+   "tipo": "corpo de foguete",
+   "operador": "Brazilian National Institute of Space Research (INPE/MCTI), Federal University of Santa Maria (UFSM)"
+  },
+  {
+   "nome": "SB-WASS 3-3 (Space Based Wide Area Surveillance System) (NOSS 3-3, USA 181, NRO L23, Intruder)",
+   "norad": "28541",
+   "n2yo_nome": "USA 181 DEB",
+   "tipo": "detrito",
+   "operador": "National Reconnaissance Office (NRO)/US Navy"
+  },
+  {
+   "nome": "SB-WASS 3-4 (Space Based Wide Area Surveillance System) NOSS 3-4, USA 194, NRO L30, Intruder)",
+   "norad": "31708",
+   "n2yo_nome": "USA 194 DEB",
+   "tipo": "detrito",
+   "operador": "National Reconnaissance Office (NRO)/US Navy"
+  },
+  {
+   "nome": "SB-WASS 3-5 (Space Based Wide Area Surveillance System) NOSS 3-5, USA 229, NRO L34, Intruder)",
+   "norad": "37391",
+   "n2yo_nome": "USA 229 DEB",
+   "tipo": "detrito",
+   "operador": "National Reconnaissance Office (NRO)/US Navy"
+  },
+  {
+   "nome": "SB-WASS 3-6 (Space Based Wide Area Surveillance System) NOSS 3-6, USA 238, NRO L36, Intruder)",
+   "norad": "38773",
+   "n2yo_nome": "USA 238 DEB",
+   "tipo": "detrito",
+   "operador": "National Reconnaissance Office (NRO)/US Navy"
+  },
+  {
+   "nome": "SB-WASS 3-7 (Space Based Wide Area Surveillance System) NOSS 3-7, USA 264, NRO L55, Intruder)",
+   "norad": "40981",
+   "n2yo_nome": "USA 264 DEB",
+   "tipo": "detrito",
+   "operador": "National Reconnaissance Office (NRO)/US Navy"
+  },
+  {
+   "nome": "SB-WASS 3-8 (Space Based Wide Area Surveillance System) NOSS 3-8, USA 274, NRO L79, Intruder)",
+   "norad": "42065",
+   "n2yo_nome": "USA 274 DEB",
+   "tipo": "detrito",
+   "operador": "National Reconnaissance Office (NRO)/US Navy"
+  },
+  {
+   "nome": "Siwei Gaojing 2-02",
+   "norad": "53129",
+   "n2yo_nome": "CZ-2C DEB",
+   "tipo": "detrito",
+   "operador": "China Siwei Surveying and Mapping Technology Co. Ltd."
+  },
+  {
+   "nome": "Tianjin Daxue 1",
+   "norad": "49812",
+   "n2yo_nome": "OBJECT A",
+   "tipo": "detrito",
+   "operador": "Tianjin University"
+  }
+ ],
+ "categorias_n2yo": [
+  {
+   "chave": "Amateur radio",
+   "linhas": 182
+  },
+  {
+   "chave": "Flock",
+   "linhas": 159
+  },
+  {
+   "chave": "Lemur",
+   "linhas": 133
+  },
+  {
+   "chave": "Military",
+   "linhas": 110
+  },
+  {
+   "chave": "Space & Earth Science",
+   "linhas": 82
+  },
+  {
+   "chave": "Earth resources",
+   "linhas": 70
+  },
+  {
+   "chave": "Weather",
+   "linhas": 48
+  },
+  {
+   "chave": "Yaogan",
+   "linhas": 43
+  },
+  {
+   "chave": "Orbcomm",
+   "linhas": 35
+  },
+  {
+   "chave": "Geostationary",
+   "linhas": 33
+  },
+  {
+   "chave": "Experimental",
+   "linhas": 24
+  },
+  {
+   "chave": "Disaster monitoring",
+   "linhas": 18
+  },
+  {
+   "chave": "CubeSats",
+   "linhas": 14
+  },
+  {
+   "chave": "Brightest",
+   "linhas": 14
+  },
+  {
+   "chave": "Gonets",
+   "linhas": 9
+  }
+ ],
+ "categorias_n2yo_universo": [
+  {
+   "chave": "Starlink",
+   "linhas": 10941
+  },
+  {
+   "chave": "Geostationary",
+   "linhas": 1068
+  },
+  {
+   "chave": "Amateur radio",
+   "linhas": 907
+  },
+  {
+   "chave": "OneWeb",
+   "linhas": 689
+  },
+  {
+   "chave": "Military",
+   "linhas": 623
+  },
+  {
+   "chave": "Strela",
+   "linhas": 606
+  },
+  {
+   "chave": "Space & Earth Science",
+   "linhas": 547
+  },
+  {
+   "chave": "TV",
+   "linhas": 448
+  },
+  {
+   "chave": "Leo",
+   "linhas": 433
+  },
+  {
+   "chave": "Qianfan",
+   "linhas": 281
+  },
+  {
+   "chave": "Glonass Constellation",
+   "linhas": 183
+  },
+  {
+   "chave": "Experimental",
+   "linhas": 172
+  },
+  {
+   "chave": "Earth resources",
+   "linhas": 169
+  },
+  {
+   "chave": "CubeSats",
+   "linhas": 163
+  },
+  {
+   "chave": "Brightest",
+   "linhas": 161
+  }
+ ],
+ "familias": [
+  {
+   "chave": "SpaceBEE",
+   "linhas": 74,
+   "operador": "Swarm Technologies",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "proposito": "Communications"
+  },
+  {
+   "chave": "Dove 4s",
+   "linhas": 43,
+   "operador": "Planet Labs, Inc.",
+   "pais": "USA",
+   "categoria": "A — sensoriamento remoto",
+   "proposito": "Optical Imaging"
+  },
+  {
+   "chave": "Dove 4x",
+   "linhas": 41,
+   "operador": "Planet Labs, Inc.",
+   "pais": "USA",
+   "categoria": "A — sensoriamento remoto",
+   "proposito": "Optical Imaging"
+  },
+  {
+   "chave": "Yaogan",
+   "linhas": 40,
+   "operador": "Chinese Ministry of National Defense",
+   "pais": "China",
+   "categoria": "A — sensoriamento remoto",
+   "proposito": "Radar Imaging"
+  },
+  {
+   "chave": "ÑuSat",
+   "linhas": 37,
+   "operador": "Satellogic S.A.",
+   "pais": "Argentina",
+   "categoria": "A — sensoriamento remoto",
+   "proposito": "Earth Observation"
+  },
+  {
+   "chave": "Dove 4y",
+   "linhas": 36,
+   "operador": "Planet Labs, Inc.",
+   "pais": "USA",
+   "categoria": "A — sensoriamento remoto",
+   "proposito": "Optical Imaging"
+  },
+  {
+   "chave": "Jilin-1 GaoFen 03D",
+   "linhas": 24,
+   "operador": "Chang Guang Satellite Technology Co. Ltd.",
+   "pais": "China",
+   "categoria": "A — sensoriamento remoto",
+   "proposito": "Optical Imaging"
+  },
+  {
+   "chave": "Dove 3p",
+   "linhas": 23,
+   "operador": "Planet Labs, Inc.",
+   "pais": "USA",
+   "categoria": "A — sensoriamento remoto",
+   "proposito": "Optical Imaging"
+  },
+  {
+   "chave": "ORBCOMM FM",
+   "linhas": 23,
+   "operador": "ORBCOMM Inc.",
+   "pais": "USA",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "proposito": "Communications"
+  },
+  {
+   "chave": "ICEYE-X",
+   "linhas": 22,
+   "operador": "ICEYE Ltd.",
+   "pais": "Finland",
+   "categoria": "A — sensoriamento remoto",
+   "proposito": "Radar Imaging"
+  },
+  {
+   "chave": "Dove 4v",
+   "linhas": 21,
+   "operador": "Planet Labs, Inc.",
+   "pais": "USA",
+   "categoria": "A — sensoriamento remoto",
+   "proposito": "Optical Imaging"
+  },
+  {
+   "chave": "SkySat",
+   "linhas": 21,
+   "operador": "Planet Labs, Inc.",
+   "pais": "USA",
+   "categoria": "A — sensoriamento remoto",
+   "proposito": "Optical Imaging"
+  },
+  {
+   "chave": "Gonets M",
+   "linhas": 18,
+   "operador": "Gonets Satcom",
+   "pais": "Russia",
+   "categoria": "B — coleta de plataformas (DCS/IoT)",
+   "proposito": "Communications"
+  },
+  {
+   "chave": "BlackSky Global",
+   "linhas": 15,
+   "operador": "BlackSky Global",
+   "pais": "USA",
+   "categoria": "A — sensoriamento remoto",
+   "proposito": "Optical Imaging"
+  }
+ ]
+}
